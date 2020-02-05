@@ -1,4 +1,3 @@
-![image](https://drive.google.com/uc?export=view&id=1zpUID7yr9JIv8P8o5y4u1sAtGK3H8Yuv)
 
 # coolicons
 
