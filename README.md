@@ -7,7 +7,8 @@ Carefully designed icons for your next project. Perfect for use in web and mobil
 
 ### Features
 
-**Natively created in Figma Support for Sketch and Adobe XD! Webfont available!**
+**Natively created in Figma!
+Support for Sketch and Adobe XD! Webfont available!**
 
 Go to [coolicons.cool](https://coolicons.cool/)
 
