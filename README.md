@@ -3,7 +3,7 @@
 
 # coolicons
 
-Carefully designed icons for your next project. Perfect for use in web and mobile. Support for SVG, your favourite design tool and web font. Completely free and open source.
+Carefully designed icons for your next project. Perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source.
 
 Go to [coolicons.cool](https://coolicons.cool/)
 
@@ -11,18 +11,18 @@ Preview in [Figma](https://www.figma.com/file/b4hqVEI6rPLC73QPdL3IxI/coolicons-v
 
 Duplicate [Figma File](https://www.figma.com/c/file/800815864899415771/coolicons-v2.1)
 
-View in [Sketch Cloud](https://sketch.cloud/s/z3zGb)
 
 by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dribbble](https://dribbble.com/krystonschwarze).
 
+
 ### Changelog
 
-v 2.2 - Added Adobe XD file, better Sketch file, added .png and .pdf added Webfont .ttf (still in Beta).
+v 2.2 - Added Adobe XD file, added better Sketch file, added .png and .pdf added webfont .ttf and .wof, some naming fixes.
 
 v 2.1 - Added media category, added support for .set, icon fixes, naming fixes.
 
 v 1.0 - Initial release.
 
-### License
 
-Licensed under MIT.
+### License
+You can use coolicons for your personal and commercial projects. The icons are free to download and are licensed under CC 4.0 . By downloading it is assumed that you agree with the terms mentioned in CC 4.0.
