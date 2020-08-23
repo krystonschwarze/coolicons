@@ -1,5 +1,5 @@
 
-![coolicons by Kryston Schwarze]()
+![coolicons by Kryston Schwarze](https://raw.githubusercontent.com/krystonschwarze/coolicons/master/coolicons-feature-card.png)
 
 # coolicons
 
@@ -13,18 +13,16 @@ Duplicate [Figma File](https://www.figma.com/c/file/800815864899415771/coolicons
 
 View in [Sketch Cloud](https://sketch.cloud/s/z3zGb)
 
-# Changelog
+by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dribbble](https://dribbble.com/krystonschwarze).
 
-v 2.2 - Upd
+### Changelog
 
-v 2.1 - 
+v 2.2 - Added Adobe XD file, better Sketch file, added .png and .pdf added Webfont .ttf (still in Beta).
+
+v 2.1 - Added media category, added support for .set, icon fixes, naming fixes.
 
 v 1.0 - Initial release.
 
-# License & Author
+### License
 
-Licensed under MIT
-
-by Kryston Schwarze
-[Website](https://krystonschwarze.com/)
-[Dribbble](https://dribbble.com/krystonschwarze)
+Licensed under MIT.
