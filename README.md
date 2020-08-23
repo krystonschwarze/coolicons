@@ -1,5 +1,5 @@
 
-![coolicons by Kryston Schwarze](https://raw.githubusercontent.com/krystonschwarze/coolicons/master/coolicons-feature-card.png)
+![coolicons by Kryston Schwarze](https://github.com/krystonschwarze/coolicons/blob/master/coolicons-feature-card.png?raw=true)
 
 # coolicons
 
