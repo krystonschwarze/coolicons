@@ -25,5 +25,4 @@ v 1.0 - Initial release.
 
 
 ### License
-
-Licensed under MIT.
+You can use coolicons for your personal and commercial projects. The icons are free to download and are licensed under CC 4.0 . By downloading it is assumed that you agree with the terms mentioned in CC 4.0.
