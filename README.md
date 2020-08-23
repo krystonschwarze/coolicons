@@ -3,7 +3,7 @@
 
 # coolicons
 
-Carefully designed icons for your next project. Perfect for use in web and mobile. Support for SVG, your favourite design tool and web font. Completely free and open source.
+Carefully designed icons for your next project. Perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source.
 
 Go to [coolicons.cool](https://coolicons.cool/)
 
@@ -17,7 +17,7 @@ by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dr
 
 ### Changelog
 
-v 2.2 - Added Adobe XD file, added better Sketch file, added .png and .pdf added Webfont .ttf and .wof, some naming fixes.
+v 2.2 - Added Adobe XD file, added better Sketch file, added .png and .pdf added webfont .ttf and .wof, some naming fixes.
 
 v 2.1 - Added media category, added support for .set, icon fixes, naming fixes.
 
