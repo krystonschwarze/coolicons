@@ -5,13 +5,12 @@
 
 Carefully designed icons for your next project. Perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source.
 
+**[Download coolicons](https://github.com/krystonschwarze/coolicons/releases/download/v2.2/coolicons.v2.2.zip)**
+
+
 ### Features
 
 **Natively created in Figma! Support for Sketch and Adobe XD! Webfont available!**
-
-
-**[Download coolicons](https://github.com/krystonschwarze/coolicons/releases/download/v2.2/coolicons.v2.2.zip)**
-
 
 Go to [coolicons.cool](https://coolicons.cool/)
 
