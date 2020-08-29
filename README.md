@@ -9,6 +9,10 @@ Carefully designed icons for your next project. Perfect for use in web and mobil
 
 **Natively created in Figma! Support for Sketch and Adobe XD! Webfont available!**
 
+
+**[Download coolicons](https://github.com/krystonschwarze/coolicons/releases/download/v2.2/coolicons.v2.2.zip)**
+
+
 Go to [coolicons.cool](https://coolicons.cool/)
 
 Preview in [Figma](https://www.figma.com/file/b4hqVEI6rPLC73QPdL3IxI/coolicons-v2.1?node-id=0%3A1)
