@@ -23,6 +23,8 @@ by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dr
 
 ### Changelog
 
+v 3.0
+
 v 2.2 - Added Adobe XD file, added better Sketch file, added .png and .pdf added webfont .ttf and .wof, some naming fixes.
 
 v 2.1 - Added media category, added support for .set, icon fixes, naming fixes.
