@@ -28,7 +28,8 @@ Copy the font files to `/fonts` and import the coolicons.css file.
 Add icon with the correct classname. The classname consists of "ci-iconName". You can find the correct icon names in the `coolicons.html` file.
 
 ```html
-<i class="ci-iconName"></i>```
+<i class="ci-iconName"></i>
+```
 
 
 ### Changelog
