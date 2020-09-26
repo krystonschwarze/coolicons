@@ -23,11 +23,13 @@ by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dr
 
 ### Changelog
 
-v 2.2 - Added Adobe XD file, added better Sketch file, added .png and .pdf added webfont .ttf and .wof, some naming fixes.
+v2.3 - New Icons: Home Section, New File-icons; Updated Sketch file, Webfont Fix, some naming fixes
 
-v 2.1 - Added media category, added support for .set, icon fixes, naming fixes.
+v2.2 - Added Adobe XD file, added better Sketch file, added .png and .pdf added webfont .ttf and .wof, some naming fixes.
 
-v 1.0 - Initial release.
+v2.1 - Added media category, added support for .set, icon fixes, naming fixes.
+
+v1.0 - Initial release.
 
 
 ### License
