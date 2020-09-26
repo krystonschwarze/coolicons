@@ -5,7 +5,7 @@
 
 Carefully designed icons for your next project. Perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source.
 
-**[Download coolicons](https://github.com/krystonschwarze/coolicons/releases/download/v2.2/coolicons.v2.2.zip)**
+**[Download coolicons](https://github.com/krystonschwarze/coolicons/releases/download/v2.3/coolicons.v2.3.zip)**
 
 
 ### Features
