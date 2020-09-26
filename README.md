@@ -21,6 +21,16 @@ Duplicate [Figma File](https://www.figma.com/c/file/800815864899415771/coolicons
 by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dribbble](https://dribbble.com/krystonschwarze).
 
 
+### Use Webfont
+
+Copy the font files to `/fonts` and import the coolicons.css file.
+
+Add icon with the correct classname. The classname consists of "ci-iconName". You can find the correct icon names in the `coolicons.html` file.
+
+```html
+<i class="ci-iconName"></i>```
+
+
 ### Changelog
 
 v2.3 - New Icons: Home Section, New File-icons; Updated Sketch file, Webfont Fix, some naming fixes
