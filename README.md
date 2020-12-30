@@ -1,4 +1,3 @@
-
 ![coolicons by Kryston Schwarze](https://github.com/krystonschwarze/coolicons/blob/master/coolicons-feature-card.png?raw=true)
 
 # coolicons
