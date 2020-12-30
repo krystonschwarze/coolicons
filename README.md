@@ -18,7 +18,9 @@ Preview in [Figma](https://www.figma.com/file/b4hqVEI6rPLC73QPdL3IxI/coolicons-v
 
 Duplicate [Figma File](https://www.figma.com/c/file/800815864899415771/coolicons-v2.1)
 
-by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dribbble](https://dribbble.com/krystonschwarze).
+by Kryston Schwarze - visit my [Website](https://krystonschwarze.com/) or my [Dribbble](https://dribbble.com/krystonschwarze). 
+You can [buy me a coffee](https://www.buymeacoffee.com/krystonschwarze)
+
 
 
 ### Use Webfont
