@@ -5,7 +5,7 @@
 
 Carefully designed icons for your next project. Perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source.
 
-**[Download coolicons](https://github.com/krystonschwarze/coolicons/releases/download/v2.3/coolicons.v2.3.zip)**
+**[Download coolicons](https://github.com/krystonschwarze/coolicons/releases/download/v2.4/coolicons.v2.4.zip)**
 
 
 ### Features
@@ -34,7 +34,9 @@ Add icon with the correct classname. The classname consists of "ci-iconName". Yo
 
 ### Changelog
 
-v2.3 - New Icons: Home Section, New File-icons; Updated Sketch file, Webfont Fix, some naming fixes
+v2.4 - New icons, icon fixes, naming fixes
+
+v2.3 - New icons: Home Section, New File-icons; Updated Sketch file, Webfont Fix, some naming fixes
 
 v2.2 - Added Adobe XD file, added better Sketch file, added .png and .pdf added webfont .ttf and .wof, some naming fixes.
 
