@@ -35,6 +35,8 @@ Add icon with the correct classname. The classname consists of "ci-iconName". Yo
 
 ### Changelog
 
+v2.5 - New icons (added several new edit icons), icon fixes, naming fixes
+
 v2.4 - New icons, icon fixes, naming fixes
 
 v2.3 - New icons: Home Section, New File-icons; Updated Sketch file, Webfont Fix, some naming fixes
