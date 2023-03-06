@@ -34,7 +34,7 @@ Add "coolicons-sprite.svg" to your project.
 
 ```html
 </svg><svg class="ci">
-<use xlink:href="#Ion_Name"></use>
+<use xlink:href="#Icon_Name"></use>
 ```
 
 
