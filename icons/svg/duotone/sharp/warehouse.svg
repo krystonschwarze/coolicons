@@ -1,0 +1,4 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 10C4 9.621 4.214 9.275 4.553 9.106L10.553 6.106C10.692 6.036 10.845 6 11 6H13C13.155 6 13.308 6.036 13.447 6.106L19.447 9.106C19.786 9.275 20 9.621 20 10V21C20 21.552 19.552 22 19 22H5C4.448 22 4 21.552 4 21Z" fill="currentColor" fill-opacity="0.2"/>
+<path d="M3 21H21M5 21V10L11 7H13L19 10V21M9 21V13H15V21M9 17H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
