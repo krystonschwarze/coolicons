@@ -1,6 +1,6 @@
 {
   "name": "@coolicons/vue",
-  "version": "0.0.0",
+  "version": "5.0.0-beta.1",
   "description": "coolicons as Vue components in five styles and three corner radii",
   "keywords": [
     "coolicons",
