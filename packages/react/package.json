@@ -1,0 +1,124 @@
+{
+  "name": "@coolicons/react",
+  "version": "0.0.0",
+  "description": "coolicons as React components in five styles and three corner radii",
+  "keywords": [
+    "coolicons",
+    "icons",
+    "svg",
+    "react",
+    "react-icons",
+    "icon-set"
+  ],
+  "homepage": "https://coolicons.cool",
+  "bugs": "https://github.com/krystonschwarze/coolicons/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystonschwarze/coolicons.git",
+    "directory": "packages/react"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kryston Schwarze",
+    "url": "https://krystonschwarze.com"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/line/regular/index.d.ts",
+      "default": "./dist/line/regular/index.js"
+    },
+    "./dynamic": {
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/dynamic.js"
+    },
+    "./line": {
+      "types": "./dist/line/regular/index.d.ts",
+      "default": "./dist/line/regular/index.js"
+    },
+    "./line/sharp": {
+      "types": "./dist/line/sharp/index.d.ts",
+      "default": "./dist/line/sharp/index.js"
+    },
+    "./line/regular": {
+      "types": "./dist/line/regular/index.d.ts",
+      "default": "./dist/line/regular/index.js"
+    },
+    "./line/round": {
+      "types": "./dist/line/round/index.d.ts",
+      "default": "./dist/line/round/index.js"
+    },
+    "./duocolor": {
+      "types": "./dist/duocolor/regular/index.d.ts",
+      "default": "./dist/duocolor/regular/index.js"
+    },
+    "./duocolor/sharp": {
+      "types": "./dist/duocolor/sharp/index.d.ts",
+      "default": "./dist/duocolor/sharp/index.js"
+    },
+    "./duocolor/regular": {
+      "types": "./dist/duocolor/regular/index.d.ts",
+      "default": "./dist/duocolor/regular/index.js"
+    },
+    "./duocolor/round": {
+      "types": "./dist/duocolor/round/index.d.ts",
+      "default": "./dist/duocolor/round/index.js"
+    },
+    "./duotone": {
+      "types": "./dist/duotone/regular/index.d.ts",
+      "default": "./dist/duotone/regular/index.js"
+    },
+    "./duotone/sharp": {
+      "types": "./dist/duotone/sharp/index.d.ts",
+      "default": "./dist/duotone/sharp/index.js"
+    },
+    "./duotone/regular": {
+      "types": "./dist/duotone/regular/index.d.ts",
+      "default": "./dist/duotone/regular/index.js"
+    },
+    "./duotone/round": {
+      "types": "./dist/duotone/round/index.d.ts",
+      "default": "./dist/duotone/round/index.js"
+    },
+    "./fill": {
+      "types": "./dist/fill/regular/index.d.ts",
+      "default": "./dist/fill/regular/index.js"
+    },
+    "./fill/sharp": {
+      "types": "./dist/fill/sharp/index.d.ts",
+      "default": "./dist/fill/sharp/index.js"
+    },
+    "./fill/regular": {
+      "types": "./dist/fill/regular/index.d.ts",
+      "default": "./dist/fill/regular/index.js"
+    },
+    "./fill/round": {
+      "types": "./dist/fill/round/index.d.ts",
+      "default": "./dist/fill/round/index.js"
+    },
+    "./bulk": {
+      "types": "./dist/bulk/regular/index.d.ts",
+      "default": "./dist/bulk/regular/index.js"
+    },
+    "./bulk/sharp": {
+      "types": "./dist/bulk/sharp/index.d.ts",
+      "default": "./dist/bulk/sharp/index.js"
+    },
+    "./bulk/regular": {
+      "types": "./dist/bulk/regular/index.d.ts",
+      "default": "./dist/bulk/regular/index.js"
+    },
+    "./bulk/round": {
+      "types": "./dist/bulk/round/index.d.ts",
+      "default": "./dist/bulk/round/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}

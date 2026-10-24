@@ -1,0 +1,29 @@
+{
+  "name": "coolicons",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs && tsc -p test",
+    "lint:packages": "node scripts/lint-packages.mjs",
+    "release": "node scripts/release.mjs"
+  },
+  "devDependencies": {
+    "@coolicons/react": "link:packages/react",
+    "@coolicons/svg": "link:packages/svg",
+    "@coolicons/vue": "link:packages/vue",
+    "@arethetypeswrong/cli": "0.18.5",
+    "@types/react": "19.3.0",
+    "publint": "0.3.25",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "typescript": "7.0.2",
+    "vue": "3.5.44"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.7.0"
+}
