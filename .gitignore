@@ -1,1 +1,13 @@
 .DS_Store
+node_modules
+packages/*/LICENSE
+packages/*/dist
+packages/*/dist.tmp
+packages/svg/line
+packages/svg/duocolor
+packages/svg/duotone
+packages/svg/fill
+packages/svg/bulk
+packages/svg/*.tmp
+packages/svg/manifest.json
+*.tgz
