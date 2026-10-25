@@ -64,6 +64,14 @@ export const serializeSvg = (nodes) =>
 
 export const readManifest = () => JSON.parse(readFileSync(manifestFile, "utf8"));
 
+export function checkReadme(manifest) {
+  if (!manifest.clashes) return;
+  const line = Object.keys(manifest.clashes)
+    .map((name) => `\`${componentName(name)}Icon\``)
+    .join(", ");
+  if (!readFileSync(path.join(root, "README.md"), "utf8").includes(`\n${line}\n`)) throw new Error(`README.md must list the names that need the Icon suffix in one line:\n${line}`);
+}
+
 export function loadIcons(dir = iconsDir) {
   const manifest = JSON.parse(readFileSync(path.join(dir, "manifest.json"), "utf8"));
   const errors = [];
@@ -113,6 +121,15 @@ export function loadIcons(dir = iconsDir) {
     if (!base) errors.push(`${icon.name}: alias of unknown ${icon.aliasOf}`);
     else if (base.aliasOf) errors.push(`${icon.name}: alias of the alias ${icon.aliasOf}`);
     else for (const variant of VARIANTS) if (icon.files[variant]?.hash !== base.files[variant]?.hash) errors.push(`${icon.name}: ${variant} differs from ${icon.aliasOf}`);
+  }
+
+  if (manifest.clashes !== undefined) {
+    const names = Object.keys(manifest.clashes);
+    if (names.join() !== [...names].sort().join()) errors.push("clashes are not sorted by name");
+    for (const [name, sources] of Object.entries(manifest.clashes)) {
+      if (!byName.has(name)) errors.push(`clashes: ${name} is not an icon`);
+      if (!Array.isArray(sources) || !sources.length || sources.some((source) => typeof source !== "string")) errors.push(`clashes: ${name} has no sources`);
+    }
   }
 
   for (const variant of VARIANTS) {
