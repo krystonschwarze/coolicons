@@ -84,7 +84,13 @@ All other attributes go to the `<svg>` element.
 
 ## Names
 
-Names are lowercase English words joined by hyphens, like `file-plus-corner`. Components use the same words in PascalCase, like `FilePlusCorner`, and are also exported with an `Icon` suffix, like `FilePlusCornerIcon`. Use the suffix where a name clashes with the browser or your framework, like `Image`, `Link` or `Map`.
+Names are lowercase English words joined by hyphens, like `file-plus-corner`. Components use the same words in PascalCase, like `FilePlusCorner`, and are also exported with an `Icon` suffix, like `FilePlusCornerIcon`. Both names always work.
+
+Use the plain name unless JavaScript, the browser or a framework already uses it. `Map` is a JavaScript global, `File` a browser global and `Link` a component in Next.js and React Router. Importing an icon with such a name hides the original in that file, so `value instanceof File` quietly stops working. For these icons, use the suffix:
+
+`ActivityIcon`, `BluetoothIcon`, `ClipboardIcon`, `CodeIcon`, `ComponentIcon`, `FileIcon`, `FontIcon`, `FunctionIcon`, `GamepadIcon`, `HistoryIcon`, `ImageIcon`, `InfinityIcon`, `KeyboardIcon`, `LabelIcon`, `LinkIcon`, `LockIcon`, `MapIcon`, `NavigationIcon`, `OptionIcon`, `PresentationIcon`, `RouteIcon`, `RouterIcon`, `SettingsIcon`, `ShareIcon`, `TextIcon`, `WindowIcon`
+
+The list covers the globals of JavaScript, browsers, Node, Deno, Bun and React Native, and the exports of React, Next.js, React Router, TanStack Router, React Native, Expo Router, Vue, Vue Router, Solid, Svelte, Preact, Angular, Astro, Qwik, Lit, Inertia and Gatsby.
 
 Some icons have a second name, like `reply` for `arrow-u-turn-up-left`. Both point to the same component.
 
