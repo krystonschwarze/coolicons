@@ -106,6 +106,14 @@ import { CooliconsIcon, icons } from "@coolicons/react/dynamic";
 
 `icons` lists every name with its category, `preload(variant, radius)` loads a style ahead of time.
 
+## Coding agents
+
+The coolicons skill teaches coding agents like Claude Code, Codex or Cursor the packages and the naming rules, and makes them look up icon names instead of guessing them:
+
+```sh
+npx skills add krystonschwarze/coolicons
+```
+
 ## Versions
 
 All packages share one version. From 5.0.0 on, a major version removes or renames icons, a minor version adds icons and a patch redraws icons or changes categories. A renamed icon keeps its old name until the next major version.
