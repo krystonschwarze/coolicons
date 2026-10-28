@@ -5,7 +5,7 @@ import { createElement, Fragment } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { createSSRApp, h } from "vue";
 import { renderToString } from "vue/server-renderer";
-import { iconsDir, loadIcons, RADII, STYLES, VARIANTS } from "./icons.mjs";
+import { CLOSE, iconsDir, loadIcons, OPEN, RADII, STYLES, VARIANTS } from "./icons.mjs";
 
 const started = performance.now();
 const { manifest, icons, byName } = loadIcons();
@@ -94,5 +94,13 @@ for (const [framework, { renderAll, render }] of Object.entries(frameworks)) {
 const svgManifest = JSON.parse(readFileSync(new URL(import.meta.resolve("@coolicons/svg/manifest.json")), "utf8"));
 assert.equal(svgManifest.hash, manifest.hash);
 for (const style of STYLES) for (const radius of RADII) assert.ok(byName.size && readFileSync(new URL(import.meta.resolve(`@coolicons/svg/${style}/${radius}/house.svg`))));
+const svgData = (file) => JSON.parse(readFileSync(new URL(import.meta.resolve(`@coolicons/svg/data/${file}`)), "utf8"));
+assert.equal(svgData("index.json").hash, manifest.hash, "svg data index matches the set");
+for (const variant of VARIANTS) {
+  const chunk = svgData(`${variant.replace("/", "-")}.json`);
+  assert.deepEqual(Object.keys(chunk), manifest.icons.map((icon) => icon.name), `svg data ${variant}`);
+  for (const icon of manifest.icons)
+    assert.equal(`${OPEN.trimEnd()}${chunk[icon.name]}${CLOSE}`, readFileSync(path.join(iconsDir, "svg", variant, `${icon.name}.svg`), "utf8"), `svg data ${variant}/${icon.name}`);
+}
 
 console.log(`${renders} renders and the dynamic data match the export, in ${((performance.now() - started) / 1000).toFixed(1)} s`);

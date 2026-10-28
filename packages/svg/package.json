@@ -28,7 +28,8 @@
     "duotone",
     "fill",
     "bulk",
-    "manifest.json"
+    "manifest.json",
+    "data"
   ],
   "exports": {
     "./manifest.json": "./manifest.json",

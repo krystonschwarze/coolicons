@@ -8,6 +8,7 @@ packages/svg/duocolor
 packages/svg/duotone
 packages/svg/fill
 packages/svg/bulk
+packages/svg/data
 packages/svg/*.tmp
 packages/svg/manifest.json
 *.tgz

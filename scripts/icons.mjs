@@ -25,6 +25,19 @@ export const CLOSE = "</svg>\n";
 const PATH = /^<path d="([MmLlHhVvCcSsQqTtAaZz0-9 .,eE-]+)" (.+)\/>$/;
 const NAME = /^[a-z][a-z0-9]*(-[a-z0-9]+)*$/;
 
+export const dataFile = path.join(iconsDir, "data", "index.json");
+export const glyphOf = (text) => text.slice(OPEN.length - 1, -CLOSE.length);
+
+export function checkIndex(manifest) {
+  if (!existsSync(dataFile)) throw new Error("icons/data/index.json is missing, run pnpm icons:public in the monorepo");
+  const index = JSON.parse(readFileSync(dataFile, "utf8"));
+  const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+  if (index.hash !== manifest.hash || index.commit !== manifest.source.commit) throw new Error(`icons/data/index.json is for set ${index.hash}, the manifest is ${manifest.hash}`);
+  if (!same(index.styles, manifest.styles) || !same(index.radii, manifest.radii)) throw new Error("icons/data/index.json lists other styles or radii than the manifest");
+  if (!same(index.icons.map((icon) => [icon.name, icon.category]), manifest.icons.map((icon) => [icon.name, icon.category]))) throw new Error("icons/data/index.json lists other icons than the manifest");
+  return index;
+}
+
 export const fingerprint = (text) => createHash("sha1").update(text).digest("hex").slice(0, 12);
 
 export const componentName = (name) =>
