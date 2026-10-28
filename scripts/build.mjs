@@ -118,9 +118,41 @@ function buildComponents(framework) {
   return `${pkg.name} ${megabytes(sizeOf(path.join(dir, "dist")))}, ${modules.size} modules`;
 }
 
+function buildTool(name, bin) {
+  const dir = path.join(root, "packages", name);
+  const staged = path.join(dir, "dist.tmp");
+  rmSync(staged, { recursive: true, force: true });
+  cpSync(path.join(dir, "src"), staged, { recursive: true });
+  cpSync(path.join(root, "packages/cli/src/core.js"), path.join(staged, "core.js"));
+  const index = checkIndex(manifest);
+  const aliases = new Map(icons.map((icon) => [icon.name, icon.aliasOf]));
+  const data = path.join(staged, "data");
+  mkdirSync(data);
+  writeFileSync(
+    path.join(data, "index.json"),
+    JSON.stringify({
+      hash: index.hash,
+      icons: index.icons.map((icon) => (aliases.get(icon.name) ? { ...icon, aliasOf: aliases.get(icon.name) } : icon)),
+      clashes: index.clashes,
+    }),
+  );
+  for (const variant of VARIANTS) {
+    const chunk = Object.fromEntries(
+      manifest.icons.map((icon) => [icon.name, glyphOf(readFileSync(path.join(iconsDir, "svg", variant, `${icon.name}.svg`), "utf8"))]),
+    );
+    writeFileSync(path.join(data, `${variant.replace("/", "-")}.json`), JSON.stringify(chunk));
+  }
+  const pkg = JSON.parse(readFileSync(path.join(dir, "package.json"), "utf8"));
+  if (pkg.bin?.[bin] !== `./dist/${name === "cli" ? "cli" : "server"}.js`) throw new Error(`${pkg.name}: bin ${bin} should point at dist`);
+  swap(path.join(dir, "dist"), staged);
+  cpSync(license, path.join(dir, "LICENSE"));
+  return `${pkg.name} ${megabytes(sizeOf(path.join(dir, "dist")))}`;
+}
+
 if (!existsSync(license)) throw new Error("LICENSE is missing");
 const results = [];
 if (!only.length || only.includes("svg")) results.push(buildSvg());
 for (const framework of ["react", "vue"]) if (!only.length || only.includes(framework)) results.push(buildComponents(framework));
+for (const [name, bin] of [["cli", "coolicons"], ["mcp", "coolicons-mcp"]]) if (!only.length || only.includes(name)) results.push(buildTool(name, bin));
 console.log(`${icons.length} icons, set ${manifest.hash}, in ${((performance.now() - started) / 1000).toFixed(1)} s`);
 for (const line of results) console.log(`  ${line}`);

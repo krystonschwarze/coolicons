@@ -4,7 +4,7 @@ import path from "node:path";
 import { loadIcons, root, STYLES } from "./icons.mjs";
 import { referenceFile, skillReference } from "./skill.mjs";
 
-export const PACKAGES = ["svg", "react", "vue"];
+export const PACKAGES = ["svg", "react", "vue", "cli", "mcp"];
 const VERSION = /^(\d+)\.(\d+)\.(\d+)(?:-beta\.(\d+))?$/;
 const changelogFile = path.join(root, "CHANGELOG.md");
 const git = (...args) => execFileSync("git", args, { cwd: root, encoding: "utf8" }).trim();

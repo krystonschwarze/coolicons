@@ -1,0 +1,34 @@
+{
+  "name": "@coolicons/cli",
+  "version": "5.0.0-beta.1",
+  "description": "Search coolicons and copy them into your project from the terminal, without network",
+  "keywords": [
+    "coolicons",
+    "icons",
+    "svg",
+    "cli",
+    "icon-set"
+  ],
+  "homepage": "https://coolicons.cool",
+  "bugs": "https://github.com/krystonschwarze/coolicons/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystonschwarze/coolicons.git",
+    "directory": "packages/cli"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kryston Schwarze",
+    "url": "https://krystonschwarze.com"
+  },
+  "type": "module",
+  "bin": {
+    "coolicons": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}

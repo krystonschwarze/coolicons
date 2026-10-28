@@ -13,6 +13,8 @@
 | [`@coolicons/react`](packages/react) | React components |
 | [`@coolicons/vue`](packages/vue) | Vue 3 components |
 | [`@coolicons/svg`](packages/svg) | SVG files and a manifest for everything else |
+| [`@coolicons/cli`](packages/cli) | Search and copy icons from the terminal |
+| [`@coolicons/mcp`](packages/mcp) | MCP server for coding agents |
 
 ## React
 
@@ -108,11 +110,15 @@ import { CooliconsIcon, icons } from "@coolicons/react/dynamic";
 
 ## Coding agents
 
-The coolicons skill teaches coding agents like Claude Code, Codex or Cursor the packages and the naming rules, and makes them look up icon names instead of guessing them:
+Agents do not know coolicons names from their training data. Three tools let them look names up instead of guessing:
 
-```sh
-npx skills add krystonschwarze/coolicons
-```
+| | |
+| --- | --- |
+| [`@coolicons/mcp`](packages/mcp) | MCP server with search, SVG source and imports: `claude mcp add coolicons -- npx -y @coolicons/mcp` |
+| [`@coolicons/cli`](packages/cli) | Search and copy icons from the terminal: `npx @coolicons/cli search delete` |
+| [Skill](skills/coolicons) | Teaches agents the packages and naming rules: `npx skills add krystonschwarze/coolicons` |
+
+All three work offline, the whole set ships with them.
 
 ## Versions
 

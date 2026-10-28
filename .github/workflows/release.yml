@@ -42,7 +42,7 @@ jobs:
         env:
           VERSION: ${{ steps.release.outputs.version }}
         run: |
-          for name in svg react vue; do
+          for name in svg react vue cli mcp; do
             if [ -n "$(npm view "@coolicons/$name@$VERSION" version 2>/dev/null)" ]; then
               echo "@coolicons/$name@$VERSION is already on npm"
               continue

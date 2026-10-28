@@ -6,7 +6,7 @@
   "scripts": {
     "verify": "node scripts/verify.mjs",
     "build": "node scripts/build.mjs",
-    "test": "node scripts/test.mjs && tsc -p test",
+    "test": "node scripts/test.mjs && node scripts/test-tools.mjs && tsc -p test",
     "lint:packages": "node scripts/lint-packages.mjs",
     "release": "node scripts/release.mjs",
     "skill": "node scripts/skill.mjs"
