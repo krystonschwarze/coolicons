@@ -1,0 +1,35 @@
+{
+  "name": "@coolicons/mcp",
+  "version": "5.0.0-beta.1",
+  "description": "MCP server for coolicons: search the set, get SVG source and the right import, without guessing names",
+  "keywords": [
+    "coolicons",
+    "icons",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "agents"
+  ],
+  "homepage": "https://coolicons.cool",
+  "bugs": "https://github.com/krystonschwarze/coolicons/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystonschwarze/coolicons.git",
+    "directory": "packages/mcp"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kryston Schwarze",
+    "url": "https://krystonschwarze.com"
+  },
+  "type": "module",
+  "bin": {
+    "coolicons-mcp": "./dist/server.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}

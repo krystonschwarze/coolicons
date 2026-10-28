@@ -11,7 +11,9 @@ coolicons is an open source icon set under the MIT license. Every icon comes in 
 
 Language models do not know coolicons names, and a wrong name breaks the build. Every name you write must come from one of these sources, in this order:
 
-1. **The installed package**, which matches the project's version. Both packages list every name in `dist/names.d.ts`:
+1. **The coolicons MCP server**, if it is connected: `search_icons` with several names separated by commas, then `get_usage` for the import line. Without it, `npx @coolicons/cli search <query>` gives the same results in the terminal.
+
+2. **The installed package**, which matches the project's version. Both packages list every name in `dist/names.d.ts`:
 
    ```sh
    grep -o '"[a-z0-9-]*"' node_modules/@coolicons/react/dist/names.d.ts | tr -d '"' | grep -i trash
@@ -19,13 +21,13 @@ Language models do not know coolicons names, and a wrong name breaks the build. 
 
    For Vue, use `node_modules/@coolicons/vue/dist/names.d.ts`. For `@coolicons/svg`, the files themselves: `ls node_modules/@coolicons/svg/line/regular | grep -i trash`.
 
-2. **[references/icons.md](references/icons.md)** in this skill: every icon with its component name, category and search tags, grouped by category. Search it by meaning, not only by name:
+3. **[references/icons.md](references/icons.md)** in this skill: every icon with its component name, category and search tags, grouped by category. Search it by meaning, not only by name:
 
    ```sh
    grep -i -w "delete" references/icons.md
    ```
 
-3. **Online**, when neither is available: https://cdn.jsdelivr.net/gh/krystonschwarze/coolicons@main/icons/data/index.json lists every name with its category and keywords.
+4. **Online**, when none of these is available: https://cdn.jsdelivr.net/gh/krystonschwarze/coolicons@main/icons/data/index.json lists every name with its category and keywords.
 
 If no icon fits, say so and ask. Never swap in a look-alike without telling the user. Look up several names in one search instead of one at a time.
 
