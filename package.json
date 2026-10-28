@@ -8,7 +8,8 @@
     "build": "node scripts/build.mjs",
     "test": "node scripts/test.mjs && tsc -p test",
     "lint:packages": "node scripts/lint-packages.mjs",
-    "release": "node scripts/release.mjs"
+    "release": "node scripts/release.mjs",
+    "skill": "node scripts/skill.mjs"
   },
   "devDependencies": {
     "@coolicons/react": "link:packages/react",

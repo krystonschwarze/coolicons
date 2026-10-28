@@ -2,6 +2,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { loadIcons, root, STYLES } from "./icons.mjs";
+import { referenceFile, skillReference } from "./skill.mjs";
 
 export const PACKAGES = ["svg", "react", "vue"];
 const VERSION = /^(\d+)\.(\d+)\.(\d+)(?:-beta\.(\d+))?$/;
@@ -119,6 +120,8 @@ if (import.meta.filename === path.resolve(process.argv[1] ?? "")) {
     const readme = readFileSync(file, "utf8");
     writeFileSync(file, readme.replace(/\b\d+ icons in five styles/g, `${manifest.icons.length} icons in five styles`));
   }
+
+  writeFileSync(referenceFile, skillReference());
 
   const header = "# Changelog\n\nEvery release lists the icons that were added, renamed, removed, redrawn or moved to another category since the release before.\n";
   const text = existsSync(changelogFile) ? readFileSync(changelogFile, "utf8") : header;
