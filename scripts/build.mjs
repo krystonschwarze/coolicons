@@ -1,6 +1,6 @@
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { iconsDir, loadIcons, RADII, root, STYLES, VARIANTS } from "./icons.mjs";
+import { checkIndex, dataFile, glyphOf, iconsDir, loadIcons, RADII, root, STYLES, VARIANTS } from "./icons.mjs";
 
 const started = performance.now();
 const { manifest, icons } = loadIcons();
@@ -28,10 +28,22 @@ function buildSvg() {
     cpSync(path.join(iconsDir, "svg", style), staged, { recursive: true });
     swap(path.join(dir, style), staged);
   }
+  checkIndex(manifest);
+  const data = path.join(dir, "data.tmp");
+  rmSync(data, { recursive: true, force: true });
+  mkdirSync(data);
+  for (const variant of VARIANTS) {
+    const chunk = Object.fromEntries(
+      manifest.icons.map((icon) => [icon.name, glyphOf(readFileSync(path.join(iconsDir, "svg", variant, `${icon.name}.svg`), "utf8"))]),
+    );
+    writeFileSync(path.join(data, `${variant.replace("/", "-")}.json`), JSON.stringify(chunk));
+  }
+  cpSync(dataFile, path.join(data, "index.json"));
+  swap(path.join(dir, "data"), data);
   cpSync(path.join(iconsDir, "manifest.json"), path.join(dir, "manifest.json"));
   cpSync(license, path.join(dir, "LICENSE"));
   const bytes = STYLES.reduce((sum, style) => sum + sizeOf(path.join(dir, style)), 0);
-  return `@coolicons/svg ${megabytes(bytes)}`;
+  return `@coolicons/svg ${megabytes(bytes)}, data ${megabytes(sizeOf(path.join(dir, "data")))}`;
 }
 
 const aliasNote = (icon) => (icon.aliasOf ? `/** Alias of {@link ${icons.find((other) => other.name === icon.aliasOf).component}}. */\n` : "");

@@ -1,6 +1,7 @@
-import { loadIcons, VARIANTS } from "./icons.mjs";
+import { checkIndex, loadIcons, VARIANTS } from "./icons.mjs";
 
 const { manifest, icons } = loadIcons();
+checkIndex(manifest);
 const aliases = icons.filter((icon) => icon.aliasOf).length;
 const categories = new Set(icons.map((icon) => icon.category)).size;
 console.log(
