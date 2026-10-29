@@ -1,7 +1,7 @@
 {
   "format": 1,
   "source": {
-    "commit": "c77c4c87",
+    "commit": "2977a824",
     "dirty": false
   },
   "styles": [
@@ -3017,9 +3017,9 @@
         "fill/sharp": "548b97d5c288",
         "fill/regular": "3e17a462249f",
         "fill/round": "1adb1654fb46",
-        "bulk/sharp": "526fcbb0b74a",
-        "bulk/regular": "b633d28e5c5a",
-        "bulk/round": "8ebcecc57d37"
+        "bulk/sharp": "59c34f55d8ed",
+        "bulk/regular": "f4b8115ae4ec",
+        "bulk/round": "bc72a3aa046a"
       }
     },
     {
@@ -3059,9 +3059,9 @@
         "fill/sharp": "7b32b9a8bbb9",
         "fill/regular": "046c5545114c",
         "fill/round": "8cb0e2b38ccc",
-        "bulk/sharp": "7c658389b3a4",
-        "bulk/regular": "db7089f763ae",
-        "bulk/round": "dfea3e24a063"
+        "bulk/sharp": "4cb893616d24",
+        "bulk/regular": "1381c3a3f20e",
+        "bulk/round": "959db11a1a00"
       }
     },
     {
@@ -3122,9 +3122,9 @@
         "fill/sharp": "9c1cd8d6fd5f",
         "fill/regular": "62744f1155fc",
         "fill/round": "ac962784a9ac",
-        "bulk/sharp": "0a79ffd0a87f",
-        "bulk/regular": "f3a50c962fee",
-        "bulk/round": "245b6c8b80cb"
+        "bulk/sharp": "6ec26a23ce70",
+        "bulk/regular": "78d4d3ee0df9",
+        "bulk/round": "acae2aad7009"
       }
     },
     {
@@ -3185,9 +3185,9 @@
         "fill/sharp": "57af87dbf24a",
         "fill/regular": "f8b1c72a31c2",
         "fill/round": "5873b0e53890",
-        "bulk/sharp": "8b8593e71af4",
-        "bulk/regular": "23b8b16cb32c",
-        "bulk/round": "dde49a8c3297"
+        "bulk/sharp": "d54d5b8c1000",
+        "bulk/regular": "3bdd444a236d",
+        "bulk/round": "011264b404df"
       }
     },
     {
@@ -3248,9 +3248,9 @@
         "fill/sharp": "2615876ae779",
         "fill/regular": "eff0e4c8edf6",
         "fill/round": "95c76a323b04",
-        "bulk/sharp": "27420ea8059a",
-        "bulk/regular": "0690c80fd704",
-        "bulk/round": "df28540778a0"
+        "bulk/sharp": "4211276e930a",
+        "bulk/regular": "9303b3ae2c0c",
+        "bulk/round": "972b3507126f"
       }
     },
     {
@@ -3290,9 +3290,9 @@
         "fill/sharp": "02d0b6385c9b",
         "fill/regular": "e93035763c0d",
         "fill/round": "b2ff0d9ea55e",
-        "bulk/sharp": "029ad9c421d7",
-        "bulk/regular": "d17c47143eee",
-        "bulk/round": "342acbe9720b"
+        "bulk/sharp": "4a990b3bb25c",
+        "bulk/regular": "3d9e94bed81c",
+        "bulk/round": "c0a00a0e2598"
       }
     },
     {
@@ -3311,9 +3311,9 @@
         "fill/sharp": "3aeb8f41c0e4",
         "fill/regular": "0e47ce7ae2b8",
         "fill/round": "2fbb1cbfecd7",
-        "bulk/sharp": "2504e87b7f2d",
-        "bulk/regular": "1bb3492c63c3",
-        "bulk/round": "0375942fcfcf"
+        "bulk/sharp": "4193ab0543db",
+        "bulk/regular": "25e8c244f3be",
+        "bulk/round": "ee438012a04d"
       }
     },
     {
@@ -4539,21 +4539,21 @@
       "name": "checkbox-partial",
       "category": "System",
       "files": {
-        "line/sharp": "58b45144f8c1",
-        "line/regular": "e7080a90a731",
-        "line/round": "41f476d0650f",
-        "duocolor/sharp": "9cc81be1b46b",
-        "duocolor/regular": "a48a97a80476",
-        "duocolor/round": "ad78d4124381",
-        "duotone/sharp": "5e0351c02f79",
-        "duotone/regular": "c4b05b149fd0",
-        "duotone/round": "30f15a7cb1f6",
-        "fill/sharp": "1d1633a699e4",
-        "fill/regular": "1e4cc299f35a",
-        "fill/round": "7930b4b223ba",
-        "bulk/sharp": "5e39c28e3c57",
-        "bulk/regular": "f2d496b12d2b",
-        "bulk/round": "e86d325e8a33"
+        "line/sharp": "c63472e1ff18",
+        "line/regular": "579f05850dc1",
+        "line/round": "538ce213d939",
+        "duocolor/sharp": "d2c0f50fba20",
+        "duocolor/regular": "a253907926d4",
+        "duocolor/round": "77deb0e3a7d9",
+        "duotone/sharp": "899131810267",
+        "duotone/regular": "dd12b9036258",
+        "duotone/round": "0db65527f66f",
+        "fill/sharp": "e48ee8e3651c",
+        "fill/regular": "4734706532e0",
+        "fill/round": "4f245316ec12",
+        "bulk/sharp": "d6110f15acbb",
+        "bulk/regular": "17b48c2f7140",
+        "bulk/round": "9b6fed0e8ac9"
       }
     },
     {
@@ -6430,21 +6430,21 @@
       "name": "cloud-check",
       "category": "File",
       "files": {
-        "line/sharp": "d2e25a3eef93",
-        "line/regular": "d2e25a3eef93",
-        "line/round": "d2e25a3eef93",
-        "duocolor/sharp": "695eb4bed82a",
-        "duocolor/regular": "695eb4bed82a",
-        "duocolor/round": "695eb4bed82a",
-        "duotone/sharp": "4989426b72d7",
-        "duotone/regular": "4989426b72d7",
-        "duotone/round": "4989426b72d7",
-        "fill/sharp": "6e239fdda4a9",
-        "fill/regular": "6e239fdda4a9",
-        "fill/round": "6e239fdda4a9",
-        "bulk/sharp": "96af92605f9f",
-        "bulk/regular": "96af92605f9f",
-        "bulk/round": "96af92605f9f"
+        "line/sharp": "dd639da0b491",
+        "line/regular": "dd639da0b491",
+        "line/round": "dd639da0b491",
+        "duocolor/sharp": "0b867767349c",
+        "duocolor/regular": "0b867767349c",
+        "duocolor/round": "0b867767349c",
+        "duotone/sharp": "1678589f1e69",
+        "duotone/regular": "1678589f1e69",
+        "duotone/round": "1678589f1e69",
+        "fill/sharp": "09e698bda7d2",
+        "fill/regular": "09e698bda7d2",
+        "fill/round": "09e698bda7d2",
+        "bulk/sharp": "ab130d1358a1",
+        "bulk/regular": "ab130d1358a1",
+        "bulk/round": "ab130d1358a1"
       }
     },
     {
@@ -6688,15 +6688,15 @@
         "duocolor/sharp": "868f5f3729b0",
         "duocolor/regular": "868f5f3729b0",
         "duocolor/round": "868f5f3729b0",
-        "duotone/sharp": "7e9368fe8116",
-        "duotone/regular": "efb9fad37f32",
-        "duotone/round": "c824c02d2bc7",
-        "fill/sharp": "28b3fcd1c38b",
-        "fill/regular": "8dc0869e72cb",
-        "fill/round": "7ff88e1239cf",
-        "bulk/sharp": "1b35074b36ff",
-        "bulk/regular": "271bd06f9fbf",
-        "bulk/round": "7e360df6658d"
+        "duotone/sharp": "bd297920858b",
+        "duotone/regular": "d7fac7ec0008",
+        "duotone/round": "c414c3e4f5e4",
+        "fill/sharp": "27630c0984d4",
+        "fill/regular": "e858e58cc802",
+        "fill/round": "9e8d2d6cdbb3",
+        "bulk/sharp": "cd8dcac5b8c8",
+        "bulk/regular": "4bb3db4e8fc4",
+        "bulk/round": "d87745cbf2c8"
       }
     },
     {
@@ -7881,21 +7881,21 @@
       "name": "database-minus-corner",
       "category": "Development",
       "files": {
-        "line/sharp": "93366cfb1e32",
-        "line/regular": "93366cfb1e32",
-        "line/round": "93366cfb1e32",
-        "duocolor/sharp": "3d943e30b690",
-        "duocolor/regular": "3d943e30b690",
-        "duocolor/round": "3d943e30b690",
-        "duotone/sharp": "c16fe8437a0f",
-        "duotone/regular": "c16fe8437a0f",
-        "duotone/round": "c16fe8437a0f",
-        "fill/sharp": "8e62da25270f",
-        "fill/regular": "8e62da25270f",
-        "fill/round": "8e62da25270f",
-        "bulk/sharp": "2c8d24ffac31",
-        "bulk/regular": "8082c5648688",
-        "bulk/round": "6c18ba50cedd"
+        "line/sharp": "d804ad6828af",
+        "line/regular": "d804ad6828af",
+        "line/round": "d804ad6828af",
+        "duocolor/sharp": "8e5e9c59cbc4",
+        "duocolor/regular": "8e5e9c59cbc4",
+        "duocolor/round": "8e5e9c59cbc4",
+        "duotone/sharp": "60bb7cea61e7",
+        "duotone/regular": "60bb7cea61e7",
+        "duotone/round": "60bb7cea61e7",
+        "fill/sharp": "52be1ea747ff",
+        "fill/regular": "52be1ea747ff",
+        "fill/round": "52be1ea747ff",
+        "bulk/sharp": "44d6a1feefc3",
+        "bulk/regular": "c63e55731630",
+        "bulk/round": "57f629dedf30"
       }
     },
     {
@@ -8805,21 +8805,21 @@
       "name": "exit",
       "category": "Arrow",
       "files": {
-        "line/sharp": "da724fe934dd",
-        "line/regular": "5530fb2a70e1",
-        "line/round": "269947e0fb8c",
-        "duocolor/sharp": "bff79b2350b7",
-        "duocolor/regular": "dd7e4b8628c3",
-        "duocolor/round": "be74acd7d19f",
-        "duotone/sharp": "b40b08f2ad38",
-        "duotone/regular": "fbecd9bb7c83",
-        "duotone/round": "bf7b92420fb5",
-        "fill/sharp": "583de9826a15",
-        "fill/regular": "efee95e3366e",
-        "fill/round": "232c1a38c4bf",
-        "bulk/sharp": "17e686775b0a",
-        "bulk/regular": "528ab72fcae1",
-        "bulk/round": "e1d8aaf6f89f"
+        "line/sharp": "90c89d04d2d7",
+        "line/regular": "19d8837c8ea2",
+        "line/round": "d4803608eea6",
+        "duocolor/sharp": "0046965270b1",
+        "duocolor/regular": "e30ef5b85815",
+        "duocolor/round": "bbc41683d9f4",
+        "duotone/sharp": "71ead57e43a2",
+        "duotone/regular": "fd877f4254d1",
+        "duotone/round": "ef919de4c785",
+        "fill/sharp": "b67eacfd432f",
+        "fill/regular": "6a9b60165948",
+        "fill/round": "530e7dbb32a5",
+        "bulk/sharp": "f634057d0646",
+        "bulk/regular": "4f79a33df7ad",
+        "bulk/round": "d3ffbf86ff25"
       }
     },
     {
@@ -9435,21 +9435,21 @@
       "name": "file-minus-corner",
       "category": "File",
       "files": {
-        "line/sharp": "8e8e6d569da5",
-        "line/regular": "e6b5157e2074",
-        "line/round": "e45fd2b16a4c",
-        "duocolor/sharp": "2ba2b60c8c06",
-        "duocolor/regular": "80396df62763",
-        "duocolor/round": "e96da906a765",
-        "duotone/sharp": "9f7f5fa83991",
-        "duotone/regular": "23658f653217",
-        "duotone/round": "6a56e809ab5e",
-        "fill/sharp": "36b92a354441",
-        "fill/regular": "31b9e1b0324b",
-        "fill/round": "67b206061a3a",
-        "bulk/sharp": "e3e13a008905",
-        "bulk/regular": "ab6fc4877a14",
-        "bulk/round": "8dc508a33b39"
+        "line/sharp": "12874d4d2373",
+        "line/regular": "3207786cd7e3",
+        "line/round": "c9732287b599",
+        "duocolor/sharp": "8149576171ae",
+        "duocolor/regular": "caa09f4ef1bc",
+        "duocolor/round": "9c675587f444",
+        "duotone/sharp": "83fbd3c2cd98",
+        "duotone/regular": "8699dd669373",
+        "duotone/round": "474976f8e961",
+        "fill/sharp": "716d01bcd52b",
+        "fill/regular": "fd3d7236b873",
+        "fill/round": "0b3f3553a565",
+        "bulk/sharp": "3fa5715ad922",
+        "bulk/regular": "af389af6177e",
+        "bulk/round": "2d02c4530427"
       }
     },
     {
@@ -9708,21 +9708,21 @@
       "name": "filter-off",
       "category": "System",
       "files": {
-        "line/sharp": "1bd2aa8a8b6a",
-        "line/regular": "d9d79a0e403d",
-        "line/round": "c2b21fe80c40",
-        "duocolor/sharp": "3fd9087df661",
-        "duocolor/regular": "99325b65e1a4",
-        "duocolor/round": "e13128f32f10",
-        "duotone/sharp": "ef8217f119b1",
-        "duotone/regular": "0a5a255c27c2",
-        "duotone/round": "cd446cae72ce",
-        "fill/sharp": "2c09ed1451ef",
-        "fill/regular": "3e0bcc7d4af6",
-        "fill/round": "ca512c50c1e7",
-        "bulk/sharp": "a5bd9c1942b8",
-        "bulk/regular": "f61967d8fef6",
-        "bulk/round": "4c2cbd6edf47"
+        "line/sharp": "072d5982189d",
+        "line/regular": "68c001805b65",
+        "line/round": "f18f2bbc1bdf",
+        "duocolor/sharp": "66a9147fab7d",
+        "duocolor/regular": "b510af8c568c",
+        "duocolor/round": "9097bf09e26a",
+        "duotone/sharp": "9116233fa47b",
+        "duotone/regular": "4fa1297c577c",
+        "duotone/round": "67cada7b3e79",
+        "fill/sharp": "d97e0aadb946",
+        "fill/regular": "fd3f463f3308",
+        "fill/round": "4d2760352111",
+        "bulk/sharp": "afae738da650",
+        "bulk/regular": "13187d4fdd87",
+        "bulk/round": "2d160cc49956"
       }
     },
     {
@@ -10254,21 +10254,21 @@
       "name": "folder-minus-corner",
       "category": "File",
       "files": {
-        "line/sharp": "048a099cbfad",
-        "line/regular": "0dad8540721a",
-        "line/round": "8e8237533082",
-        "duocolor/sharp": "3cfd504c98bf",
-        "duocolor/regular": "70ebf1cd0063",
-        "duocolor/round": "383ac3cc4bd2",
-        "duotone/sharp": "fa16909cb8c1",
-        "duotone/regular": "d1af816109cb",
-        "duotone/round": "7edfe15705a6",
-        "fill/sharp": "e1ed4ce58ff2",
-        "fill/regular": "6e0a10e16f31",
-        "fill/round": "8ff7520103df",
-        "bulk/sharp": "791690c3878e",
-        "bulk/regular": "fee75882bba1",
-        "bulk/round": "578b9ce0b853"
+        "line/sharp": "e13cd4bbd432",
+        "line/regular": "82112f327f9b",
+        "line/round": "335606088785",
+        "duocolor/sharp": "6a6f251e064d",
+        "duocolor/regular": "77c53c16e4c7",
+        "duocolor/round": "42dfb813bdb2",
+        "duotone/sharp": "b938dfe53ef1",
+        "duotone/regular": "79181a7580b3",
+        "duotone/round": "d85a1539e812",
+        "fill/sharp": "9055607b423f",
+        "fill/regular": "894b61b02177",
+        "fill/round": "7df82d62af35",
+        "bulk/sharp": "430595e62fc3",
+        "bulk/regular": "7546d4bd2318",
+        "bulk/round": "bd7160b31038"
       }
     },
     {
@@ -10927,20 +10927,20 @@
       "name": "git-merge",
       "category": "Development",
       "files": {
-        "line/sharp": "adbba748579c",
-        "line/regular": "01cd7880babe",
+        "line/sharp": "ac7ee966b612",
+        "line/regular": "ac7ee966b612",
         "line/round": "ac7ee966b612",
-        "duocolor/sharp": "cb19c13ca581",
-        "duocolor/regular": "dbb8bc58e42d",
+        "duocolor/sharp": "180ab7d0aff0",
+        "duocolor/regular": "180ab7d0aff0",
         "duocolor/round": "180ab7d0aff0",
-        "duotone/sharp": "92d130ae786e",
-        "duotone/regular": "ad672a3cacc0",
+        "duotone/sharp": "be1e62abe51a",
+        "duotone/regular": "be1e62abe51a",
         "duotone/round": "be1e62abe51a",
-        "fill/sharp": "53434d05afa7",
-        "fill/regular": "9a4b419d11c0",
+        "fill/sharp": "2ae4bba49384",
+        "fill/regular": "2ae4bba49384",
         "fill/round": "2ae4bba49384",
-        "bulk/sharp": "c89cd08480bc",
-        "bulk/regular": "aadba13b489c",
+        "bulk/sharp": "e7e685eacd7e",
+        "bulk/regular": "e7e685eacd7e",
         "bulk/round": "e7e685eacd7e"
       }
     },
@@ -11768,19 +11768,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "49ad7b2cb17e",
-        "line/regular": "398a12975765",
+        "line/regular": "3d1cb9d9b6b2",
         "line/round": "3ecb9b29887c",
         "duocolor/sharp": "49ad7b2cb17e",
-        "duocolor/regular": "398a12975765",
+        "duocolor/regular": "3d1cb9d9b6b2",
         "duocolor/round": "3ecb9b29887c",
         "duotone/sharp": "974be00c4c8b",
-        "duotone/regular": "d0c78836bbd8",
+        "duotone/regular": "892d7d560b3e",
         "duotone/round": "d210388d5589",
         "fill/sharp": "a1be90b05897",
-        "fill/regular": "712fa1b6ef33",
+        "fill/regular": "e6e6b09e6d82",
         "fill/round": "883c1eaa76b2",
         "bulk/sharp": "8bb9f372ed8b",
-        "bulk/regular": "56a1b91c707f",
+        "bulk/regular": "d7db3afd19b2",
         "bulk/round": "f3bed2f61c4f"
       }
     },
@@ -11789,19 +11789,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "724370b0893d",
-        "line/regular": "d05c74b29f97",
+        "line/regular": "0c0ca13ddeeb",
         "line/round": "3302d345d3a7",
         "duocolor/sharp": "703fe0d5310b",
-        "duocolor/regular": "bef37fe5efdc",
+        "duocolor/regular": "42405ce89cd7",
         "duocolor/round": "8930e4b3f5ed",
         "duotone/sharp": "b6d507c029b4",
-        "duotone/regular": "782c4356787b",
+        "duotone/regular": "6dc8db725951",
         "duotone/round": "1857a6f12dcc",
         "fill/sharp": "6973770d54bf",
-        "fill/regular": "80e149c6dc17",
+        "fill/regular": "87897f79116f",
         "fill/round": "dacdcbc2787f",
         "bulk/sharp": "eec8d453fad0",
-        "bulk/regular": "6c762f11947e",
+        "bulk/regular": "5cb45158a70e",
         "bulk/round": "3d810203ad59"
       }
     },
@@ -11810,19 +11810,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "59a61446917d",
-        "line/regular": "514b1ce3b594",
+        "line/regular": "e68a0f97e936",
         "line/round": "094083ed58fe",
         "duocolor/sharp": "22bc1e3e5b6f",
-        "duocolor/regular": "ddfbd709a921",
+        "duocolor/regular": "302af1e68cce",
         "duocolor/round": "8e52ffd10005",
         "duotone/sharp": "6ce9970fb636",
-        "duotone/regular": "10d94f0c2257",
+        "duotone/regular": "b223fa80c6c9",
         "duotone/round": "2c7117eac5a4",
         "fill/sharp": "a337857488ea",
-        "fill/regular": "c4ff604685fe",
+        "fill/regular": "02b44ef77afe",
         "fill/round": "71610a9be6b0",
         "bulk/sharp": "d27ffacd2a91",
-        "bulk/regular": "ad747d0e42b4",
+        "bulk/regular": "f51eed19e474",
         "bulk/round": "8af4a92d45fc"
       }
     },
@@ -11831,19 +11831,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "0f0a914f5bfc",
-        "line/regular": "74d69423ee9f",
+        "line/regular": "f4a3e88edb52",
         "line/round": "ec0ee0dc3c41",
         "duocolor/sharp": "8f22127e1e46",
-        "duocolor/regular": "97457ac3389c",
+        "duocolor/regular": "35d8018c64e3",
         "duocolor/round": "78b3f8d6e0bd",
         "duotone/sharp": "f6e5c8daead3",
-        "duotone/regular": "2881611fa3c1",
+        "duotone/regular": "08a548038746",
         "duotone/round": "84626c0f34d6",
         "fill/sharp": "d07050a5fad7",
-        "fill/regular": "749f1ef42fa7",
+        "fill/regular": "1b5e64a702e2",
         "fill/round": "483473ff5fa5",
         "bulk/sharp": "7f521a0daff1",
-        "bulk/regular": "c06ed4651503",
+        "bulk/regular": "60ab8e3075d8",
         "bulk/round": "4d292a90a174"
       }
     },
@@ -11852,19 +11852,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "b168463d35bf",
-        "line/regular": "55e46f761831",
+        "line/regular": "146791680da8",
         "line/round": "2d24dc028e26",
         "duocolor/sharp": "8c2d289c1e33",
-        "duocolor/regular": "7b72daeed20a",
+        "duocolor/regular": "14ba245a1d1e",
         "duocolor/round": "870a1dc7ab03",
         "duotone/sharp": "f30245a670f6",
-        "duotone/regular": "45cb5e2adfc6",
+        "duotone/regular": "45a4a34ca7fd",
         "duotone/round": "a93ea232b97d",
         "fill/sharp": "8f7031663507",
-        "fill/regular": "7ad6148b551d",
+        "fill/regular": "9c06fc11411c",
         "fill/round": "199453887753",
         "bulk/sharp": "3094f0f49dd3",
-        "bulk/regular": "f63b65606c99",
+        "bulk/regular": "446141bc9263",
         "bulk/round": "499618216b43"
       }
     },
@@ -11873,19 +11873,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "0a5ce4f98ea5",
-        "line/regular": "c31cd395a11c",
+        "line/regular": "c5cbac59af86",
         "line/round": "48bbc3ddd66b",
         "duocolor/sharp": "ef06499dfeb3",
-        "duocolor/regular": "8731a27b7e3f",
+        "duocolor/regular": "b4cc76def8c7",
         "duocolor/round": "46b9aa8c3ea0",
         "duotone/sharp": "33838e9508ee",
-        "duotone/regular": "38fef5e7ab51",
+        "duotone/regular": "ba6663af8fdb",
         "duotone/round": "003476a080b1",
         "fill/sharp": "ccdff04aa163",
-        "fill/regular": "102d66d8d9c5",
+        "fill/regular": "a544bb400de3",
         "fill/round": "b03d18f5088f",
         "bulk/sharp": "0962c25129e1",
-        "bulk/regular": "361dea963358",
+        "bulk/regular": "b624cc702884",
         "bulk/round": "b8dca1e98c4c"
       }
     },
@@ -11894,19 +11894,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "38b9e6a9cb17",
-        "line/regular": "6b17efca1095",
+        "line/regular": "7491f15b6027",
         "line/round": "6bdea290d28c",
         "duocolor/sharp": "5bdc0c98dff8",
-        "duocolor/regular": "f4e8c2bbfae7",
+        "duocolor/regular": "4d39723f6e55",
         "duocolor/round": "0d4b48088265",
         "duotone/sharp": "c3cd12e02fb4",
-        "duotone/regular": "aa54fe74115b",
+        "duotone/regular": "8d086a6a5b07",
         "duotone/round": "6612ee3433db",
         "fill/sharp": "c6b4c85759cc",
-        "fill/regular": "bc5505c61e03",
+        "fill/regular": "50ee47ffd47d",
         "fill/round": "c5ed0e4dc725",
         "bulk/sharp": "8441e3b5949d",
-        "bulk/regular": "b9308a9c435f",
+        "bulk/regular": "bd3fd00cb04d",
         "bulk/round": "d7141ae06125"
       }
     },
@@ -11915,19 +11915,19 @@
       "category": "Shape",
       "files": {
         "line/sharp": "d9c9a8b72726",
-        "line/regular": "f3bad4d750d4",
+        "line/regular": "903596841750",
         "line/round": "7de769204dee",
         "duocolor/sharp": "2eecefc2a02d",
-        "duocolor/regular": "447f57cb12f4",
+        "duocolor/regular": "f870892c91ec",
         "duocolor/round": "e77e6f2e7b51",
         "duotone/sharp": "1fadce8febfa",
-        "duotone/regular": "fab15ac691b6",
+        "duotone/regular": "5a0553940c82",
         "duotone/round": "88e6251253db",
         "fill/sharp": "2c95d012e49f",
-        "fill/regular": "0aba33e8eee4",
+        "fill/regular": "a0bbd8054c06",
         "fill/round": "999b2004c83e",
         "bulk/sharp": "767512848dff",
-        "bulk/regular": "357a2a9f9c2f",
+        "bulk/regular": "f0606c345565",
         "bulk/round": "39018c307206"
       }
     },
@@ -15652,21 +15652,21 @@
       "name": "note-minus-corner",
       "category": "File",
       "files": {
-        "line/sharp": "ac34f43d4817",
-        "line/regular": "927d7bfec463",
-        "line/round": "1574abafd31c",
-        "duocolor/sharp": "cee518314ee2",
-        "duocolor/regular": "ef40475fdbd3",
-        "duocolor/round": "5457eac66671",
-        "duotone/sharp": "8480adda42cd",
-        "duotone/regular": "5ab361200bef",
-        "duotone/round": "6a0c63effcda",
-        "fill/sharp": "39c1fb1757fc",
-        "fill/regular": "3c4e505ae3e6",
-        "fill/round": "4fc4cdaf1109",
-        "bulk/sharp": "e7c2bf52add6",
-        "bulk/regular": "9872d5d3316e",
-        "bulk/round": "54d3b5f01199"
+        "line/sharp": "dce6062a995f",
+        "line/regular": "4959cda38fc4",
+        "line/round": "eafd9327c86c",
+        "duocolor/sharp": "81a9520696c7",
+        "duocolor/regular": "742b4034d272",
+        "duocolor/round": "d4cb64bb5916",
+        "duotone/sharp": "8aec7c9fa643",
+        "duotone/regular": "1477bac5bfb0",
+        "duotone/round": "adfe327e0474",
+        "fill/sharp": "6fd589a4cc11",
+        "fill/regular": "9449a38ea3ce",
+        "fill/round": "bb07bbe7ae46",
+        "bulk/sharp": "a0a9cbd77329",
+        "bulk/regular": "c8448ea692e0",
+        "bulk/round": "71afcc0c2fe8"
       }
     },
     {
@@ -17959,6 +17959,27 @@
       }
     },
     {
+      "name": "raccoon",
+      "category": "Animals",
+      "files": {
+        "line/sharp": "e5419f88df80",
+        "line/regular": "e5419f88df80",
+        "line/round": "e5419f88df80",
+        "duocolor/sharp": "7202a031b21b",
+        "duocolor/regular": "7202a031b21b",
+        "duocolor/round": "7202a031b21b",
+        "duotone/sharp": "22ece8913e3d",
+        "duotone/regular": "22ece8913e3d",
+        "duotone/round": "22ece8913e3d",
+        "fill/sharp": "e44a10f8a959",
+        "fill/regular": "e44a10f8a959",
+        "fill/round": "e44a10f8a959",
+        "bulk/sharp": "e1f98402c7ab",
+        "bulk/regular": "e1f98402c7ab",
+        "bulk/round": "e1f98402c7ab"
+      }
+    },
+    {
       "name": "radar",
       "category": "Navigation",
       "files": {
@@ -19087,12 +19108,12 @@
         "duotone/sharp": "f277f514efa7",
         "duotone/regular": "f277f514efa7",
         "duotone/round": "f277f514efa7",
-        "fill/sharp": "f26a319df645",
-        "fill/regular": "f26a319df645",
-        "fill/round": "f26a319df645",
-        "bulk/sharp": "4cded089a3e4",
-        "bulk/regular": "4cded089a3e4",
-        "bulk/round": "4cded089a3e4"
+        "fill/sharp": "eee3ff6f7dc2",
+        "fill/regular": "eee3ff6f7dc2",
+        "fill/round": "eee3ff6f7dc2",
+        "bulk/sharp": "ff186dafd8ff",
+        "bulk/regular": "ff186dafd8ff",
+        "bulk/round": "ff186dafd8ff"
       }
     },
     {
@@ -19100,20 +19121,20 @@
       "category": "System",
       "files": {
         "line/sharp": "a1b0d6128fa6",
-        "line/regular": "905c7b29f9f5",
+        "line/regular": "8b4bfa366475",
         "line/round": "f884415fde60",
         "duocolor/sharp": "2993db4d00d2",
-        "duocolor/regular": "31bbbe4f374a",
+        "duocolor/regular": "143b48238858",
         "duocolor/round": "07b8318844eb",
-        "duotone/sharp": "5934954e2e75",
-        "duotone/regular": "b975ea17ef8a",
-        "duotone/round": "1f0b0b88c3c7",
-        "fill/sharp": "1b4648de3596",
-        "fill/regular": "d1e8f24eecea",
-        "fill/round": "d0fd6261da8f",
-        "bulk/sharp": "871448b4e07c",
-        "bulk/regular": "9f0c27e4c54b",
-        "bulk/round": "09d4ce24d20c"
+        "duotone/sharp": "b34b62ab8ac7",
+        "duotone/regular": "635bb344b611",
+        "duotone/round": "3501250fe3f0",
+        "fill/sharp": "9685a6289567",
+        "fill/regular": "3691fc405294",
+        "fill/round": "518ef3b3d90c",
+        "bulk/sharp": "c905cb0c0ac7",
+        "bulk/regular": "992ae71be1eb",
+        "bulk/round": "64a1575d1178"
       }
     },
     {
@@ -19645,21 +19666,21 @@
       "name": "shower",
       "category": "Home",
       "files": {
-        "line/sharp": "1745b9096acb",
-        "line/regular": "1745b9096acb",
-        "line/round": "1745b9096acb",
-        "duocolor/sharp": "b70962191f41",
-        "duocolor/regular": "b70962191f41",
-        "duocolor/round": "b70962191f41",
-        "duotone/sharp": "62c951cfe503",
-        "duotone/regular": "62c951cfe503",
-        "duotone/round": "62c951cfe503",
-        "fill/sharp": "7e9e261a6550",
-        "fill/regular": "7e9e261a6550",
-        "fill/round": "7e9e261a6550",
-        "bulk/sharp": "3034ce6b8ade",
-        "bulk/regular": "3034ce6b8ade",
-        "bulk/round": "3034ce6b8ade"
+        "line/sharp": "26b63e6d5fa7",
+        "line/regular": "26b63e6d5fa7",
+        "line/round": "26b63e6d5fa7",
+        "duocolor/sharp": "ae779c7e7e2a",
+        "duocolor/regular": "ae779c7e7e2a",
+        "duocolor/round": "ae779c7e7e2a",
+        "duotone/sharp": "119ea0667fcc",
+        "duotone/regular": "119ea0667fcc",
+        "duotone/round": "119ea0667fcc",
+        "fill/sharp": "479b847616d9",
+        "fill/regular": "479b847616d9",
+        "fill/round": "479b847616d9",
+        "bulk/sharp": "1ca98830488d",
+        "bulk/regular": "1ca98830488d",
+        "bulk/round": "1ca98830488d"
       }
     },
     {
@@ -20212,6 +20233,27 @@
       "name": "sort-ascending",
       "category": "Arrow",
       "files": {
+        "line/sharp": "376f3713221f",
+        "line/regular": "376f3713221f",
+        "line/round": "376f3713221f",
+        "duocolor/sharp": "376f3713221f",
+        "duocolor/regular": "376f3713221f",
+        "duocolor/round": "376f3713221f",
+        "duotone/sharp": "376f3713221f",
+        "duotone/regular": "376f3713221f",
+        "duotone/round": "376f3713221f",
+        "fill/sharp": "e0b72a2256fc",
+        "fill/regular": "e0b72a2256fc",
+        "fill/round": "e0b72a2256fc",
+        "bulk/sharp": "e0b72a2256fc",
+        "bulk/regular": "e0b72a2256fc",
+        "bulk/round": "e0b72a2256fc"
+      }
+    },
+    {
+      "name": "sort-descending",
+      "category": "Arrow",
+      "files": {
         "line/sharp": "92514db10d63",
         "line/regular": "92514db10d63",
         "line/round": "92514db10d63",
@@ -20227,27 +20269,6 @@
         "bulk/sharp": "d6f16fc89130",
         "bulk/regular": "d6f16fc89130",
         "bulk/round": "d6f16fc89130"
-      }
-    },
-    {
-      "name": "sort-descending",
-      "category": "Arrow",
-      "files": {
-        "line/sharp": "36cac116e1a4",
-        "line/regular": "36cac116e1a4",
-        "line/round": "36cac116e1a4",
-        "duocolor/sharp": "36cac116e1a4",
-        "duocolor/regular": "36cac116e1a4",
-        "duocolor/round": "36cac116e1a4",
-        "duotone/sharp": "36cac116e1a4",
-        "duotone/regular": "36cac116e1a4",
-        "duotone/round": "36cac116e1a4",
-        "fill/sharp": "60a9235aa72c",
-        "fill/regular": "60a9235aa72c",
-        "fill/round": "60a9235aa72c",
-        "bulk/sharp": "60a9235aa72c",
-        "bulk/regular": "60a9235aa72c",
-        "bulk/round": "60a9235aa72c"
       }
     },
     {
@@ -21851,21 +21872,21 @@
       "name": "table-cells-merge",
       "category": "Edit",
       "files": {
-        "line/sharp": "a9b86e3cedd9",
-        "line/regular": "1b4fb50eea1c",
-        "line/round": "4d39314175c2",
-        "duocolor/sharp": "1f64767aa27d",
-        "duocolor/regular": "0e20c5f72d2b",
-        "duocolor/round": "2f1b25e99612",
-        "duotone/sharp": "f019fa0f14fe",
-        "duotone/regular": "d94dc328d2e5",
-        "duotone/round": "b04d996ecd9e",
-        "fill/sharp": "c013f0cb0feb",
-        "fill/regular": "a40860559351",
-        "fill/round": "c9726e1a6137",
-        "bulk/sharp": "a6967edc93bf",
-        "bulk/regular": "d53671b857bb",
-        "bulk/round": "264926e45915"
+        "line/sharp": "4df8b69b05a2",
+        "line/regular": "26bc64231226",
+        "line/round": "a73ceff140e1",
+        "duocolor/sharp": "034f54185583",
+        "duocolor/regular": "e3b9161b2f7e",
+        "duocolor/round": "f7e08b358647",
+        "duotone/sharp": "8598bd03104f",
+        "duotone/regular": "3e9cd757f024",
+        "duotone/round": "2c52f3d3f390",
+        "fill/sharp": "36864e7c27b5",
+        "fill/regular": "8df938765531",
+        "fill/round": "6450d13f79a9",
+        "bulk/sharp": "91293caeffe0",
+        "bulk/regular": "bab66ba87b0d",
+        "bulk/round": "d395214b6c5f"
       }
     },
     {
@@ -21893,21 +21914,21 @@
       "name": "table-minus-corner",
       "category": "Edit",
       "files": {
-        "line/sharp": "fcef51653d22",
-        "line/regular": "54d111263b55",
-        "line/round": "1324234ef548",
-        "duocolor/sharp": "8f42e9aa205e",
-        "duocolor/regular": "5350e43709e3",
-        "duocolor/round": "18c66b88848a",
-        "duotone/sharp": "7cee44e5bfcc",
-        "duotone/regular": "c8e51a20c2e5",
-        "duotone/round": "95dfc9d6cf6f",
-        "fill/sharp": "2342b0ecc97a",
-        "fill/regular": "552287439eb5",
-        "fill/round": "2b14040d5fcf",
-        "bulk/sharp": "a8e53510a967",
-        "bulk/regular": "c281a4e20328",
-        "bulk/round": "e5958e795ded"
+        "line/sharp": "001ca7ca1274",
+        "line/regular": "5bb47717591b",
+        "line/round": "09f4a892ee0b",
+        "duocolor/sharp": "fe7775a1ce5a",
+        "duocolor/regular": "88249f8497ff",
+        "duocolor/round": "47127b045c24",
+        "duotone/sharp": "1276b67d1aa3",
+        "duotone/regular": "e81dd9d4b839",
+        "duotone/round": "34438a70f265",
+        "fill/sharp": "8161c88fdeec",
+        "fill/regular": "b5477b798ffe",
+        "fill/round": "1a63b6e5fb3b",
+        "bulk/sharp": "47537eecda1f",
+        "bulk/regular": "7b31ea172126",
+        "bulk/round": "fe6d421f0c0e"
       }
     },
     {
@@ -24749,126 +24770,126 @@
       "name": "wifi-high",
       "category": "System",
       "files": {
-        "line/sharp": "dd66c742ca8c",
-        "line/regular": "dd66c742ca8c",
-        "line/round": "dd66c742ca8c",
-        "duocolor/sharp": "f8d3d509e65e",
-        "duocolor/regular": "f8d3d509e65e",
-        "duocolor/round": "f8d3d509e65e",
-        "duotone/sharp": "dd66c742ca8c",
-        "duotone/regular": "dd66c742ca8c",
-        "duotone/round": "dd66c742ca8c",
-        "fill/sharp": "53ed0251437d",
-        "fill/regular": "53ed0251437d",
-        "fill/round": "53ed0251437d",
-        "bulk/sharp": "da97c760d5ec",
-        "bulk/regular": "da97c760d5ec",
-        "bulk/round": "da97c760d5ec"
+        "line/sharp": "b86681be5f95",
+        "line/regular": "b86681be5f95",
+        "line/round": "b86681be5f95",
+        "duocolor/sharp": "c979b2f8ece2",
+        "duocolor/regular": "c979b2f8ece2",
+        "duocolor/round": "c979b2f8ece2",
+        "duotone/sharp": "b86681be5f95",
+        "duotone/regular": "b86681be5f95",
+        "duotone/round": "b86681be5f95",
+        "fill/sharp": "75eb4e27c8e9",
+        "fill/regular": "75eb4e27c8e9",
+        "fill/round": "75eb4e27c8e9",
+        "bulk/sharp": "299d5394aff5",
+        "bulk/regular": "299d5394aff5",
+        "bulk/round": "299d5394aff5"
       }
     },
     {
       "name": "wifi-low",
       "category": "System",
       "files": {
-        "line/sharp": "c110230ea7fd",
-        "line/regular": "c110230ea7fd",
-        "line/round": "c110230ea7fd",
-        "duocolor/sharp": "cddbc49bbf75",
-        "duocolor/regular": "cddbc49bbf75",
-        "duocolor/round": "cddbc49bbf75",
-        "duotone/sharp": "c110230ea7fd",
-        "duotone/regular": "c110230ea7fd",
-        "duotone/round": "c110230ea7fd",
-        "fill/sharp": "9f7f57cb98ca",
-        "fill/regular": "9f7f57cb98ca",
-        "fill/round": "9f7f57cb98ca",
-        "bulk/sharp": "d9a41d5ad823",
-        "bulk/regular": "d9a41d5ad823",
-        "bulk/round": "d9a41d5ad823"
+        "line/sharp": "b9f62e6d39c4",
+        "line/regular": "b9f62e6d39c4",
+        "line/round": "b9f62e6d39c4",
+        "duocolor/sharp": "a108f52ee34b",
+        "duocolor/regular": "a108f52ee34b",
+        "duocolor/round": "a108f52ee34b",
+        "duotone/sharp": "b9f62e6d39c4",
+        "duotone/regular": "b9f62e6d39c4",
+        "duotone/round": "b9f62e6d39c4",
+        "fill/sharp": "62e844d835c9",
+        "fill/regular": "62e844d835c9",
+        "fill/round": "62e844d835c9",
+        "bulk/sharp": "8458756269bf",
+        "bulk/regular": "8458756269bf",
+        "bulk/round": "8458756269bf"
       }
     },
     {
       "name": "wifi-medium",
       "category": "System",
       "files": {
-        "line/sharp": "ddc96bff47e4",
-        "line/regular": "ddc96bff47e4",
-        "line/round": "ddc96bff47e4",
-        "duocolor/sharp": "c34d4f92650d",
-        "duocolor/regular": "c34d4f92650d",
-        "duocolor/round": "c34d4f92650d",
-        "duotone/sharp": "ddc96bff47e4",
-        "duotone/regular": "ddc96bff47e4",
-        "duotone/round": "ddc96bff47e4",
-        "fill/sharp": "10cae4765629",
-        "fill/regular": "10cae4765629",
-        "fill/round": "10cae4765629",
-        "bulk/sharp": "255f8a249669",
-        "bulk/regular": "255f8a249669",
-        "bulk/round": "255f8a249669"
+        "line/sharp": "e44959813c7a",
+        "line/regular": "e44959813c7a",
+        "line/round": "e44959813c7a",
+        "duocolor/sharp": "800272e08068",
+        "duocolor/regular": "800272e08068",
+        "duocolor/round": "800272e08068",
+        "duotone/sharp": "e44959813c7a",
+        "duotone/regular": "e44959813c7a",
+        "duotone/round": "e44959813c7a",
+        "fill/sharp": "40a6ca3e762c",
+        "fill/regular": "40a6ca3e762c",
+        "fill/round": "40a6ca3e762c",
+        "bulk/sharp": "94de8aaa16f5",
+        "bulk/regular": "94de8aaa16f5",
+        "bulk/round": "94de8aaa16f5"
       }
     },
     {
       "name": "wifi-none",
       "category": "System",
       "files": {
-        "line/sharp": "6c47a8e80bd7",
-        "line/regular": "6c47a8e80bd7",
-        "line/round": "6c47a8e80bd7",
-        "duocolor/sharp": "6c47a8e80bd7",
-        "duocolor/regular": "6c47a8e80bd7",
-        "duocolor/round": "6c47a8e80bd7",
-        "duotone/sharp": "6c47a8e80bd7",
-        "duotone/regular": "6c47a8e80bd7",
-        "duotone/round": "6c47a8e80bd7",
-        "fill/sharp": "948ca6939bce",
-        "fill/regular": "948ca6939bce",
-        "fill/round": "948ca6939bce",
-        "bulk/sharp": "948ca6939bce",
-        "bulk/regular": "948ca6939bce",
-        "bulk/round": "948ca6939bce"
+        "line/sharp": "3616d28c72a3",
+        "line/regular": "3616d28c72a3",
+        "line/round": "3616d28c72a3",
+        "duocolor/sharp": "3616d28c72a3",
+        "duocolor/regular": "3616d28c72a3",
+        "duocolor/round": "3616d28c72a3",
+        "duotone/sharp": "3616d28c72a3",
+        "duotone/regular": "3616d28c72a3",
+        "duotone/round": "3616d28c72a3",
+        "fill/sharp": "1914f8200788",
+        "fill/regular": "1914f8200788",
+        "fill/round": "1914f8200788",
+        "bulk/sharp": "1914f8200788",
+        "bulk/regular": "1914f8200788",
+        "bulk/round": "1914f8200788"
       }
     },
     {
       "name": "wifi-off",
       "category": "System",
       "files": {
-        "line/sharp": "bf05e62b8d4c",
-        "line/regular": "bf05e62b8d4c",
-        "line/round": "bf05e62b8d4c",
-        "duocolor/sharp": "20a667a7bffd",
-        "duocolor/regular": "20a667a7bffd",
-        "duocolor/round": "20a667a7bffd",
-        "duotone/sharp": "bf05e62b8d4c",
-        "duotone/regular": "bf05e62b8d4c",
-        "duotone/round": "bf05e62b8d4c",
-        "fill/sharp": "3e0f2b65d10e",
-        "fill/regular": "3e0f2b65d10e",
-        "fill/round": "3e0f2b65d10e",
-        "bulk/sharp": "91c1f6eadd31",
-        "bulk/regular": "91c1f6eadd31",
-        "bulk/round": "91c1f6eadd31"
+        "line/sharp": "8095bcfd0ed7",
+        "line/regular": "8095bcfd0ed7",
+        "line/round": "8095bcfd0ed7",
+        "duocolor/sharp": "296792fba3ce",
+        "duocolor/regular": "296792fba3ce",
+        "duocolor/round": "296792fba3ce",
+        "duotone/sharp": "8095bcfd0ed7",
+        "duotone/regular": "8095bcfd0ed7",
+        "duotone/round": "8095bcfd0ed7",
+        "fill/sharp": "526f8c0072b6",
+        "fill/regular": "526f8c0072b6",
+        "fill/round": "526f8c0072b6",
+        "bulk/sharp": "e28b5156ab66",
+        "bulk/regular": "e28b5156ab66",
+        "bulk/round": "e28b5156ab66"
       }
     },
     {
       "name": "wifi-problem",
       "category": "System",
       "files": {
-        "line/sharp": "894c0fd4b37e",
-        "line/regular": "894c0fd4b37e",
-        "line/round": "894c0fd4b37e",
-        "duocolor/sharp": "250b694d4923",
-        "duocolor/regular": "250b694d4923",
-        "duocolor/round": "250b694d4923",
-        "duotone/sharp": "894c0fd4b37e",
-        "duotone/regular": "894c0fd4b37e",
-        "duotone/round": "894c0fd4b37e",
-        "fill/sharp": "9af9091768cf",
-        "fill/regular": "9af9091768cf",
-        "fill/round": "9af9091768cf",
-        "bulk/sharp": "0481d0c9b2d9",
-        "bulk/regular": "0481d0c9b2d9",
-        "bulk/round": "0481d0c9b2d9"
+        "line/sharp": "b1c5922b5556",
+        "line/regular": "b1c5922b5556",
+        "line/round": "b1c5922b5556",
+        "duocolor/sharp": "6db0751717f1",
+        "duocolor/regular": "6db0751717f1",
+        "duocolor/round": "6db0751717f1",
+        "duotone/sharp": "b1c5922b5556",
+        "duotone/regular": "b1c5922b5556",
+        "duotone/round": "b1c5922b5556",
+        "fill/sharp": "3a43a5ace027",
+        "fill/regular": "3a43a5ace027",
+        "fill/round": "3a43a5ace027",
+        "bulk/sharp": "2feab542b399",
+        "bulk/regular": "2feab542b399",
+        "bulk/round": "2feab542b399"
       }
     },
     {
@@ -24971,9 +24992,9 @@
         "fill/sharp": "028b821c5998",
         "fill/regular": "01e1ba335626",
         "fill/round": "a0a3e328ff6d",
-        "bulk/sharp": "b712ac156601",
-        "bulk/regular": "19a6efafbb39",
-        "bulk/round": "b2cbf3a63632"
+        "bulk/sharp": "77871b98f6ae",
+        "bulk/regular": "538eb72a3e67",
+        "bulk/round": "2adbd6f86801"
       }
     },
     {
@@ -25013,9 +25034,9 @@
         "fill/sharp": "302d4f129715",
         "fill/regular": "1f08a995d133",
         "fill/round": "c0ebaf5a5d64",
-        "bulk/sharp": "d61af35708bf",
-        "bulk/regular": "9d82302f3d6b",
-        "bulk/round": "7b96a364574a"
+        "bulk/sharp": "298dbc35656f",
+        "bulk/regular": "168655fcb0ef",
+        "bulk/round": "675ac13b5a69"
       }
     },
     {
@@ -25043,21 +25064,21 @@
       "name": "window-minus-corner",
       "category": "System",
       "files": {
-        "line/sharp": "dc1643a0ab1a",
-        "line/regular": "951ee65cdddd",
-        "line/round": "532b9d519168",
-        "duocolor/sharp": "b10d15a41c0b",
-        "duocolor/regular": "13617fad0c98",
-        "duocolor/round": "fc874bfc9ff2",
-        "duotone/sharp": "c60635204139",
-        "duotone/regular": "08ec3c320872",
-        "duotone/round": "5c4aceb0e2a5",
-        "fill/sharp": "29723459c8b2",
-        "fill/regular": "fb828d077392",
-        "fill/round": "21642b1b8c48",
-        "bulk/sharp": "b30627de0f84",
-        "bulk/regular": "6ee2465f3d5f",
-        "bulk/round": "e2220dd60535"
+        "line/sharp": "4b3dfb3c1393",
+        "line/regular": "a207256312fe",
+        "line/round": "17070449183f",
+        "duocolor/sharp": "74444c920be0",
+        "duocolor/regular": "00e844c5d941",
+        "duocolor/round": "f3f730a06887",
+        "duotone/sharp": "a8b4890b2d42",
+        "duotone/regular": "55ccc089a1bf",
+        "duotone/round": "d0b77d4f24b1",
+        "fill/sharp": "6cb6e9084539",
+        "fill/regular": "ed2a64538883",
+        "fill/round": "9ae084c18c3b",
+        "bulk/sharp": "6a0db5a4ef15",
+        "bulk/regular": "66ab304c5e53",
+        "bulk/round": "759b988bcbeb"
       }
     },
     {
@@ -25076,9 +25097,9 @@
         "fill/sharp": "97cedf23fdc7",
         "fill/regular": "1f4e3e0d7504",
         "fill/round": "639dd8bc062c",
-        "bulk/sharp": "88e448cef4c2",
-        "bulk/regular": "46398c638895",
-        "bulk/round": "6e29d99f442c"
+        "bulk/sharp": "4d1911d53806",
+        "bulk/regular": "6a004e76ec92",
+        "bulk/round": "d059ef3ec85a"
       }
     },
     {
@@ -25628,5 +25649,111 @@
       }
     }
   ],
-  "hash": "eeb087fee20e"
+  "hash": "be9901e11823",
+  "clashes": {
+    "activity": [
+      "React"
+    ],
+    "bluetooth": [
+      "Browser"
+    ],
+    "clipboard": [
+      "Browser",
+      "React Native"
+    ],
+    "code": [
+      "Astro"
+    ],
+    "component": [
+      "React",
+      "Preact",
+      "Angular"
+    ],
+    "file": [
+      "Browser",
+      "Node",
+      "Deno",
+      "Bun",
+      "React Native"
+    ],
+    "font": [
+      "Astro"
+    ],
+    "function": [
+      "JavaScript"
+    ],
+    "gamepad": [
+      "Browser"
+    ],
+    "history": [
+      "Browser"
+    ],
+    "image": [
+      "Browser",
+      "Next.js",
+      "React Native",
+      "Astro"
+    ],
+    "infinity": [
+      "JavaScript"
+    ],
+    "keyboard": [
+      "Browser",
+      "React Native"
+    ],
+    "label": [
+      "Expo Router"
+    ],
+    "link": [
+      "Next.js",
+      "React Router",
+      "TanStack Router",
+      "Expo Router",
+      "Qwik",
+      "Inertia",
+      "Gatsby"
+    ],
+    "lock": [
+      "Browser",
+      "Deno"
+    ],
+    "map": [
+      "JavaScript"
+    ],
+    "navigation": [
+      "Browser"
+    ],
+    "option": [
+      "Browser"
+    ],
+    "presentation": [
+      "Browser"
+    ],
+    "route": [
+      "React Router",
+      "TanStack Router",
+      "Solid"
+    ],
+    "router": [
+      "React Router",
+      "TanStack Router",
+      "Solid",
+      "Angular"
+    ],
+    "settings": [
+      "React Native"
+    ],
+    "share": [
+      "React Native"
+    ],
+    "text": [
+      "Browser",
+      "React Native",
+      "Vue"
+    ],
+    "window": [
+      "Browser",
+      "Deno"
+    ]
+  }
 }
