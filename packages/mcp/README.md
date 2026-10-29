@@ -1,6 +1,6 @@
 # @coolicons/mcp
 
-An MCP server for [coolicons](https://coolicons.cool). Lets a coding agent search 1219 icons in five styles and three corner radii, read an icon's SVG and get the right import, without guessing names.
+An MCP server for [coolicons](https://coolicons.cool). Lets a coding agent search 1220 icons in five styles and three corner radii, read an icon's SVG and get the right import, without guessing names.
 
 ## Install
 

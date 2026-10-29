@@ -1,6 +1,6 @@
 # @coolicons/svg
 
-[coolicons](https://coolicons.cool) as SVG files: 1219 icons in five styles and three corner radii.
+[coolicons](https://coolicons.cool) as SVG files: 1220 icons in five styles and three corner radii.
 
 ```sh
 npm install @coolicons/svg
