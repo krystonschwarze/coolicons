@@ -19,12 +19,12 @@
       ]
     }
   ],
-  "version": "5.0.0-beta.1",
+  "version": "5.0.0-beta.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@coolicons/mcp",
-      "version": "5.0.0-beta.1",
+      "version": "5.0.0-beta.2",
       "transport": {
         "type": "stdio"
       }

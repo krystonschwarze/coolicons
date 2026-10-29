@@ -1,6 +1,6 @@
 # coolicons
 
-1219 icons in five styles and three corner radii, drawn on a 24 pixel grid with a 2 pixel stroke. Open source under the MIT license.
+1220 icons in five styles and three corner radii, drawn on a 24 pixel grid with a 2 pixel stroke. Open source under the MIT license.
 
 [Website](https://coolicons.cool) · [Changelog](CHANGELOG.md) · [License](LICENSE)
 

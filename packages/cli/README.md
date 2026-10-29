@@ -1,6 +1,6 @@
 # @coolicons/cli
 
-Search [coolicons](https://coolicons.cool) and copy them into your project from the terminal: 1219 icons in five styles and three corner radii. No install, no dependencies, no network. The whole set ships inside the package.
+Search [coolicons](https://coolicons.cool) and copy them into your project from the terminal: 1220 icons in five styles and three corner radii. No install, no dependencies, no network. The whole set ships inside the package.
 
 ```sh
 npx @coolicons/cli search delete

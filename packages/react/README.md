@@ -1,6 +1,6 @@
 # @coolicons/react
 
-[coolicons](https://coolicons.cool) as React components: 1219 icons in five styles and three corner radii.
+[coolicons](https://coolicons.cool) as React components: 1220 icons in five styles and three corner radii.
 
 ```sh
 npm install @coolicons/react

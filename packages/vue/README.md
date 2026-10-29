@@ -1,6 +1,6 @@
 # @coolicons/vue
 
-[coolicons](https://coolicons.cool) as Vue 3 components: 1219 icons in five styles and three corner radii.
+[coolicons](https://coolicons.cool) as Vue 3 components: 1220 icons in five styles and three corner radii.
 
 ```sh
 npm install @coolicons/vue
