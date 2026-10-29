@@ -4,7 +4,9 @@ Every release lists the icons that were added, renamed, removed, redrawn or move
 
 ## 5.0.0-beta.2
 
-1220 icons with 11 aliases in 30 categories.
+1220 icons with 11 aliases in 30 categories. Every icon now has search tags.
+
+Two new packages for terminals and coding agents: `@coolicons/cli` finds icons and copies them into a project, and `@coolicons/mcp` is an MCP server, also listed in the MCP Registry. Agents can learn the set with the skill: `npx skills add krystonschwarze/coolicons`.
 
 ### New
 
