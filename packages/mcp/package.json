@@ -25,7 +25,7 @@
   },
   "type": "module",
   "bin": {
-    "coolicons-mcp": "./dist/server.js"
+    "coolicons-mcp": "dist/server.js"
   },
   "files": [
     "dist"

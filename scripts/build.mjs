@@ -147,7 +147,7 @@ function buildTool(name, bin) {
     writeFileSync(path.join(data, `${variant.replace("/", "-")}.json`), JSON.stringify(chunk));
   }
   const pkg = JSON.parse(readFileSync(path.join(dir, "package.json"), "utf8"));
-  if (pkg.bin?.[bin] !== `./dist/${name === "cli" ? "cli" : "server"}.js`) throw new Error(`${pkg.name}: bin ${bin} should point at dist`);
+  if (pkg.bin?.[bin] !== `dist/${name === "cli" ? "cli" : "server"}.js`) throw new Error(`${pkg.name}: bin ${bin} should point at dist`);
   swap(path.join(dir, "dist"), staged);
   cpSync(license, path.join(dir, "LICENSE"));
   return `${pkg.name} ${megabytes(sizeOf(path.join(dir, "dist")))}`;

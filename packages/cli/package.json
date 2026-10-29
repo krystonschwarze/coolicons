@@ -23,7 +23,7 @@
   },
   "type": "module",
   "bin": {
-    "coolicons": "./dist/cli.js"
+    "coolicons": "dist/cli.js"
   },
   "files": [
     "dist"
