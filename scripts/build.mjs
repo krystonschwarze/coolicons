@@ -2,6 +2,8 @@ import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, r
 import path from "node:path";
 import { checkIndex, dataFile, glyphOf, iconsDir, loadIcons, RADII, root, STYLES, VARIANTS } from "./icons.mjs";
 
+const searchFile = path.join(iconsDir, "search.js");
+
 const started = performance.now();
 const { manifest, icons } = loadIcons();
 const license = path.join(root, "LICENSE");
@@ -124,6 +126,8 @@ function buildTool(name, bin) {
   rmSync(staged, { recursive: true, force: true });
   cpSync(path.join(dir, "src"), staged, { recursive: true });
   cpSync(path.join(root, "packages/cli/src/core.js"), path.join(staged, "core.js"));
+  if (!existsSync(searchFile)) throw new Error("icons/search.js is missing, run pnpm icons:public in the monorepo");
+  cpSync(searchFile, path.join(staged, "search.js"));
   const index = checkIndex(manifest);
   const aliases = new Map(icons.map((icon) => [icon.name, icon.aliasOf]));
   const data = path.join(staged, "data");
