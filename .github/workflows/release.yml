@@ -60,3 +60,47 @@ jobs:
           flags=()
           if [ "$PRERELEASE" = "true" ]; then flags+=(--prerelease); fi
           gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || gh release create "$GITHUB_REF_NAME" "coolicons-$VERSION.zip" --title "coolicons $VERSION" --notes-file notes.md "${flags[@]}"
+
+  mcp-registry:
+    needs: publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    continue-on-error: true
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      MCP_PUBLISHER_VERSION: v1.8.6
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: sigstore/cosign-installer@v4.1.2
+      - name: Install mcp-publisher
+        run: |
+          os="$(uname -s | tr '[:upper:]' '[:lower:]')"
+          arch="$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')"
+          archive="mcp-publisher_${os}_${arch}.tar.gz"
+          base="https://github.com/modelcontextprotocol/registry/releases/download/$MCP_PUBLISHER_VERSION"
+          curl -fsSL -o "$archive" "$base/$archive"
+          curl -fsSL -o "$archive.sigstore.json" "$base/$archive.sigstore.json"
+          cosign verify-blob --bundle "$archive.sigstore.json" \
+            --certificate-identity "https://github.com/modelcontextprotocol/registry/.github/workflows/release.yml@refs/tags/$MCP_PUBLISHER_VERSION" \
+            --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+            "$archive"
+          tar xzf "$archive" mcp-publisher
+          rm "$archive" "$archive.sigstore.json"
+      - name: Publish to the MCP Registry
+        working-directory: packages/mcp
+        run: |
+          name="$(jq -r .name server.json)"
+          version="$(jq -r .version server.json)"
+          if curl -fs -o /dev/null "https://registry.modelcontextprotocol.io/v0.1/servers/$(jq -rn --arg n "$name" '$n | @uri')/versions/$version"; then
+            echo "$name $version is already in the MCP Registry"
+            exit 0
+          fi
+          for attempt in $(seq 30); do
+            if [ "$(npm view "@coolicons/mcp@$version" mcpName 2>/dev/null)" = "$name" ]; then break; fi
+            if [ "$attempt" = 30 ]; then echo "@coolicons/mcp@$version with mcpName $name is not on npm yet"; exit 1; fi
+            sleep 20
+          done
+          ../../mcp-publisher login github-oidc
+          ../../mcp-publisher publish

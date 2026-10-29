@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.krystonschwarze/coolicons",
+  "title": "coolicons",
+  "description": "Search coolicons by meaning, then get SVG source and the right import in any style and radius",
+  "websiteUrl": "https://coolicons.cool",
+  "repository": {
+    "url": "https://github.com/krystonschwarze/coolicons",
+    "source": "github",
+    "id": "237631100",
+    "subfolder": "packages/mcp"
+  },
+  "icons": [
+    {
+      "src": "https://coolicons.cool/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "version": "5.0.0-beta.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@coolicons/mcp",
+      "version": "5.0.0-beta.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -10,6 +10,7 @@ const changelogFile = path.join(root, "CHANGELOG.md");
 const git = (...args) => execFileSync("git", args, { cwd: root, encoding: "utf8" }).trim();
 const readJson = (file) => JSON.parse(readFileSync(file, "utf8"));
 const packageFiles = [path.join(root, "package.json"), ...PACKAGES.map((name) => path.join(root, "packages", name, "package.json"))];
+export const serverFile = path.join(root, "packages/mcp/server.json");
 
 const parse = (version) => {
   const match = VERSION.exec(version);
@@ -116,6 +117,11 @@ if (import.meta.filename === path.resolve(process.argv[1] ?? "")) {
     writeFileSync(file, `${JSON.stringify(pkg, null, 2)}\n`);
   }
 
+  const server = readJson(serverFile);
+  server.version = version;
+  for (const entry of server.packages) entry.version = version;
+  writeFileSync(serverFile, `${JSON.stringify(server, null, 2)}\n`);
+
   for (const file of [path.join(root, "README.md"), ...PACKAGES.map((name) => path.join(root, "packages", name, "README.md"))]) {
     const readme = readFileSync(file, "utf8");
     writeFileSync(file, readme.replace(/\b\d+ icons in five styles/g, `${manifest.icons.length} icons in five styles`));
@@ -132,5 +138,5 @@ if (import.meta.filename === path.resolve(process.argv[1] ?? "")) {
   writeFileSync(changelogFile, `${next.replace(/\n{3,}/g, "\n\n").trimEnd()}\n`);
 
   console.log(`${version} since ${previousVersion ? `v${previousVersion}` : "the start"}: new ${changes.added.length}, renamed ${changes.renamed.length}, removed ${changes.removed.length}, redrawn ${changes.redrawn.length}, category changed ${changes.recategorized.length}`);
-  console.log("Wrote the version into every package.json and the entry into CHANGELOG.md.");
+  console.log("Wrote the version into every package.json and the MCP server.json, and the entry into CHANGELOG.md.");
 }
