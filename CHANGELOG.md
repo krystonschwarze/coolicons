@@ -2,6 +2,20 @@
 
 Every release lists the icons that were added, renamed, removed, redrawn or moved to another category since the release before.
 
+## 5.0.0
+
+coolicons v5 is here. Every icon was redrawn from scratch, and the set grew from 440 to over 1,200 icons.
+
+- Five styles instead of three: Line, Duocolor, Duotone, Fill and Bulk.
+- Sharp, regular or round corners for every icon.
+- Packages for React, Vue and plain SVG, and single icons for shadcn/ui through the registry on [coolicons.cool](https://coolicons.cool).
+- Tools for coding agents: an MCP server, a CLI and a skill, so agents look names up instead of guessing.
+- A new website with an icon picker to find, adjust and copy any icon.
+
+Icon names are final from this release on. A major version removes or renames icons, a minor version adds icons and a patch redraws them.
+
+1,220 icons with 11 aliases in 30 categories.
+
 ## 5.0.0-beta.2
 
 1,220 icons with 11 aliases in 30 categories. Every icon now has search tags.
