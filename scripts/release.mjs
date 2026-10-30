@@ -7,6 +7,7 @@ import { referenceFile, skillReference } from "./skill.mjs";
 export const PACKAGES = ["svg", "react", "vue", "cli", "mcp"];
 const VERSION = /^(\d+)\.(\d+)\.(\d+)(?:-beta\.(\d+))?$/;
 const changelogFile = path.join(root, "CHANGELOG.md");
+const notesFile = (version) => path.join(root, "release-notes", `${version}.md`);
 const git = (...args) => execFileSync("git", args, { cwd: root, encoding: "utf8" }).trim();
 const readJson = (file) => JSON.parse(readFileSync(file, "utf8"));
 const packageFiles = [path.join(root, "package.json"), ...PACKAGES.map((name) => path.join(root, "packages", name, "package.json"))];
@@ -80,14 +81,15 @@ export function section(version, manifest, changes, first) {
   const aliases = manifest.icons.filter((icon) => icon.aliasOf).length;
   const categories = new Set(manifest.icons.map((icon) => icon.category)).size;
   const lines = [`## ${version}`, ""];
+  if (existsSync(notesFile(version))) lines.push(readFileSync(notesFile(version), "utf8").trim(), "");
   if (first) {
     lines.push(
-      `First release of coolicons 5: ${manifest.icons.length} icons with ${aliases} aliases in ${categories} categories, each in five styles (Line, Duocolor, Duotone, Fill, Bulk) and three corner radii (Sharp, Regular, Round).`,
+      `First release of coolicons v5: ${manifest.icons.length.toLocaleString("en-US")} icons with ${aliases} aliases in ${categories} categories, each in five styles (Line, Duocolor, Duotone, Fill, Bulk) and three corner radii (Sharp, Regular, Round).`,
       "",
     );
     return lines.join("\n");
   }
-  lines.push(`${manifest.icons.length} icons with ${aliases} aliases in ${categories} categories.`, "");
+  lines.push(`${manifest.icons.length.toLocaleString("en-US")} icons with ${aliases} aliases in ${categories} categories.`, "");
   const block = (title, rows) => rows.length && lines.push(`### ${title}`, "", ...rows, "");
   block("New", changes.added.length ? [list(changes.added)] : []);
   block("Renamed", changes.renamed.map(([from, to]) => `- \`${from}\` is now \`${to}\``));
@@ -124,7 +126,7 @@ if (import.meta.filename === path.resolve(process.argv[1] ?? "")) {
 
   for (const file of [path.join(root, "README.md"), ...PACKAGES.map((name) => path.join(root, "packages", name, "README.md"))]) {
     const readme = readFileSync(file, "utf8");
-    writeFileSync(file, readme.replace(/\b\d+ icons in five styles/g, `${manifest.icons.length} icons in five styles`));
+    writeFileSync(file, readme.replace(/\b\d{1,3}(?:,\d{3})* icons in five styles/g, `${manifest.icons.length.toLocaleString("en-US")} icons in five styles`));
   }
 
   writeFileSync(referenceFile, skillReference());
