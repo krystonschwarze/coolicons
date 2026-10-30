@@ -37,7 +37,7 @@
 
 ## Made by
 
-Hey, I’m [Kryston](https://krystonschwarze.com), a design engineer from Germany. I started coolicons in 2018, when there were only a few icon sets and most of them were small. Since then the Figma file has been downloaded more than 500,000 times. For coolicons v5 I redrew the whole set from scratch.
+[Kryston Schwarze](https://krystonschwarze.com), design engineer from Germany, drawing icons since 2018.
 
 [Website](https://krystonschwarze.com) · [LinkedIn](https://www.linkedin.com/in/kryston-schwarze-1b4789180/) · [X](https://x.com/KrystonSchwarze)
 
