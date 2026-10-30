@@ -1,10 +1,53 @@
-# coolicons
+<p align="center">
+  <a href="https://coolicons.cool">
+    <img src=".github/assets/banner.png" alt="coolicons: Every icon for your next project. Free, wherever you build." width="100%">
+  </a>
+</p>
 
-1220 icons in five styles and three corner radii, drawn on a 24 pixel grid with a 2 pixel stroke. Open source under the MIT license.
+<p align="center">
+  1,200+ free icons in five styles, with sharp, regular or round corners,<br>
+  for React, Vue, shadcn/ui, SVG and Figma.
+</p>
 
-[Website](https://coolicons.cool) · [Changelog](CHANGELOG.md) · [License](LICENSE)
+<p align="center">
+  <a href="https://coolicons.cool/icons">Browse all icons</a> ·
+  <a href="https://coolicons.cool/docs">Docs</a> ·
+  <a href="https://www.figma.com/community/file/800815864899415771">Figma file</a> ·
+  <a href="CHANGELOG.md">Changelog</a>
+</p>
 
-> The packages are in beta. Icon names are final, the API may still change until 5.0.0.
+<p align="center">
+  <a href="https://github.com/krystonschwarze/coolicons/stargazers"><img src="https://img.shields.io/github/stars/krystonschwarze/coolicons?label=stars&color=fed100" alt="GitHub stars"></a>
+  <a href="https://www.figma.com/community/file/800815864899415771"><img src="https://img.shields.io/badge/Figma-500k%2B%20downloads-fed100" alt="500k+ downloads on Figma Community"></a>
+  <a href="https://www.npmjs.com/package/@coolicons/react"><img src="https://img.shields.io/npm/v/@coolicons/react?label=npm&color=fed100" alt="npm version"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-fed100" alt="MIT license"></a>
+</p>
+
+| 1,200+ | 5 | 3 | 18,000+ | 500k+ |
+| :---: | :---: | :---: | :---: | :---: |
+| icons in 30 categories | styles, Line to Bulk | corners, sharp to round | SVG files | Figma downloads |
+
+## Why coolicons
+
+**Icons that match your interface.** Each icon comes in Line, Duocolor, Duotone, Fill and Bulk, with sharp, regular or round corners. A rounded app gets round icons, a sharp dashboard gets sharp ones, and you can change your mind later without touching a single drawing.
+
+**Sharp at 24 pixels.** The icons sit on a 24 by 24 grid with a 2 px stroke. Lines and corners land on whole pixels, so edges stay crisp at their native size.
+
+**Where you work.** Find and adjust icons on [coolicons.cool](https://coolicons.cool), use the Figma file, or install the packages below. Coding agents get an MCP server, a CLI and a skill, so they look names up instead of guessing.
+
+## Made by
+
+Hey, I’m [Kryston](https://krystonschwarze.com), a design engineer from Germany. I started coolicons in 2018, when there were only a few icon sets and most of them were small. Since then the Figma file has been downloaded more than 500,000 times. For coolicons v5 I redrew the whole set from scratch.
+
+[Website](https://krystonschwarze.com) · [LinkedIn](https://www.linkedin.com/in/kryston-schwarze-1b4789180/) · [X](https://x.com/KrystonSchwarze)
+
+## Figma
+
+The [coolicons file on Figma Community](https://www.figma.com/community/file/800815864899415771) has the whole set as components, with style and corners as properties.
+
+<!-- Check against the finished Community file before publishing. -->
+
+<!-- Plugin: the generator adds "Get the plugin" with the Community link once FIGMA_PLUGIN_URL is set. -->
 
 ## Packages
 
