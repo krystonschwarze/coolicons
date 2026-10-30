@@ -1,6 +1,6 @@
 {
   "name": "@coolicons/cli",
-  "version": "5.0.0-beta.2",
+  "version": "5.0.0",
   "description": "Search coolicons and copy them into your project from the terminal, without network",
   "keywords": [
     "coolicons",
