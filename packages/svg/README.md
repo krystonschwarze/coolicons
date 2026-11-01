@@ -2,7 +2,7 @@
 
 <a href="https://coolicons.cool"><img src="https://raw.githubusercontent.com/krystonschwarze/coolicons/main/.github/assets/banner.png" alt="coolicons: Every icon for your next project. Free, wherever you build." width="100%"></a>
 
-[coolicons](https://coolicons.cool) as SVG files: 1,220 icons in five styles and three corner radii.
+[coolicons](https://coolicons.cool) as SVG files: 1,258 icons in five styles and three corner radii.
 
 ```sh
 npm install @coolicons/svg
