@@ -1,7 +1,7 @@
 {
   "format": 1,
   "source": {
-    "commit": "2977a824",
+    "commit": "936185f4",
     "dirty": false
   },
   "styles": [
@@ -294,21 +294,21 @@
       "name": "ambulance",
       "category": "Health",
       "files": {
-        "line/sharp": "90a606503b92",
-        "line/regular": "166bfb8f3c99",
-        "line/round": "0ea95956dd44",
-        "duocolor/sharp": "28a522292087",
-        "duocolor/regular": "5b408f9f4255",
-        "duocolor/round": "0830bb25230c",
-        "duotone/sharp": "93f44a2c5529",
-        "duotone/regular": "a15328d2792b",
-        "duotone/round": "c494a0046e19",
-        "fill/sharp": "801f6ecb95f7",
-        "fill/regular": "f9b135536e3d",
-        "fill/round": "b85255ab9e55",
-        "bulk/sharp": "d62ab53b0ed5",
-        "bulk/regular": "b7a16d46f8fd",
-        "bulk/round": "4032373aef62"
+        "line/sharp": "81dd8ba38412",
+        "line/regular": "0061a25ee463",
+        "line/round": "17e681c8f55c",
+        "duocolor/sharp": "bc2da402c9dc",
+        "duocolor/regular": "5ffb05b2e4ab",
+        "duocolor/round": "57a85ec55d20",
+        "duotone/sharp": "187f05a035db",
+        "duotone/regular": "2b2e68c6117d",
+        "duotone/round": "bcf342d2e720",
+        "fill/sharp": "cb2a383d783f",
+        "fill/regular": "264cf9c70dbd",
+        "fill/round": "71eff9e9ff34",
+        "bulk/sharp": "21a7e358d643",
+        "bulk/regular": "98d60a10339d",
+        "bulk/round": "18359413ee90"
       }
     },
     {
@@ -1721,6 +1721,27 @@
       }
     },
     {
+      "name": "backspace",
+      "category": "System",
+      "files": {
+        "line/sharp": "e07cf2b21e2b",
+        "line/regular": "c156b7e668a5",
+        "line/round": "f9170ff79cce",
+        "duocolor/sharp": "2ab0f350d753",
+        "duocolor/regular": "5720f5c10a13",
+        "duocolor/round": "6ef78b26f051",
+        "duotone/sharp": "d9c94d4b2822",
+        "duotone/regular": "1f11bcac3e21",
+        "duotone/round": "ba399381abe9",
+        "fill/sharp": "1fb302c57f2c",
+        "fill/regular": "5be589959e33",
+        "fill/round": "0929dc8bd8f9",
+        "bulk/sharp": "7fbb37b2d1ec",
+        "bulk/regular": "7b49135b4409",
+        "bulk/round": "10f71a67656d"
+      }
+    },
+    {
       "name": "bandage",
       "category": "Health",
       "files": {
@@ -2816,42 +2837,42 @@
       "name": "bus",
       "category": "Travel",
       "files": {
-        "line/sharp": "840d6a368be6",
-        "line/regular": "9977bbf400c1",
-        "line/round": "82670a34504a",
-        "duocolor/sharp": "9957df16b48b",
-        "duocolor/regular": "15eb8038f40e",
-        "duocolor/round": "f7bd097a1e6d",
-        "duotone/sharp": "8ff7c678e535",
-        "duotone/regular": "01c38283ca85",
-        "duotone/round": "d10d7f496803",
-        "fill/sharp": "4659911ba4ca",
-        "fill/regular": "0903c16ace3d",
-        "fill/round": "86e4701726d1",
-        "bulk/sharp": "5be287d426d4",
-        "bulk/regular": "09925e162270",
-        "bulk/round": "688393ab67d3"
+        "line/sharp": "268db72301c1",
+        "line/regular": "1efefcd3aac7",
+        "line/round": "430e730a67ee",
+        "duocolor/sharp": "8ed710ffba30",
+        "duocolor/regular": "360d8d2e80be",
+        "duocolor/round": "45d46613e633",
+        "duotone/sharp": "daf3d421734d",
+        "duotone/regular": "e8e6a06c9f17",
+        "duotone/round": "bd30935cd8f3",
+        "fill/sharp": "a5f7035384d2",
+        "fill/regular": "95e81c6fd293",
+        "fill/round": "67990d3cb1fc",
+        "bulk/sharp": "4c45eae0ad88",
+        "bulk/regular": "e07298692ba7",
+        "bulk/round": "186d71048f82"
       }
     },
     {
       "name": "bus-side",
       "category": "Travel",
       "files": {
-        "line/sharp": "7d704a78869e",
-        "line/regular": "8288dfe3a76e",
-        "line/round": "f13fac62974d",
-        "duocolor/sharp": "8a4485186aa6",
-        "duocolor/regular": "7978a7aebee2",
-        "duocolor/round": "16fc324e07d6",
-        "duotone/sharp": "3fa3924a3f83",
-        "duotone/regular": "be01b7e1ea57",
-        "duotone/round": "8f852a673b54",
-        "fill/sharp": "3a7cbab09afe",
-        "fill/regular": "569b9320d4d0",
-        "fill/round": "1383230eb561",
-        "bulk/sharp": "6b4bb1a9e8ba",
-        "bulk/regular": "14b869a9940c",
-        "bulk/round": "6f5587178a12"
+        "line/sharp": "29cb8284c003",
+        "line/regular": "2aba4b426fc3",
+        "line/round": "9f31e0e2c8a4",
+        "duocolor/sharp": "626f865fb470",
+        "duocolor/regular": "4cfc936f0946",
+        "duocolor/round": "4f91f0eccd34",
+        "duotone/sharp": "b25de5355cfb",
+        "duotone/regular": "4707a634c6a9",
+        "duotone/round": "bb1b0ecd3f70",
+        "fill/sharp": "049d47a27ac1",
+        "fill/regular": "5cdb4918fcc9",
+        "fill/round": "c978bad6418f",
+        "bulk/sharp": "5c52daa81126",
+        "bulk/regular": "bc514edd17db",
+        "bulk/round": "c6253e787411"
       }
     },
     {
@@ -2894,6 +2915,48 @@
         "bulk/sharp": "96ed50815ebb",
         "bulk/regular": "8cdfa7e495de",
         "bulk/round": "c61c2c388757"
+      }
+    },
+    {
+      "name": "cable-car",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "c51759a6f967",
+        "line/regular": "c51759a6f967",
+        "line/round": "c51759a6f967",
+        "duocolor/sharp": "cedffcdef3c8",
+        "duocolor/regular": "cedffcdef3c8",
+        "duocolor/round": "cedffcdef3c8",
+        "duotone/sharp": "73fd52bd493d",
+        "duotone/regular": "73fd52bd493d",
+        "duotone/round": "73fd52bd493d",
+        "fill/sharp": "2a24759a8cea",
+        "fill/regular": "2a24759a8cea",
+        "fill/round": "2a24759a8cea",
+        "bulk/sharp": "529a98d6383c",
+        "bulk/regular": "529a98d6383c",
+        "bulk/round": "529a98d6383c"
+      }
+    },
+    {
+      "name": "cable-car-alt",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "9a947865ef6d",
+        "line/regular": "d75156d4cef8",
+        "line/round": "d75156d4cef8",
+        "duocolor/sharp": "af20518521a1",
+        "duocolor/regular": "ac836a3bcedc",
+        "duocolor/round": "ac836a3bcedc",
+        "duotone/sharp": "a3f6d636c59a",
+        "duotone/regular": "adb1085d3c23",
+        "duotone/round": "adb1085d3c23",
+        "fill/sharp": "6fa5265a954d",
+        "fill/regular": "cba1173e1235",
+        "fill/round": "cba1173e1235",
+        "bulk/sharp": "d2608ae7b6cd",
+        "bulk/regular": "572b25da13bf",
+        "bulk/round": "572b25da13bf"
       }
     },
     {
@@ -3422,6 +3485,27 @@
       }
     },
     {
+      "name": "caps-lock",
+      "category": "System",
+      "files": {
+        "line/sharp": "c712c6c7184c",
+        "line/regular": "fd23f513638b",
+        "line/round": "61693f5a2aec",
+        "duocolor/sharp": "1ed19d055661",
+        "duocolor/regular": "81441c8887ff",
+        "duocolor/round": "514909026974",
+        "duotone/sharp": "8922d9846b0a",
+        "duotone/regular": "5c2eaaded7b0",
+        "duotone/round": "ffc5016fb9a9",
+        "fill/sharp": "9b784304d52e",
+        "fill/regular": "1df2968c3fdb",
+        "fill/round": "8f294c37fd86",
+        "bulk/sharp": "5000ce857b67",
+        "bulk/regular": "90dfbfb9eab6",
+        "bulk/round": "4e9aad6883d9"
+      }
+    },
+    {
       "name": "captions",
       "category": "Media",
       "files": {
@@ -3446,63 +3530,84 @@
       "name": "car",
       "category": "Travel",
       "files": {
-        "line/sharp": "25fa14c82270",
-        "line/regular": "1a8e3ca4dc1f",
-        "line/round": "a4b0dec134ad",
-        "duocolor/sharp": "25fa14c82270",
-        "duocolor/regular": "1a8e3ca4dc1f",
-        "duocolor/round": "a4b0dec134ad",
-        "duotone/sharp": "7ffdb05c52ee",
-        "duotone/regular": "4e857e76f5fd",
-        "duotone/round": "541f4bc8b052",
-        "fill/sharp": "40e8c0294167",
-        "fill/regular": "d6b1a3861820",
-        "fill/round": "1f9ab609418b",
-        "bulk/sharp": "bbad1a26f67c",
-        "bulk/regular": "967db192cf5d",
-        "bulk/round": "07b012b3f289"
+        "line/sharp": "209397a447d0",
+        "line/regular": "266224b26c5e",
+        "line/round": "2597e2b76b90",
+        "duocolor/sharp": "21bdac8a7af5",
+        "duocolor/regular": "79388e37f6e9",
+        "duocolor/round": "14d09faa8c9b",
+        "duotone/sharp": "5725f027a18e",
+        "duotone/regular": "c3c41ec500fd",
+        "duotone/round": "d9c67c19f375",
+        "fill/sharp": "6485a7ce4d89",
+        "fill/regular": "0013c25ea984",
+        "fill/round": "3cf656260b4f",
+        "bulk/sharp": "a1fabb356e12",
+        "bulk/regular": "6f5c927c376c",
+        "bulk/round": "bdf24eba7dc0"
       }
     },
     {
       "name": "car-electric",
       "category": "Travel",
       "files": {
-        "line/sharp": "e571d145cb56",
-        "line/regular": "c537dbe32ff8",
-        "line/round": "4f84976677e0",
-        "duocolor/sharp": "e6ac2d1f3516",
-        "duocolor/regular": "25268153e51f",
-        "duocolor/round": "19154739e13c",
-        "duotone/sharp": "c1c24a3a7d37",
-        "duotone/regular": "8911314bc235",
-        "duotone/round": "5985acbffb79",
-        "fill/sharp": "221679505ebe",
-        "fill/regular": "6e1613d729c4",
-        "fill/round": "bddfabaf5bbc",
-        "bulk/sharp": "99db0b5a5466",
-        "bulk/regular": "15c2e9f55cc4",
-        "bulk/round": "a0a55c1d233c"
+        "line/sharp": "f20881aac3db",
+        "line/regular": "a2d4b049e775",
+        "line/round": "802448552247",
+        "duocolor/sharp": "7af736d54a02",
+        "duocolor/regular": "eff3975d9889",
+        "duocolor/round": "35e509d3354a",
+        "duotone/sharp": "d6e2f0198817",
+        "duotone/regular": "8c5163b4937f",
+        "duotone/round": "456292bb9622",
+        "fill/sharp": "1f3ca5507f3f",
+        "fill/regular": "25c695b0f6b3",
+        "fill/round": "5bf1c1b76cde",
+        "bulk/sharp": "b3921720b7d5",
+        "bulk/regular": "a5b520ec079c",
+        "bulk/round": "6e0073500388"
+      }
+    },
+    {
+      "name": "car-electric-side",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "5b8a5d4409bc",
+        "line/regular": "ebd255939491",
+        "line/round": "68ddcd1c574a",
+        "duocolor/sharp": "7201168eb789",
+        "duocolor/regular": "407f68d7ac50",
+        "duocolor/round": "a7462d480926",
+        "duotone/sharp": "60fb868c46d3",
+        "duotone/regular": "7795d38182ec",
+        "duotone/round": "9125d573a626",
+        "fill/sharp": "5fd4ffc94428",
+        "fill/regular": "d2207ecaf6dd",
+        "fill/round": "d59aa4ef899d",
+        "bulk/sharp": "df630301cef0",
+        "bulk/regular": "9115b9ab4b5a",
+        "bulk/round": "ce4f95abd4b5"
       }
     },
     {
       "name": "car-side",
       "category": "Travel",
       "files": {
-        "line/sharp": "7bbf602f5fb8",
-        "line/regular": "a67a608985d1",
-        "line/round": "82b3fc444958",
-        "duocolor/sharp": "eb0080188bff",
-        "duocolor/regular": "ce46f4e44401",
-        "duocolor/round": "96f13223101a",
-        "duotone/sharp": "93eb5c2ef2c7",
-        "duotone/regular": "3d5f4a19e3e5",
-        "duotone/round": "c2d247b513ce",
-        "fill/sharp": "c18d5df43a8e",
-        "fill/regular": "9d3b58d9d923",
-        "fill/round": "b674501a04f3",
-        "bulk/sharp": "0e9c7d1c791a",
-        "bulk/regular": "a6c89299ae13",
-        "bulk/round": "c19c1d0e1e11"
+        "line/sharp": "c611b7b7e285",
+        "line/regular": "a3e51eece58b",
+        "line/round": "a8772e59e474",
+        "duocolor/sharp": "edeeeedc5668",
+        "duocolor/regular": "c7f19081c757",
+        "duocolor/round": "502928006f67",
+        "duotone/sharp": "e7f03c4fd587",
+        "duotone/regular": "c04d89c2b378",
+        "duotone/round": "af8767616c59",
+        "fill/sharp": "fca7e0556a99",
+        "fill/regular": "fb7ef0b4a4b6",
+        "fill/round": "ce848795b0fb",
+        "bulk/sharp": "596b15622784",
+        "bulk/regular": "4b52044ab827",
+        "bulk/round": "034cd459dff7"
       }
     },
     {
@@ -3524,6 +3629,111 @@
         "bulk/sharp": "07b930d03bd5",
         "bulk/regular": "2f2b52ad1e1b",
         "bulk/round": "1f606be02b1b"
+      }
+    },
+    {
+      "name": "caret-down",
+      "category": "Arrow",
+      "files": {
+        "line/sharp": "f0a4d47d0a6d",
+        "line/regular": "f0a4d47d0a6d",
+        "line/round": "f0a4d47d0a6d",
+        "duocolor/sharp": "f0a4d47d0a6d",
+        "duocolor/regular": "f0a4d47d0a6d",
+        "duocolor/round": "f0a4d47d0a6d",
+        "duotone/sharp": "71748339cde4",
+        "duotone/regular": "71748339cde4",
+        "duotone/round": "71748339cde4",
+        "fill/sharp": "8079f072c7ad",
+        "fill/regular": "8079f072c7ad",
+        "fill/round": "8079f072c7ad",
+        "bulk/sharp": "551e17271cb4",
+        "bulk/regular": "551e17271cb4",
+        "bulk/round": "551e17271cb4"
+      }
+    },
+    {
+      "name": "caret-left",
+      "category": "Arrow",
+      "files": {
+        "line/sharp": "884553543a37",
+        "line/regular": "884553543a37",
+        "line/round": "884553543a37",
+        "duocolor/sharp": "884553543a37",
+        "duocolor/regular": "884553543a37",
+        "duocolor/round": "884553543a37",
+        "duotone/sharp": "22b1526ffd66",
+        "duotone/regular": "22b1526ffd66",
+        "duotone/round": "22b1526ffd66",
+        "fill/sharp": "c2a9c24d2d5a",
+        "fill/regular": "c2a9c24d2d5a",
+        "fill/round": "c2a9c24d2d5a",
+        "bulk/sharp": "8d7508f6eaa3",
+        "bulk/regular": "8d7508f6eaa3",
+        "bulk/round": "8d7508f6eaa3"
+      }
+    },
+    {
+      "name": "caret-right",
+      "category": "Arrow",
+      "files": {
+        "line/sharp": "88e68c88f0fc",
+        "line/regular": "88e68c88f0fc",
+        "line/round": "88e68c88f0fc",
+        "duocolor/sharp": "88e68c88f0fc",
+        "duocolor/regular": "88e68c88f0fc",
+        "duocolor/round": "88e68c88f0fc",
+        "duotone/sharp": "5e8012f150d9",
+        "duotone/regular": "5e8012f150d9",
+        "duotone/round": "5e8012f150d9",
+        "fill/sharp": "978d89ad393c",
+        "fill/regular": "978d89ad393c",
+        "fill/round": "978d89ad393c",
+        "bulk/sharp": "7030f6d5cfa4",
+        "bulk/regular": "7030f6d5cfa4",
+        "bulk/round": "7030f6d5cfa4"
+      }
+    },
+    {
+      "name": "caret-up",
+      "category": "Arrow",
+      "files": {
+        "line/sharp": "1561de4c2966",
+        "line/regular": "1561de4c2966",
+        "line/round": "1561de4c2966",
+        "duocolor/sharp": "1561de4c2966",
+        "duocolor/regular": "1561de4c2966",
+        "duocolor/round": "1561de4c2966",
+        "duotone/sharp": "c5c72cbc0c30",
+        "duotone/regular": "c5c72cbc0c30",
+        "duotone/round": "c5c72cbc0c30",
+        "fill/sharp": "af24220cb30d",
+        "fill/regular": "af24220cb30d",
+        "fill/round": "af24220cb30d",
+        "bulk/sharp": "1ac5dc788e59",
+        "bulk/regular": "1ac5dc788e59",
+        "bulk/round": "1ac5dc788e59"
+      }
+    },
+    {
+      "name": "caret-up-down",
+      "category": "Arrow",
+      "files": {
+        "line/sharp": "dcea9c7555eb",
+        "line/regular": "dcea9c7555eb",
+        "line/round": "dcea9c7555eb",
+        "duocolor/sharp": "dcea9c7555eb",
+        "duocolor/regular": "dcea9c7555eb",
+        "duocolor/round": "dcea9c7555eb",
+        "duotone/sharp": "078e40f1244e",
+        "duotone/regular": "078e40f1244e",
+        "duotone/round": "078e40f1244e",
+        "fill/sharp": "b555f19065fe",
+        "fill/regular": "b555f19065fe",
+        "fill/round": "b555f19065fe",
+        "bulk/sharp": "50e068719629",
+        "bulk/regular": "50e068719629",
+        "bulk/round": "50e068719629"
       }
     },
     {
@@ -6742,6 +6952,48 @@
       }
     },
     {
+      "name": "coach",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "d8751231510f",
+        "line/regular": "65bb8a78dbdb",
+        "line/round": "f656895e0bda",
+        "duocolor/sharp": "4b13cd5bebce",
+        "duocolor/regular": "951d4af52ddf",
+        "duocolor/round": "3aa70d369de6",
+        "duotone/sharp": "874453215f6b",
+        "duotone/regular": "9c59453026ab",
+        "duotone/round": "42cdff09d8c3",
+        "fill/sharp": "9a4c409b1078",
+        "fill/regular": "409092642bb8",
+        "fill/round": "91d4e88f6a40",
+        "bulk/sharp": "083ef6f4d37a",
+        "bulk/regular": "59b1d701ddc4",
+        "bulk/round": "099e85e283c7"
+      }
+    },
+    {
+      "name": "coach-front",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "e5220a290690",
+        "line/regular": "0bc65e8123c1",
+        "line/round": "0bc65e8123c1",
+        "duocolor/sharp": "187c88df945d",
+        "duocolor/regular": "f344426fe6e7",
+        "duocolor/round": "f344426fe6e7",
+        "duotone/sharp": "d6b450277d55",
+        "duotone/regular": "43e35455201f",
+        "duotone/round": "43e35455201f",
+        "fill/sharp": "8245296657ce",
+        "fill/regular": "f00e0400f898",
+        "fill/round": "f00e0400f898",
+        "bulk/sharp": "fee4fcbe91fe",
+        "bulk/regular": "12a2b8998b8c",
+        "bulk/round": "12a2b8998b8c"
+      }
+    },
+    {
       "name": "code",
       "category": "Development",
       "files": {
@@ -6844,6 +7096,27 @@
         "bulk/sharp": "587500a2dc80",
         "bulk/regular": "e12108472a2f",
         "bulk/round": "e12108472a2f"
+      }
+    },
+    {
+      "name": "cog-railway",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "6f77db9d14c9",
+        "line/regular": "e71739888261",
+        "line/round": "e71739888261",
+        "duocolor/sharp": "86e1db8b740a",
+        "duocolor/regular": "2aa1f818f936",
+        "duocolor/round": "2aa1f818f936",
+        "duotone/sharp": "22ccf7370695",
+        "duotone/regular": "d6c2cc409230",
+        "duotone/round": "d6c2cc409230",
+        "fill/sharp": "149f6a3b87e1",
+        "fill/regular": "18ac6903e873",
+        "fill/round": "18ac6903e873",
+        "bulk/sharp": "475c33affab8",
+        "bulk/regular": "167a8834d25f",
+        "bulk/round": "167a8834d25f"
       }
     },
     {
@@ -7076,6 +7349,28 @@
         "bulk/sharp": "3e802b9db8cf",
         "bulk/regular": "3e802b9db8cf",
         "bulk/round": "3e802b9db8cf"
+      }
+    },
+    {
+      "name": "control",
+      "category": "System",
+      "aliasOf": "chevron-up",
+      "files": {
+        "line/sharp": "ca3f008d73b5",
+        "line/regular": "ca3f008d73b5",
+        "line/round": "ca3f008d73b5",
+        "duocolor/sharp": "ca3f008d73b5",
+        "duocolor/regular": "ca3f008d73b5",
+        "duocolor/round": "ca3f008d73b5",
+        "duotone/sharp": "ca3f008d73b5",
+        "duotone/regular": "ca3f008d73b5",
+        "duotone/round": "ca3f008d73b5",
+        "fill/sharp": "2365c927cefd",
+        "fill/regular": "2365c927cefd",
+        "fill/round": "2365c927cefd",
+        "bulk/sharp": "2365c927cefd",
+        "bulk/regular": "2365c927cefd",
+        "bulk/round": "2365c927cefd"
       }
     },
     {
@@ -8802,6 +9097,27 @@
       }
     },
     {
+      "name": "escape",
+      "category": "System",
+      "files": {
+        "line/sharp": "e1ce09e3bbae",
+        "line/regular": "e1ce09e3bbae",
+        "line/round": "e1ce09e3bbae",
+        "duocolor/sharp": "946cd364b193",
+        "duocolor/regular": "946cd364b193",
+        "duocolor/round": "946cd364b193",
+        "duotone/sharp": "e1ce09e3bbae",
+        "duotone/regular": "e1ce09e3bbae",
+        "duotone/round": "e1ce09e3bbae",
+        "fill/sharp": "f58abb80be06",
+        "fill/regular": "f58abb80be06",
+        "fill/round": "f58abb80be06",
+        "bulk/sharp": "27256208b826",
+        "bulk/regular": "27256208b826",
+        "bulk/round": "27256208b826"
+      }
+    },
+    {
       "name": "exit",
       "category": "Arrow",
       "files": {
@@ -9156,6 +9472,27 @@
         "bulk/sharp": "21eda3bdcc37",
         "bulk/regular": "21eda3bdcc37",
         "bulk/round": "21eda3bdcc37"
+      }
+    },
+    {
+      "name": "ferry",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "850ee67df550",
+        "line/regular": "a53aa2cbb7cd",
+        "line/round": "a53aa2cbb7cd",
+        "duocolor/sharp": "ecd2675249ef",
+        "duocolor/regular": "59a81965d9dd",
+        "duocolor/round": "59a81965d9dd",
+        "duotone/sharp": "708436bd9f8d",
+        "duotone/regular": "00fb4b56382a",
+        "duotone/round": "00fb4b56382a",
+        "fill/sharp": "17c0cfae13b9",
+        "fill/regular": "688d1b897acf",
+        "fill/round": "688d1b897acf",
+        "bulk/sharp": "7bd3d25aaca1",
+        "bulk/regular": "334f93d80fc4",
+        "bulk/round": "334f93d80fc4"
       }
     },
     {
@@ -11743,6 +12080,27 @@
       }
     },
     {
+      "name": "helicopter-front",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "e0da2b8eadd4",
+        "line/regular": "6b2176bc9026",
+        "line/round": "6b2176bc9026",
+        "duocolor/sharp": "5d6e07be5ae8",
+        "duocolor/regular": "b6e48f6ba49d",
+        "duocolor/round": "b6e48f6ba49d",
+        "duotone/sharp": "b4521c6d023c",
+        "duotone/regular": "21ef24b184e5",
+        "duotone/round": "21ef24b184e5",
+        "fill/sharp": "2900724eb7d8",
+        "fill/regular": "269eef46c345",
+        "fill/round": "269eef46c345",
+        "bulk/sharp": "444aa3b429a6",
+        "bulk/regular": "e95a1cc9cf08",
+        "bulk/round": "e95a1cc9cf08"
+      }
+    },
+    {
       "name": "help",
       "category": "Shape",
       "files": {
@@ -13588,6 +13946,27 @@
         "bulk/sharp": "5b43b492fa00",
         "bulk/regular": "5b43b492fa00",
         "bulk/round": "5b43b492fa00"
+      }
+    },
+    {
+      "name": "linux",
+      "category": "Brands",
+      "files": {
+        "line/sharp": "7d8f25a3099e",
+        "line/regular": "7d8f25a3099e",
+        "line/round": "7d8f25a3099e",
+        "duocolor/sharp": "2c68c6577ccb",
+        "duocolor/regular": "2c68c6577ccb",
+        "duocolor/round": "2c68c6577ccb",
+        "duotone/sharp": "66941438cc88",
+        "duotone/regular": "66941438cc88",
+        "duotone/round": "66941438cc88",
+        "fill/sharp": "943f9764b5ab",
+        "fill/regular": "943f9764b5ab",
+        "fill/round": "943f9764b5ab",
+        "bulk/sharp": "fdd3d2941422",
+        "bulk/regular": "fdd3d2941422",
+        "bulk/round": "fdd3d2941422"
       }
     },
     {
@@ -17455,6 +17834,27 @@
       }
     },
     {
+      "name": "plane-side",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "97d51b6ff609",
+        "line/regular": "d5da112390d1",
+        "line/round": "d5da112390d1",
+        "duocolor/sharp": "97d51b6ff609",
+        "duocolor/regular": "d5da112390d1",
+        "duocolor/round": "d5da112390d1",
+        "duotone/sharp": "7e5805074029",
+        "duotone/regular": "f7a9373cffce",
+        "duotone/round": "f7a9373cffce",
+        "fill/sharp": "31c2c5c6d158",
+        "fill/regular": "5cab2d8d5453",
+        "fill/round": "5cab2d8d5453",
+        "bulk/sharp": "2b7dcf59b22f",
+        "bulk/regular": "e66e8cc61b7e",
+        "bulk/round": "e66e8cc61b7e"
+      }
+    },
+    {
       "name": "plane-takeoff",
       "category": "Travel",
       "files": {
@@ -17704,6 +18104,48 @@
         "bulk/sharp": "2e35f9c9a01d",
         "bulk/regular": "fb75a7d14ac4",
         "bulk/round": "7d5ee0091a63"
+      }
+    },
+    {
+      "name": "police-car",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "eaf36047c62a",
+        "line/regular": "81d45fdf10ed",
+        "line/round": "96ae48282766",
+        "duocolor/sharp": "5b88abf35e40",
+        "duocolor/regular": "04af35085856",
+        "duocolor/round": "fcc289a8d44d",
+        "duotone/sharp": "0924dbf597ed",
+        "duotone/regular": "beca3c13da6a",
+        "duotone/round": "a8f54077680c",
+        "fill/sharp": "c1378c95a3ca",
+        "fill/regular": "66c85fbda862",
+        "fill/round": "d9529c665c1a",
+        "bulk/sharp": "9f8358d7ac47",
+        "bulk/regular": "f7c81a0bcef9",
+        "bulk/round": "432b25602046"
+      }
+    },
+    {
+      "name": "police-car-side",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "3d9f1de972a7",
+        "line/regular": "47f67b92d043",
+        "line/round": "8dde77bafef3",
+        "duocolor/sharp": "7e4e4cda424e",
+        "duocolor/regular": "f1a425a89b1a",
+        "duocolor/round": "59a2d393a072",
+        "duotone/sharp": "0016ac96da7b",
+        "duotone/regular": "a7518e8ce5b2",
+        "duotone/round": "e22c3de339fc",
+        "fill/sharp": "2061abdd7370",
+        "fill/regular": "aa14d42930eb",
+        "fill/round": "bd129a51169f",
+        "bulk/sharp": "f23d8310e640",
+        "bulk/regular": "63e6ccb10711",
+        "bulk/round": "3937e35f2bce"
       }
     },
     {
@@ -18784,21 +19226,21 @@
       "name": "sailboat",
       "category": "Travel",
       "files": {
-        "line/sharp": "680a4dcc8e7f",
-        "line/regular": "b7b12cc86f56",
-        "line/round": "e8c1f3df21d2",
-        "duocolor/sharp": "b44d00190426",
-        "duocolor/regular": "990a8b3af153",
-        "duocolor/round": "8ea9bc96bc28",
-        "duotone/sharp": "b01639623e73",
-        "duotone/regular": "c0e76c5eb59c",
-        "duotone/round": "385ca2100b9e",
-        "fill/sharp": "29900732d4ba",
-        "fill/regular": "7d6e55a5d575",
-        "fill/round": "c563fe31e048",
-        "bulk/sharp": "fd6353c88508",
-        "bulk/regular": "5e4a2a6e4c3c",
-        "bulk/round": "e7755ac8da6d"
+        "line/sharp": "eef391e6a69f",
+        "line/regular": "eef391e6a69f",
+        "line/round": "eef391e6a69f",
+        "duocolor/sharp": "5c158bac0c60",
+        "duocolor/regular": "5c158bac0c60",
+        "duocolor/round": "5c158bac0c60",
+        "duotone/sharp": "3c663745db18",
+        "duotone/regular": "3c663745db18",
+        "duotone/round": "3c663745db18",
+        "fill/sharp": "c9f48d420174",
+        "fill/regular": "c9f48d420174",
+        "fill/round": "c9f48d420174",
+        "bulk/sharp": "158aeb8ff8ad",
+        "bulk/regular": "158aeb8ff8ad",
+        "bulk/round": "158aeb8ff8ad"
       }
     },
     {
@@ -19495,24 +19937,66 @@
       }
     },
     {
+      "name": "shift",
+      "category": "System",
+      "files": {
+        "line/sharp": "b0ae864c1e81",
+        "line/regular": "e92b6b9ccfad",
+        "line/round": "16e8dbd56172",
+        "duocolor/sharp": "b0ae864c1e81",
+        "duocolor/regular": "e92b6b9ccfad",
+        "duocolor/round": "16e8dbd56172",
+        "duotone/sharp": "0e2ac7b3dc4b",
+        "duotone/regular": "1f6eee614735",
+        "duotone/round": "95806777db86",
+        "fill/sharp": "911a0b2f5114",
+        "fill/regular": "4cd4bdaf8241",
+        "fill/round": "4e0d0610c8fb",
+        "bulk/sharp": "20834cdb0e14",
+        "bulk/regular": "a2e6802ec7da",
+        "bulk/round": "1af1f0308949"
+      }
+    },
+    {
       "name": "ship",
       "category": "Travel",
       "files": {
-        "line/sharp": "55c6ce3a0e58",
-        "line/regular": "4f41a8453069",
-        "line/round": "45c68636ce60",
-        "duocolor/sharp": "b086c65b0403",
-        "duocolor/regular": "724479301c9c",
-        "duocolor/round": "533ee800ea0a",
-        "duotone/sharp": "fa35132bbaa5",
-        "duotone/regular": "c5473048ccb1",
-        "duotone/round": "3c371007053b",
-        "fill/sharp": "cf55e8db6a64",
-        "fill/regular": "c795b91d5b79",
-        "fill/round": "01abc67c425c",
-        "bulk/sharp": "a10db715ac27",
-        "bulk/regular": "0d8505f50411",
-        "bulk/round": "4eb045988233"
+        "line/sharp": "f418d86db9a1",
+        "line/regular": "1e6bd7616cbf",
+        "line/round": "e193eb2d6662",
+        "duocolor/sharp": "da291416462a",
+        "duocolor/regular": "28b20bc76396",
+        "duocolor/round": "646c0a4895af",
+        "duotone/sharp": "917039817422",
+        "duotone/regular": "6363088b78ba",
+        "duotone/round": "11125143520d",
+        "fill/sharp": "3c6118a9440d",
+        "fill/regular": "f2cc1fea7586",
+        "fill/round": "64c958192f0d",
+        "bulk/sharp": "bd1ca6b79b26",
+        "bulk/regular": "759b832682eb",
+        "bulk/round": "2dd193144729"
+      }
+    },
+    {
+      "name": "ship-side",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "bd27cd26731e",
+        "line/regular": "4da443f390f8",
+        "line/round": "4da443f390f8",
+        "duocolor/sharp": "2ec715099902",
+        "duocolor/regular": "cbf524c912b5",
+        "duocolor/round": "cbf524c912b5",
+        "duotone/sharp": "7ffb1eba1fac",
+        "duotone/regular": "641d1ecff2b6",
+        "duotone/round": "641d1ecff2b6",
+        "fill/sharp": "35aec04ad12a",
+        "fill/regular": "d94fcc376cab",
+        "fill/round": "d94fcc376cab",
+        "bulk/sharp": "3299ec0eba5a",
+        "bulk/regular": "e730d6180f84",
+        "bulk/round": "e730d6180f84"
       }
     },
     {
@@ -20314,6 +20798,27 @@
       }
     },
     {
+      "name": "space",
+      "category": "System",
+      "files": {
+        "line/sharp": "174be45acc15",
+        "line/regular": "3104fbd8c0f4",
+        "line/round": "74d3c6c3bef4",
+        "duocolor/sharp": "174be45acc15",
+        "duocolor/regular": "3104fbd8c0f4",
+        "duocolor/round": "74d3c6c3bef4",
+        "duotone/sharp": "174be45acc15",
+        "duotone/regular": "3104fbd8c0f4",
+        "duotone/round": "74d3c6c3bef4",
+        "fill/sharp": "63b70d531ffc",
+        "fill/regular": "a18fc8c454b4",
+        "fill/round": "df5f5fa3a0e1",
+        "bulk/sharp": "63b70d531ffc",
+        "bulk/regular": "a18fc8c454b4",
+        "bulk/round": "df5f5fa3a0e1"
+      }
+    },
+    {
       "name": "sparkle",
       "category": "AI",
       "files": {
@@ -20395,6 +20900,27 @@
         "bulk/sharp": "e27f0eff93e2",
         "bulk/regular": "a8a3c9ad9768",
         "bulk/round": "34b31845c2cd"
+      }
+    },
+    {
+      "name": "speedboat",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "4f257c747085",
+        "line/regular": "4918f0e00cf8",
+        "line/round": "4918f0e00cf8",
+        "duocolor/sharp": "b6533fe9a1d7",
+        "duocolor/regular": "df17b1b2a244",
+        "duocolor/round": "df17b1b2a244",
+        "duotone/sharp": "f43f4f106dfe",
+        "duotone/regular": "58b624f7f447",
+        "duotone/round": "58b624f7f447",
+        "fill/sharp": "c0d73c070ac3",
+        "fill/regular": "57e822fb6ad6",
+        "fill/round": "57e822fb6ad6",
+        "bulk/sharp": "e9ae5ee1f794",
+        "bulk/regular": "0a66f5de5e2d",
+        "bulk/round": "0a66f5de5e2d"
       }
     },
     {
@@ -21175,6 +21701,27 @@
       }
     },
     {
+      "name": "square-menu",
+      "category": "System",
+      "files": {
+        "line/sharp": "00503dcf49e2",
+        "line/regular": "d5acdd60be4f",
+        "line/round": "4c31be1c3d80",
+        "duocolor/sharp": "3c0f8eefd5a6",
+        "duocolor/regular": "e33f4736389a",
+        "duocolor/round": "06e0a7589baa",
+        "duotone/sharp": "44096f7d7110",
+        "duotone/regular": "46f5efcedb89",
+        "duotone/round": "efdf28d0f26b",
+        "fill/sharp": "ee809af5eb4f",
+        "fill/regular": "5fc01da45cf4",
+        "fill/round": "12e14dd49322",
+        "bulk/sharp": "1266b135e1da",
+        "bulk/regular": "ab1d90798239",
+        "bulk/round": "3434af5a620b"
+      }
+    },
+    {
       "name": "square-minus",
       "category": "Shape",
       "files": {
@@ -21575,6 +22122,27 @@
       }
     },
     {
+      "name": "submarine",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "bac43a75f843",
+        "line/regular": "0413cd9a8b6f",
+        "line/round": "be08ab29b332",
+        "duocolor/sharp": "ea5a878be4ff",
+        "duocolor/regular": "1ab5b713f723",
+        "duocolor/round": "bfdce158a137",
+        "duotone/sharp": "019bef4644f4",
+        "duotone/regular": "b01452b2ae96",
+        "duotone/round": "ec2f48512ea8",
+        "fill/sharp": "684b3520ec86",
+        "fill/regular": "453ac10d4ce9",
+        "fill/round": "6f7cd8095714",
+        "bulk/sharp": "e9efa0534a80",
+        "bulk/regular": "5ac363d350f7",
+        "bulk/round": "875395cec601"
+      }
+    },
+    {
       "name": "subscript",
       "category": "Edit",
       "files": {
@@ -21593,6 +22161,27 @@
         "bulk/sharp": "f696bac52360",
         "bulk/regular": "f696bac52360",
         "bulk/round": "f696bac52360"
+      }
+    },
+    {
+      "name": "subway",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "90b1d4c9aa09",
+        "line/regular": "2d49cfb952fe",
+        "line/round": "2d49cfb952fe",
+        "duocolor/sharp": "6255133afcd2",
+        "duocolor/regular": "1023c65ef6b2",
+        "duocolor/round": "1023c65ef6b2",
+        "duotone/sharp": "8dccf4e38371",
+        "duotone/regular": "6b7a63893fe5",
+        "duotone/round": "6b7a63893fe5",
+        "fill/sharp": "057bdfdeb5c5",
+        "fill/regular": "9f980285c2f7",
+        "fill/round": "9f980285c2f7",
+        "bulk/sharp": "33dafc12b7cd",
+        "bulk/regular": "d6e2ad33ef6a",
+        "bulk/round": "d6e2ad33ef6a"
       }
     },
     {
@@ -21740,6 +22329,69 @@
         "bulk/sharp": "76fc9b18a129",
         "bulk/regular": "76fc9b18a129",
         "bulk/round": "76fc9b18a129"
+      }
+    },
+    {
+      "name": "suspension-railway",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "32e193827ce0",
+        "line/regular": "54ee74991e09",
+        "line/round": "6728fe8007e5",
+        "duocolor/sharp": "bee4532775be",
+        "duocolor/regular": "85e74f298af0",
+        "duocolor/round": "1631cd147c0d",
+        "duotone/sharp": "2fc3a665d707",
+        "duotone/regular": "ae210a66a74a",
+        "duotone/round": "89c8c3708302",
+        "fill/sharp": "e65390cbb6e6",
+        "fill/regular": "761bd87b1d04",
+        "fill/round": "44ae7026500c",
+        "bulk/sharp": "961111b86b50",
+        "bulk/regular": "db03770aab46",
+        "bulk/round": "505a5e5fe650"
+      }
+    },
+    {
+      "name": "suspension-railway-front",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "b959b2910204",
+        "line/regular": "d04d15a61376",
+        "line/round": "0a5e1ac4147e",
+        "duocolor/sharp": "521cf6da8cdd",
+        "duocolor/regular": "6d70c5ec9d88",
+        "duocolor/round": "23600cb48de9",
+        "duotone/sharp": "c976a4dcc614",
+        "duotone/regular": "aa86e1923724",
+        "duotone/round": "e61840378dc8",
+        "fill/sharp": "6418cf8f7d48",
+        "fill/regular": "474a03960a13",
+        "fill/round": "fc527732876a",
+        "bulk/sharp": "bde7c900e8f7",
+        "bulk/regular": "1070b71b02f7",
+        "bulk/round": "793c606cb9b5"
+      }
+    },
+    {
+      "name": "suv",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "7bbf602f5fb8",
+        "line/regular": "a67a608985d1",
+        "line/round": "82b3fc444958",
+        "duocolor/sharp": "eb0080188bff",
+        "duocolor/regular": "ce46f4e44401",
+        "duocolor/round": "96f13223101a",
+        "duotone/sharp": "93eb5c2ef2c7",
+        "duotone/regular": "3d5f4a19e3e5",
+        "duotone/round": "c2d247b513ce",
+        "fill/sharp": "9e0762857b21",
+        "fill/regular": "d2e4ed658c25",
+        "fill/round": "6058016207be",
+        "bulk/sharp": "9e0761383da1",
+        "bulk/regular": "0dfb7ea34c03",
+        "bulk/round": "5dfa38bb78d4"
       }
     },
     {
@@ -22166,21 +22818,42 @@
       "name": "taxi",
       "category": "Travel",
       "files": {
-        "line/sharp": "9dc053292f81",
-        "line/regular": "1d5f47ebcb26",
-        "line/round": "f1861af107ac",
-        "duocolor/sharp": "54a4a27065a5",
-        "duocolor/regular": "d335ad5699d0",
-        "duocolor/round": "bc95ae36dac3",
-        "duotone/sharp": "83cd6de7d774",
-        "duotone/regular": "89eff08c23fb",
-        "duotone/round": "c57fecd4b711",
-        "fill/sharp": "22cd5d5b0fe4",
-        "fill/regular": "fe8a523a4cdd",
-        "fill/round": "8d5e93b06fb4",
-        "bulk/sharp": "c9c4f68cc570",
-        "bulk/regular": "c6d1969e1a36",
-        "bulk/round": "b2985d31ac5f"
+        "line/sharp": "7ba2a80f6bb9",
+        "line/regular": "04d717edaddb",
+        "line/round": "c453504169ca",
+        "duocolor/sharp": "a5b9b8dde216",
+        "duocolor/regular": "36d4683541db",
+        "duocolor/round": "51f8a88fc031",
+        "duotone/sharp": "9b1053e33509",
+        "duotone/regular": "02977aeda1e2",
+        "duotone/round": "cc5fc0b2bc4c",
+        "fill/sharp": "e37e5699e582",
+        "fill/regular": "d5d871732523",
+        "fill/round": "cd6365899a77",
+        "bulk/sharp": "12a1e735edbb",
+        "bulk/regular": "3eeac2e21b2a",
+        "bulk/round": "b85df1053dd6"
+      }
+    },
+    {
+      "name": "taxi-side",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "bb185805ab99",
+        "line/regular": "1cd130749e9f",
+        "line/round": "4129f2ba64ea",
+        "duocolor/sharp": "7159c5c437f0",
+        "duocolor/regular": "1ea15a9c8b36",
+        "duocolor/round": "0b804acb7ada",
+        "duotone/sharp": "d537a7bde020",
+        "duotone/regular": "a71105c8f95c",
+        "duotone/round": "5321255813c8",
+        "fill/sharp": "3675e1d55244",
+        "fill/regular": "937e4af936f5",
+        "fill/round": "f1c17d18ca3e",
+        "bulk/sharp": "38fd2c68e03f",
+        "bulk/regular": "eefecd4ce532",
+        "bulk/round": "d9c4d65a6eae"
       }
     },
     {
@@ -22901,21 +23574,105 @@
       "name": "train",
       "category": "Travel",
       "files": {
-        "line/sharp": "c80d25b5e23a",
-        "line/regular": "b297af4c2ddf",
-        "line/round": "38f559904216",
-        "duocolor/sharp": "28f3673b0006",
-        "duocolor/regular": "708c4757c51e",
-        "duocolor/round": "a4489e4d6a3f",
-        "duotone/sharp": "1722692a1b5a",
-        "duotone/regular": "2a01edeb29e9",
-        "duotone/round": "e6a54182ac45",
-        "fill/sharp": "c975a4b9b80c",
-        "fill/regular": "c37187ca41a9",
-        "fill/round": "bba7ba485bb3",
-        "bulk/sharp": "75577c8cb24b",
-        "bulk/regular": "047b6cfb5946",
-        "bulk/round": "844b0b5b0cd2"
+        "line/sharp": "402f9d85e94c",
+        "line/regular": "c583437d01e2",
+        "line/round": "1fb502130ffa",
+        "duocolor/sharp": "093e6cbe416a",
+        "duocolor/regular": "3aa05b1e0900",
+        "duocolor/round": "3df6a7a81de6",
+        "duotone/sharp": "fbc4b525736c",
+        "duotone/regular": "601447390b0f",
+        "duotone/round": "5c1a3eb74bca",
+        "fill/sharp": "16753f02b4ef",
+        "fill/regular": "a592440634a4",
+        "fill/round": "5a1fe44bf355",
+        "bulk/sharp": "b48b432cfd5f",
+        "bulk/regular": "77f82f573d02",
+        "bulk/round": "9ea3f9f0e149"
+      }
+    },
+    {
+      "name": "train-side",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "c50a095d2e0d",
+        "line/regular": "73e496e43c87",
+        "line/round": "be9895e0713d",
+        "duocolor/sharp": "51ec300bd276",
+        "duocolor/regular": "14dc01942964",
+        "duocolor/round": "fa8cb23f7da2",
+        "duotone/sharp": "64b0b0fddbc1",
+        "duotone/regular": "ce16a2de2097",
+        "duotone/round": "e1d8c8b20b0c",
+        "fill/sharp": "883c5e3c06e5",
+        "fill/regular": "e2d679072b29",
+        "fill/round": "128a3020d920",
+        "bulk/sharp": "a6dea28bc1c8",
+        "bulk/regular": "63bfe59b5238",
+        "bulk/round": "7c8b11f78c26"
+      }
+    },
+    {
+      "name": "train-track",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "66dcbc486b3b",
+        "line/regular": "66dcbc486b3b",
+        "line/round": "66dcbc486b3b",
+        "duocolor/sharp": "dfb215d2a409",
+        "duocolor/regular": "dfb215d2a409",
+        "duocolor/round": "dfb215d2a409",
+        "duotone/sharp": "66dcbc486b3b",
+        "duotone/regular": "66dcbc486b3b",
+        "duotone/round": "66dcbc486b3b",
+        "fill/sharp": "2bfa8731024e",
+        "fill/regular": "2bfa8731024e",
+        "fill/round": "2bfa8731024e",
+        "bulk/sharp": "cf447b0d89ef",
+        "bulk/regular": "cf447b0d89ef",
+        "bulk/round": "cf447b0d89ef"
+      }
+    },
+    {
+      "name": "tram",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "ec9834035671",
+        "line/regular": "6b14313e5a57",
+        "line/round": "86b4e26df69b",
+        "duocolor/sharp": "104a6ab5af65",
+        "duocolor/regular": "ff975631c070",
+        "duocolor/round": "c07673452421",
+        "duotone/sharp": "673dae7464f9",
+        "duotone/regular": "8c264bd25789",
+        "duotone/round": "785d5aba29b6",
+        "fill/sharp": "ae3fe95ae740",
+        "fill/regular": "c394d6966d31",
+        "fill/round": "73d0b5614ff1",
+        "bulk/sharp": "92263905208a",
+        "bulk/regular": "b80625a332a0",
+        "bulk/round": "78d25a43ce48"
+      }
+    },
+    {
+      "name": "tram-side",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "5e0cec5a7318",
+        "line/regular": "a89d36236573",
+        "line/round": "4a082f46d4f3",
+        "duocolor/sharp": "1f25c09d2982",
+        "duocolor/regular": "24630a7690c6",
+        "duocolor/round": "51f599767221",
+        "duotone/sharp": "6d1ee75f3ebc",
+        "duotone/regular": "b0dff136c50b",
+        "duotone/round": "3c72a5eac3bd",
+        "fill/sharp": "3d2d42262b7e",
+        "fill/regular": "9cb888e8a348",
+        "fill/round": "3800262cc96f",
+        "bulk/sharp": "d3daf66f6ba2",
+        "bulk/regular": "b1a2d660ade9",
+        "bulk/round": "9d888ec1ae1d"
       }
     },
     {
@@ -23279,42 +24036,63 @@
       "name": "truck",
       "category": "Travel",
       "files": {
-        "line/sharp": "e63d8009e166",
-        "line/regular": "439b273cda26",
-        "line/round": "f272359736ac",
-        "duocolor/sharp": "61baa9dfc745",
-        "duocolor/regular": "b58ebca4ffd7",
-        "duocolor/round": "e97e882c5493",
-        "duotone/sharp": "138b20ea17a6",
-        "duotone/regular": "41fb463a876a",
-        "duotone/round": "f5aa7f54197c",
-        "fill/sharp": "396f46d40a6a",
-        "fill/regular": "8a807ca984e0",
-        "fill/round": "49f0ec9116ba",
-        "bulk/sharp": "cf84dd65b972",
-        "bulk/regular": "e08681e7f106",
-        "bulk/round": "1293d41b20af"
+        "line/sharp": "70a09820dbdf",
+        "line/regular": "befd44827563",
+        "line/round": "6727af3ce761",
+        "duocolor/sharp": "dc361e44621f",
+        "duocolor/regular": "6a67cbd6bffc",
+        "duocolor/round": "c89ac28ed9de",
+        "duotone/sharp": "b28c8185b7b8",
+        "duotone/regular": "f6543998896a",
+        "duotone/round": "3acfca12a7cc",
+        "fill/sharp": "0abd33485690",
+        "fill/regular": "b8cd9aecc267",
+        "fill/round": "dd7716c6dbd5",
+        "bulk/sharp": "2413badded77",
+        "bulk/regular": "7a7142938e02",
+        "bulk/round": "181f3197f0df"
       }
     },
     {
       "name": "truck-fast",
       "category": "Travel",
       "files": {
-        "line/sharp": "79b8f2a115c3",
-        "line/regular": "8bdfcafd3935",
-        "line/round": "a024018c4f00",
-        "duocolor/sharp": "0a1dd00912a8",
-        "duocolor/regular": "ad070f563798",
-        "duocolor/round": "af38f4ad5019",
-        "duotone/sharp": "1ab00af7dc19",
-        "duotone/regular": "8d259de9b74d",
-        "duotone/round": "3f01041a0e83",
-        "fill/sharp": "d4d9598d77fa",
-        "fill/regular": "cc7252735ce6",
-        "fill/round": "caad573b855e",
-        "bulk/sharp": "e4c61f0c6181",
-        "bulk/regular": "0ae6216c4277",
-        "bulk/round": "9b857f4097fc"
+        "line/sharp": "7381bb2c946a",
+        "line/regular": "11133232dba1",
+        "line/round": "70a9e43a8bac",
+        "duocolor/sharp": "5db33b9e8f1a",
+        "duocolor/regular": "2cf004db6b5c",
+        "duocolor/round": "85d184f83165",
+        "duotone/sharp": "e2ab8ab6cb3f",
+        "duotone/regular": "697f6441a82d",
+        "duotone/round": "5d4f05c926c2",
+        "fill/sharp": "0e31b8ca150b",
+        "fill/regular": "005337151712",
+        "fill/round": "f1006818e2a0",
+        "bulk/sharp": "b9b76c4327cf",
+        "bulk/regular": "8ad071a549ab",
+        "bulk/round": "e1e7093f6d6c"
+      }
+    },
+    {
+      "name": "tunnel",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "c4a3640e7677",
+        "line/regular": "4c232a20f564",
+        "line/round": "4c232a20f564",
+        "duocolor/sharp": "5adf4a85d8a1",
+        "duocolor/regular": "861759ec1cd4",
+        "duocolor/round": "861759ec1cd4",
+        "duotone/sharp": "39210463e77f",
+        "duotone/regular": "3195464a4236",
+        "duotone/round": "3195464a4236",
+        "fill/sharp": "abf64045ffda",
+        "fill/regular": "35ef0fbda098",
+        "fill/round": "35ef0fbda098",
+        "bulk/sharp": "090c34c41b1f",
+        "bulk/regular": "ff46ea7c3e83",
+        "bulk/round": "ff46ea7c3e83"
       }
     },
     {
@@ -25292,6 +26070,27 @@
       }
     },
     {
+      "name": "yacht",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "bcf9ddb27f23",
+        "line/regular": "4434136dd713",
+        "line/round": "4434136dd713",
+        "duocolor/sharp": "03e2a85c768e",
+        "duocolor/regular": "2f59844c09b1",
+        "duocolor/round": "2f59844c09b1",
+        "duotone/sharp": "04e11b1cc0f4",
+        "duotone/regular": "49317535955c",
+        "duotone/round": "49317535955c",
+        "fill/sharp": "c8d886a6a43f",
+        "fill/regular": "412aeaaddbdb",
+        "fill/round": "412aeaaddbdb",
+        "bulk/sharp": "a1d3355fa46a",
+        "bulk/regular": "d5e88ec6cc6c",
+        "bulk/round": "d5e88ec6cc6c"
+      }
+    },
+    {
       "name": "youtube",
       "category": "Brands",
       "files": {
@@ -25649,7 +26448,7 @@
       }
     }
   ],
-  "hash": "be9901e11823",
+  "hash": "a07064539ec2",
   "clashes": {
     "activity": [
       "React"
