@@ -2,6 +2,31 @@
 
 Every release lists the icons that were added, renamed, removed, redrawn or moved to another category since the release before.
 
+## 5.1.0
+
+Keyboard keys, carets in four directions, the Linux logo and a bigger transit set with trams, subways, cable cars, ferries, police cars and side views of trains, planes and ships. The vehicles already in the set are redrawn to match.
+
+1,258 icons with 12 aliases in 30 categories.
+
+### New
+
+`backspace`, `cable-car`, `cable-car-alt`, `caps-lock`, `car-electric-side`, `caret-down`, `caret-left`, `caret-right`, `caret-up`, `caret-up-down`, `coach`, `coach-front`, `cog-railway`, `control`, `escape`, `ferry`, `helicopter-front`, `linux`, `plane-side`, `police-car`, `police-car-side`, `shift`, `ship-side`, `space`, `speedboat`, `square-menu`, `submarine`, `subway`, `suspension-railway`, `suspension-railway-front`, `suv`, `taxi-side`, `train-side`, `train-track`, `tram`, `tram-side`, `tunnel`, `yacht`
+
+### Redrawn
+
+- `ambulance` in line, duocolor, duotone, fill, bulk
+- `bus` in line, duocolor, duotone, fill, bulk
+- `bus-side` in line, duocolor, duotone, fill, bulk
+- `car` in line, duocolor, duotone, fill, bulk
+- `car-electric` in line, duocolor, duotone, fill, bulk
+- `car-side` in line, duocolor, duotone, fill, bulk
+- `sailboat` in line, duocolor, duotone, fill, bulk
+- `ship` in line, duocolor, duotone, fill, bulk
+- `taxi` in line, duocolor, duotone, fill, bulk
+- `train` in line, duocolor, duotone, fill, bulk
+- `truck` in line, duocolor, duotone, fill, bulk
+- `truck-fast` in line, duocolor, duotone, fill, bulk
+
 ## 5.0.0
 
 coolicons v5 is here. Every icon was redrawn from scratch, and the set grew from 440 to over 1,200 icons.
