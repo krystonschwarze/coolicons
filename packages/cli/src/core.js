@@ -126,7 +126,7 @@ export function usage(inputs, { framework = "react", style = "line", radius = "r
     };
   }
   if (framework === "shadcn") {
-    const items = icons.map((icon) => `${SITE}/r/${registryItem(icon, style, radius)}.json`);
+    const items = icons.map((icon) => `@coolicons/${registryItem(icon, style, radius)}`);
     const files = icons.map((icon) => `components/icons/${registryItem(icon, style, radius)}.tsx`);
     return { install: `npx shadcn@latest add ${items.join(" ")}`, code: `Adds ${files.join(", ")} exporting ${names.join(", ")}.` };
   }
