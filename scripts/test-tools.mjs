@@ -48,6 +48,7 @@ const messages = [
   { jsonrpc: "2.0", id: 5, method: "tools/call", params: { name: "get_usage", arguments: { names: "map", style: "fill" } } },
   { jsonrpc: "2.0", id: 6, method: "tools/call", params: { name: "get_icon", arguments: { name: "calender" } } },
   { jsonrpc: "2.0", id: 7, method: "unknown" },
+  { jsonrpc: "2.0", id: 8, method: "tools/call", params: { name: "get_usage", arguments: { names: "calendar-event", framework: "shadcn", style: "bulk", radius: "round" } } },
 ];
 const replies = new Map(
   execFileSync(process.execPath, [serverFile], { input: messages.map((message) => JSON.stringify(message)).join("\n"), encoding: "utf8" })
@@ -56,7 +57,7 @@ const replies = new Map(
     .map((line) => JSON.parse(line))
     .map((reply) => [reply.id, reply]),
 );
-assert.equal(replies.size, 7);
+assert.equal(replies.size, 8);
 assert.equal(replies.get(1).result.protocolVersion, "2025-06-18");
 assert.ok(replies.get(1).result.instructions.includes("Never guess"));
 assert.deepEqual(
@@ -69,5 +70,7 @@ assert.match(replies.get(4).result.content[0].text, /- bell \(Bell/);
 assert.match(replies.get(5).result.content[0].text, /import \{ MapIcon \} from "@coolicons\/react\/fill";/);
 assert.equal(replies.get(6).result.isError, true);
 assert.equal(replies.get(7).error.code, -32601);
+assert.match(replies.get(8).result.content[0].text, /npx shadcn@latest add @coolicons\/bulk\/round\/calendar-event\b/);
+assert.match(replies.get(8).result.content[0].text, /components\/icons\/bulk\/round\/calendar-event\.tsx exporting CalendarEvent/);
 
 console.log(`cli and mcp match the export, ${((performance.now() - started) / 1000).toFixed(1)} s`);

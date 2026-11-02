@@ -1,6 +1,6 @@
 ---
 name: coolicons
-description: Use coolicons icons in React, Vue or plain SVG. Use when a project imports @coolicons/react, @coolicons/vue or @coolicons/svg, when the user asks for coolicons, or when you add, replace or render an icon from coolicons. Every icon name is looked up in the real list first, never guessed.
+description: Use coolicons icons in React, Vue, shadcn/ui or plain SVG. Use when a project imports @coolicons/react, @coolicons/vue or @coolicons/svg, adds icons from the @coolicons shadcn registry, when the user asks for coolicons, or when you add, replace or render an icon from coolicons. Every icon name is looked up in the real list first, never guessed.
 ---
 
 # coolicons
@@ -70,6 +70,23 @@ import { Bell } from "@coolicons/react/bulk/round";
 ```
 
 Use one style and radius across a project unless the user asks otherwise. Match what the project already imports.
+
+## shadcn/ui
+
+In a shadcn/ui project, single icons can also come from the coolicons registry. Each one lands in the project as a React component without dependencies. `@coolicons` is listed in the shadcn registry directory, so it needs no entry in `components.json`:
+
+```sh
+npx shadcn@latest add @coolicons/calendar-event @coolicons/fill/bell
+```
+
+Put the style, and the radius if it is not regular, in front of the name, like `@coolicons/bulk/round/calendar-event`. The file lands under the same path in `components/icons`:
+
+```tsx
+import { CalendarEvent } from "@/components/icons/calendar-event";
+import { Bell } from "@/components/icons/fill/bell";
+```
+
+Icons whose plain name clashes export only the suffixed name, like `MapIcon` from `@/components/icons/map`. Check `components/icons` before adding an icon twice. Use the registry for a few icons the project owns as code, and `@coolicons/react` for many icons with updates through the package manager.
 
 ## Props
 

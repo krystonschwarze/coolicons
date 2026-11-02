@@ -85,7 +85,7 @@ function describeSet() {
 Styles: line (strokes), duocolor (strokes with a lighter second stroke), duotone (strokes over a light tone), fill (solid shapes), bulk (solid shapes over a light tone). Only ${[...STROKED].join(", ")} take a stroke width.
 Radii: sharp, regular (default), round.
 
-Packages: @coolicons/react and @coolicons/vue (one component per icon, entries like @coolicons/react/fill and @coolicons/react/bulk/round), @coolicons/svg (files at @coolicons/svg/<style>/<radius>/<name>.svg), and the shadcn/ui registry at ${SITE}/r/<name>.json.
+Packages: @coolicons/react and @coolicons/vue (one component per icon, entries like @coolicons/react/fill and @coolicons/react/bulk/round), @coolicons/svg (files at @coolicons/svg/<style>/<radius>/<name>.svg), and the shadcn/ui registry, listed in the shadcn directory as @coolicons (npx shadcn@latest add @coolicons/<name>, files at ${SITE}/r/<name>.json).
 
 Names are lowercase words joined by hyphens, like file-plus-corner. Components use PascalCase, like FilePlusCorner, and also export an Icon suffix. Use the suffix for ${Object.keys(clashes).length} names that clash with globals: ${Object.keys(clashes)
     .map((name) => component({ name }))
