@@ -16,15 +16,15 @@ Language models do not know coolicons names, and a wrong name breaks the build. 
 2. **The installed package**, which matches the project's version. Both packages list every name in `dist/names.d.ts`:
 
    ```sh
-   grep -o '"[a-z0-9-]*"' node_modules/@coolicons/react/dist/names.d.ts | tr -d '"' | grep -i trash
+   grep -o '"[a-z0-9-]*"' node_modules/@coolicons/react/dist/names.d.ts | tr -d '"' | grep -i calendar
    ```
 
-   For Vue, use `node_modules/@coolicons/vue/dist/names.d.ts`. For `@coolicons/svg`, the files themselves: `ls node_modules/@coolicons/svg/line/regular | grep -i trash`.
+   For Vue, use `node_modules/@coolicons/vue/dist/names.d.ts`. For `@coolicons/svg`, the files themselves: `ls node_modules/@coolicons/svg/line/regular | grep -i calendar`.
 
 3. **[references/icons.md](references/icons.md)** in this skill: every icon with its component name, category and search tags, grouped by category. Search it by meaning, not only by name:
 
    ```sh
-   grep -i -w "delete" references/icons.md
+   grep -i -w "date" references/icons.md
    ```
 
 4. **Online**, when none of these is available: https://cdn.jsdelivr.net/gh/krystonschwarze/coolicons@main/icons/data/index.json lists every name with its category and keywords.

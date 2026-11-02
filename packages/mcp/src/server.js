@@ -24,7 +24,7 @@ const TOOLS = [
     name: "search_icons",
     title: "Search coolicons",
     description:
-      "Find coolicons by name or meaning, ranked: exact name, then name parts, then tags like delete for trash. Separate several searches with commas to resolve many names in one call, like \"delete, settings, chevron down\".",
+      "Find coolicons by name or meaning, ranked: exact name, then name parts, then tags like date for calendar. Separate several searches with commas to resolve many names in one call, like \"delete, settings, chevron down\".",
     inputSchema: {
       type: "object",
       properties: {
@@ -42,7 +42,7 @@ const TOOLS = [
     inputSchema: {
       type: "object",
       properties: {
-        name: { type: "string", description: "Exact icon name from search_icons, like trash." },
+        name: { type: "string", description: "Exact icon name from search_icons, like calendar-event." },
         style,
         radius,
         size: { type: "integer", minimum: 1, description: "Width and height in pixels. Default 24." },
