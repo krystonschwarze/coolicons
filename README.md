@@ -158,7 +158,7 @@ Agents do not know coolicons names from their training data. Three tools let the
 | | |
 | --- | --- |
 | [`@coolicons/mcp`](packages/mcp) | MCP server with search, SVG source and imports: `claude mcp add coolicons -- npx -y @coolicons/mcp` |
-| [`@coolicons/cli`](packages/cli) | Search and copy icons from the terminal: `npx @coolicons/cli search delete` |
+| [`@coolicons/cli`](packages/cli) | Search and copy icons from the terminal: `npx @coolicons/cli search date` |
 | [Skill](skills/coolicons) | Teaches agents the packages and naming rules: `npx skills add krystonschwarze/coolicons` |
 
 All three work offline, the whole set ships with them.

@@ -24,17 +24,17 @@ for (const variant of VARIANTS) {
 const listed = cli("list").stdout.trim().split("\n");
 assert.deepEqual(listed, icons.map((icon) => icon.name));
 
-const found = cli("search", "trash", "--json");
-assert.equal(JSON.parse(found.stdout)[0].name, "trash");
+const found = cli("search", "calendar", "--json");
+assert.equal(JSON.parse(found.stdout)[0].name, "calendar");
 
-const typo = cli("show", "trahs");
+const typo = cli("show", "calender");
 assert.equal(typo.status, 1);
-assert.match(typo.stderr, /Did you mean trash/);
+assert.match(typo.stderr, /Did you mean calendar/);
 
 const folder = mkdtempSync(path.join(os.tmpdir(), "coolicons-cli-"));
 try {
-  assert.equal(cli("add", "bell", "trash", "--style", "bulk", "--radius", "round", "--out", folder).status, 0);
-  for (const name of ["bell", "trash"]) assert.equal(readFileSync(path.join(folder, `${name}.svg`), "utf8"), exported("bulk/round", name));
+  assert.equal(cli("add", "bell", "calendar", "--style", "bulk", "--radius", "round", "--out", folder).status, 0);
+  for (const name of ["bell", "calendar"]) assert.equal(readFileSync(path.join(folder, `${name}.svg`), "utf8"), exported("bulk/round", name));
 } finally {
   rmSync(folder, { recursive: true, force: true });
 }
@@ -43,10 +43,10 @@ const messages = [
   { jsonrpc: "2.0", id: 1, method: "initialize", params: { protocolVersion: "2025-06-18", capabilities: {}, clientInfo: { name: "test", version: "1" } } },
   { jsonrpc: "2.0", method: "notifications/initialized" },
   { jsonrpc: "2.0", id: 2, method: "tools/list" },
-  { jsonrpc: "2.0", id: 3, method: "tools/call", params: { name: "get_icon", arguments: { name: "trash", style: "duotone", radius: "round" } } },
-  { jsonrpc: "2.0", id: 4, method: "tools/call", params: { name: "search_icons", arguments: { query: "trash, bell" } } },
+  { jsonrpc: "2.0", id: 3, method: "tools/call", params: { name: "get_icon", arguments: { name: "calendar-event", style: "duotone", radius: "round" } } },
+  { jsonrpc: "2.0", id: 4, method: "tools/call", params: { name: "search_icons", arguments: { query: "calendar-event, bell" } } },
   { jsonrpc: "2.0", id: 5, method: "tools/call", params: { name: "get_usage", arguments: { names: "map", style: "fill" } } },
-  { jsonrpc: "2.0", id: 6, method: "tools/call", params: { name: "get_icon", arguments: { name: "trahs" } } },
+  { jsonrpc: "2.0", id: 6, method: "tools/call", params: { name: "get_icon", arguments: { name: "calender" } } },
   { jsonrpc: "2.0", id: 7, method: "unknown" },
 ];
 const replies = new Map(
@@ -63,8 +63,8 @@ assert.deepEqual(
   replies.get(2).result.tools.map((tool) => tool.name),
   ["describe_set", "search_icons", "get_icon", "get_usage"],
 );
-assert.equal(replies.get(3).result.content[0].text, exported("duotone/round", "trash"));
-assert.match(replies.get(4).result.content[0].text, /- trash \(Trash/);
+assert.equal(replies.get(3).result.content[0].text, exported("duotone/round", "calendar-event"));
+assert.match(replies.get(4).result.content[0].text, /- calendar-event \(CalendarEvent/);
 assert.match(replies.get(4).result.content[0].text, /- bell \(Bell/);
 assert.match(replies.get(5).result.content[0].text, /import \{ MapIcon \} from "@coolicons\/react\/fill";/);
 assert.equal(replies.get(6).result.isError, true);

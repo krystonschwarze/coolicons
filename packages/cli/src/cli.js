@@ -28,9 +28,9 @@ Options
   -v, --version           Show the version
 
 Examples
-  npx @coolicons/cli search delete
-  npx @coolicons/cli show trash --style fill > trash.svg
-  npx @coolicons/cli add trash bell --style bulk --radius round --out src/icons
+  npx @coolicons/cli search date
+  npx @coolicons/cli show calendar --style fill > calendar.svg
+  npx @coolicons/cli add calendar bell --style bulk --radius round --out src/icons
 `;
 
 const SHORT = { s: "style", r: "radius", o: "out", l: "limit", c: "category", h: "help", v: "version" };
@@ -69,7 +69,7 @@ function run({ command, words, options }) {
 
   if (command === "search") {
     const query = words.join(" ");
-    if (!query) throw new LookupError("search needs a query, like: coolicons search delete");
+    if (!query) throw new LookupError("search needs a query, like: coolicons search date");
     const results = search(query, Number(options.limit ?? 20));
     if (options.json) return out(JSON.stringify(results.map((icon) => ({ ...icon, component: component(icon) })), null, 2));
     if (!results.length) {
@@ -84,12 +84,12 @@ function run({ command, words, options }) {
   }
 
   if (command === "show") {
-    if (words.length !== 1) throw new LookupError("show needs exactly one name, like: coolicons show trash");
+    if (words.length !== 1) throw new LookupError("show needs exactly one name, like: coolicons show calendar");
     return out(svg(words[0], variant(options)));
   }
 
   if (command === "add") {
-    if (!words.length) throw new LookupError("add needs at least one name, like: coolicons add trash bell");
+    if (!words.length) throw new LookupError("add needs at least one name, like: coolicons add calendar bell");
     const icons = words.map(findIcon);
     const folder = path.resolve(options.out ?? "icons");
     mkdirSync(folder, { recursive: true });

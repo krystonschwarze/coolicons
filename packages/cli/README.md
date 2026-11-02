@@ -5,9 +5,9 @@
 Search [coolicons](https://coolicons.cool) and copy them into your project from the terminal: 1,258 icons in five styles and three corner radii. No install, no dependencies, no network. The whole set ships inside the package.
 
 ```sh
-npx @coolicons/cli search delete
-npx @coolicons/cli show trash --style fill > trash.svg
-npx @coolicons/cli add trash bell --style bulk --radius round --out src/icons
+npx @coolicons/cli search date
+npx @coolicons/cli show calendar --style fill > calendar.svg
+npx @coolicons/cli add calendar bell --style bulk --radius round --out src/icons
 ```
 
 ## Commands
