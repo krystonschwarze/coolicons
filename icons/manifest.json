@@ -1,7 +1,7 @@
 {
   "format": 1,
   "source": {
-    "commit": "936185f4",
+    "commit": "948191aa",
     "dirty": false
   },
   "styles": [
@@ -147,15 +147,15 @@
       "name": "alarm-off",
       "category": "Calendar",
       "files": {
-        "line/sharp": "9c67b8380cd7",
-        "line/regular": "9c67b8380cd7",
-        "line/round": "9c67b8380cd7",
-        "duocolor/sharp": "4e8a05cdce99",
-        "duocolor/regular": "4e8a05cdce99",
-        "duocolor/round": "4e8a05cdce99",
-        "duotone/sharp": "12b0e2342ea1",
-        "duotone/regular": "12b0e2342ea1",
-        "duotone/round": "12b0e2342ea1",
+        "line/sharp": "2c802cd3069f",
+        "line/regular": "2c802cd3069f",
+        "line/round": "2c802cd3069f",
+        "duocolor/sharp": "41b933b5484d",
+        "duocolor/regular": "41b933b5484d",
+        "duocolor/round": "41b933b5484d",
+        "duotone/sharp": "e17ab1d50c73",
+        "duotone/regular": "e17ab1d50c73",
+        "duotone/round": "e17ab1d50c73",
         "fill/sharp": "5ea6be72c903",
         "fill/regular": "5ea6be72c903",
         "fill/round": "5ea6be72c903",
@@ -435,6 +435,27 @@
         "bulk/sharp": "669689297943",
         "bulk/regular": "35b5a748ccf5",
         "bulk/round": "9a590c63c2c3"
+      }
+    },
+    {
+      "name": "archive-restore",
+      "category": "File",
+      "files": {
+        "line/sharp": "e8869d03df27",
+        "line/regular": "d66be150f330",
+        "line/round": "720cf031677d",
+        "duocolor/sharp": "7d5f60bd21a4",
+        "duocolor/regular": "301dfd8140b8",
+        "duocolor/round": "337c96d2891a",
+        "duotone/sharp": "cb0b24693f19",
+        "duotone/regular": "e90dfeade968",
+        "duotone/round": "342280fd6a64",
+        "fill/sharp": "a4b05ed091b8",
+        "fill/regular": "f6cf7f01952e",
+        "fill/round": "31fc471093f8",
+        "bulk/sharp": "d93b753dfd81",
+        "bulk/regular": "e9741ef595c4",
+        "bulk/round": "95569db7d990"
       }
     },
     {
@@ -2144,15 +2165,15 @@
       "name": "bell-off",
       "category": "Communication",
       "files": {
-        "line/sharp": "d0224bed38cb",
-        "line/regular": "ade102c96d13",
-        "line/round": "ade102c96d13",
-        "duocolor/sharp": "b5da910e61b0",
-        "duocolor/regular": "bb1edea3e841",
-        "duocolor/round": "bb1edea3e841",
-        "duotone/sharp": "22369dab5b95",
-        "duotone/regular": "479fb9b4050f",
-        "duotone/round": "479fb9b4050f",
+        "line/sharp": "252c0daeeb79",
+        "line/regular": "9d29ece89848",
+        "line/round": "9d29ece89848",
+        "duocolor/sharp": "74c2d9c20a82",
+        "duocolor/regular": "1e82f9a7b862",
+        "duocolor/round": "1e82f9a7b862",
+        "duotone/sharp": "b5f3000799c3",
+        "duotone/regular": "b223348b1838",
+        "duotone/round": "b223348b1838",
         "fill/sharp": "addff6a8b5c8",
         "fill/regular": "bc06f1f663e0",
         "fill/round": "bc06f1f663e0",
@@ -2264,6 +2285,27 @@
         "bulk/sharp": "6cd3294b6a42",
         "bulk/regular": "6cd3294b6a42",
         "bulk/round": "6cd3294b6a42"
+      }
+    },
+    {
+      "name": "blocks",
+      "category": "Design",
+      "files": {
+        "line/sharp": "018c22da8ffb",
+        "line/regular": "3581696560e4",
+        "line/round": "0c57bd9e5932",
+        "duocolor/sharp": "8c765eeab8e5",
+        "duocolor/regular": "120c9fa57e15",
+        "duocolor/round": "2cae5098151c",
+        "duotone/sharp": "eac0709ba445",
+        "duotone/regular": "cfba32b6ad8e",
+        "duotone/round": "bc6249824277",
+        "fill/sharp": "1157f42ca4d3",
+        "fill/regular": "e70dc1cf0aca",
+        "fill/round": "f5e0b3cb22af",
+        "bulk/sharp": "cc262bc3a72d",
+        "bulk/regular": "375925ad929e",
+        "bulk/round": "1b6678a9e989"
       }
     },
     {
@@ -2481,14 +2523,14 @@
       "category": "Communication",
       "files": {
         "line/sharp": "72d8c22d9da2",
-        "line/regular": "766c0a697a95",
-        "line/round": "4201467d555a",
+        "line/regular": "3b7e9d286686",
+        "line/round": "0c77b9be6d81",
         "duocolor/sharp": "7f39ef67a151",
-        "duocolor/regular": "f96ff4ef54d4",
-        "duocolor/round": "af05d128baec",
-        "duotone/sharp": "8843893e8b7d",
-        "duotone/regular": "15287d02f2a2",
-        "duotone/round": "fde86a4c5026",
+        "duocolor/regular": "360161d2b3dc",
+        "duocolor/round": "ed37a3179459",
+        "duotone/sharp": "f83a562d6cc9",
+        "duotone/regular": "166d53e3d755",
+        "duotone/round": "1864506437e9",
         "fill/sharp": "ad82dbf47196",
         "fill/regular": "bc5a2f6b0238",
         "fill/round": "2fd48a7bc0b1",
@@ -2516,6 +2558,111 @@
         "bulk/sharp": "a7e268c9ae28",
         "bulk/regular": "320e82e9903c",
         "bulk/round": "0dab143987ad"
+      }
+    },
+    {
+      "name": "box",
+      "category": "File",
+      "files": {
+        "line/sharp": "fa819464b010",
+        "line/regular": "4597ccb615ff",
+        "line/round": "d15edf8d1dd3",
+        "duocolor/sharp": "70d971141905",
+        "duocolor/regular": "adb36cdf57c7",
+        "duocolor/round": "18d29032bd6c",
+        "duotone/sharp": "8e8b13ac197d",
+        "duotone/regular": "d31511f6e0e9",
+        "duotone/round": "dc032a3e0480",
+        "fill/sharp": "b3b7cc4787d8",
+        "fill/regular": "13e912ffa919",
+        "fill/round": "237428c94b76",
+        "bulk/sharp": "e51ebc2cc1da",
+        "bulk/regular": "c6790c2f53a5",
+        "bulk/round": "96d2c39dc51d"
+      }
+    },
+    {
+      "name": "box-export",
+      "category": "File",
+      "files": {
+        "line/sharp": "783872be0a7b",
+        "line/regular": "24b8bfe0fb33",
+        "line/round": "a47f99c964e7",
+        "duocolor/sharp": "eb1cd7b468a8",
+        "duocolor/regular": "2e4bcef98e4f",
+        "duocolor/round": "4c07fd05fc6d",
+        "duotone/sharp": "be49a2db85ae",
+        "duotone/regular": "1963dee6078d",
+        "duotone/round": "db72282c3430",
+        "fill/sharp": "1d38e94f3cec",
+        "fill/regular": "eb4f1649eded",
+        "fill/round": "88b4ffb21d70",
+        "bulk/sharp": "2c5bbf902b25",
+        "bulk/regular": "eca9d3ed1bb2",
+        "bulk/round": "1e5237e87e25"
+      }
+    },
+    {
+      "name": "box-import",
+      "category": "File",
+      "files": {
+        "line/sharp": "83f0bef0e9a0",
+        "line/regular": "ba6abee13560",
+        "line/round": "1c4a33364b7e",
+        "duocolor/sharp": "9e8813dfbc9c",
+        "duocolor/regular": "36c5e356798a",
+        "duocolor/round": "e625d27f52f6",
+        "duotone/sharp": "3db7eafb74aa",
+        "duotone/regular": "17c105f963f0",
+        "duotone/round": "bae0e3367338",
+        "fill/sharp": "bf707d992c42",
+        "fill/regular": "91edc9e3284b",
+        "fill/round": "ab4a287440d6",
+        "bulk/sharp": "cf8777686ea8",
+        "bulk/regular": "2a109e0c7011",
+        "bulk/round": "d31852d1b163"
+      }
+    },
+    {
+      "name": "box-off",
+      "category": "File",
+      "files": {
+        "line/sharp": "0bf2be02b0e8",
+        "line/regular": "32668c75bea0",
+        "line/round": "a015709584f7",
+        "duocolor/sharp": "8cb05f6af509",
+        "duocolor/regular": "ffed0cddfe56",
+        "duocolor/round": "83606dce3b8d",
+        "duotone/sharp": "9537e4611849",
+        "duotone/regular": "ebd700ba8b40",
+        "duotone/round": "c2077a0a497b",
+        "fill/sharp": "b94a4c632418",
+        "fill/regular": "3581c4587326",
+        "fill/round": "e000cac83b93",
+        "bulk/sharp": "7eebddc8eaa4",
+        "bulk/regular": "6b840d024d85",
+        "bulk/round": "0f5568f21cfc"
+      }
+    },
+    {
+      "name": "box-taped",
+      "category": "File",
+      "files": {
+        "line/sharp": "97797b7c2aa6",
+        "line/regular": "4f0fabfd93d4",
+        "line/round": "f8a2356b9a4c",
+        "duocolor/sharp": "a5743a4cdd1e",
+        "duocolor/regular": "4372ed4e01af",
+        "duocolor/round": "444f45960d45",
+        "duotone/sharp": "c9dabdcc9a09",
+        "duotone/regular": "47ff3f59f153",
+        "duotone/round": "de368ef07330",
+        "fill/sharp": "79dfdfbd0575",
+        "fill/regular": "2a8f824d2316",
+        "fill/round": "638d2134d676",
+        "bulk/sharp": "8abad785a74b",
+        "bulk/regular": "eda088741ec6",
+        "bulk/round": "7bc750ee2c2d"
       }
     },
     {
@@ -3086,6 +3233,27 @@
       }
     },
     {
+      "name": "calendar-clock-corner",
+      "category": "Calendar",
+      "files": {
+        "line/sharp": "ebda3c2bacd7",
+        "line/regular": "678e1e329965",
+        "line/round": "cd3bffaf187a",
+        "duocolor/sharp": "96548ed74cb4",
+        "duocolor/regular": "c367758712eb",
+        "duocolor/round": "1f710bfa64ac",
+        "duotone/sharp": "23bffd503691",
+        "duotone/regular": "85713afeeb7d",
+        "duotone/round": "8d394b08297b",
+        "fill/sharp": "0b7543e7b62b",
+        "fill/regular": "231fa1845b5a",
+        "fill/round": "7892082b0969",
+        "bulk/sharp": "d7945aa1933e",
+        "bulk/regular": "08532a391d5b",
+        "bulk/round": "1412f4421056"
+      }
+    },
+    {
       "name": "calendar-close",
       "category": "Calendar",
       "files": {
@@ -3257,21 +3425,21 @@
       "name": "calendar-off",
       "category": "Calendar",
       "files": {
-        "line/sharp": "388af726c83f",
-        "line/regular": "05b53c848f52",
-        "line/round": "472f03a32754",
-        "duocolor/sharp": "2b1d34b3d902",
-        "duocolor/regular": "4f82542a1568",
-        "duocolor/round": "b41741da0826",
-        "duotone/sharp": "bdeef9550d75",
-        "duotone/regular": "b6186a0d34db",
-        "duotone/round": "16c72550fcb5",
-        "fill/sharp": "ed9f74c6d7a8",
-        "fill/regular": "6b6e35509eb5",
-        "fill/round": "56581a71e9b9",
-        "bulk/sharp": "5bb548a480c3",
-        "bulk/regular": "572f984951a2",
-        "bulk/round": "6b5a5dc273f2"
+        "line/sharp": "42883cd9d2a9",
+        "line/regular": "288ccd4dee95",
+        "line/round": "28c15ebb3f28",
+        "duocolor/sharp": "d0eefdab9f41",
+        "duocolor/regular": "0e80cd701794",
+        "duocolor/round": "e4ca40621070",
+        "duotone/sharp": "4bbb4f0638db",
+        "duotone/regular": "929f07d2656e",
+        "duotone/round": "30e7fe43b9b9",
+        "fill/sharp": "a12648a9af97",
+        "fill/regular": "19dea18fd7fe",
+        "fill/round": "35e40dc4f1c7",
+        "bulk/sharp": "9e022b9bd481",
+        "bulk/regular": "8c7e67572e5d",
+        "bulk/round": "a93f5bf10876"
       }
     },
     {
@@ -3446,21 +3614,21 @@
       "name": "camera-off",
       "category": "Devices",
       "files": {
-        "line/sharp": "40c05a115e0e",
-        "line/regular": "f220e7e43e3a",
-        "line/round": "fbc191db445e",
-        "duocolor/sharp": "2b16081c6348",
-        "duocolor/regular": "ac1e7889ce8f",
-        "duocolor/round": "ae3f3773f920",
-        "duotone/sharp": "70922c9bf18c",
-        "duotone/regular": "4334a06a04b3",
-        "duotone/round": "3e14dbce9d33",
-        "fill/sharp": "bc030d322f90",
-        "fill/regular": "23b9bc813fdc",
-        "fill/round": "64f082723fb1",
-        "bulk/sharp": "f220f23bf23a",
-        "bulk/regular": "6ecfa7b96718",
-        "bulk/round": "b6aa70897398"
+        "line/sharp": "d1af81dbef14",
+        "line/regular": "9d16dc0363f3",
+        "line/round": "0dd089868243",
+        "duocolor/sharp": "3617747a0c46",
+        "duocolor/regular": "a07c93ab56e8",
+        "duocolor/round": "7804480083d0",
+        "duotone/sharp": "3b5e0d4696f8",
+        "duotone/regular": "54efbcf93c76",
+        "duotone/round": "3cf7f57df47b",
+        "fill/sharp": "1d7694a7d20e",
+        "fill/regular": "62311694053e",
+        "fill/round": "9055f0282521",
+        "bulk/sharp": "07a1bd2ea983",
+        "bulk/regular": "56f621a1f8c9",
+        "bulk/round": "5c4ddf570e32"
       }
     },
     {
@@ -4368,6 +4536,48 @@
       }
     },
     {
+      "name": "chat-circle-heart",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "f1d1ec842518",
+        "line/regular": "f1d1ec842518",
+        "line/round": "f1d1ec842518",
+        "duocolor/sharp": "c161ebf12f39",
+        "duocolor/regular": "c161ebf12f39",
+        "duocolor/round": "c161ebf12f39",
+        "duotone/sharp": "16188e6135b7",
+        "duotone/regular": "16188e6135b7",
+        "duotone/round": "16188e6135b7",
+        "fill/sharp": "a1f565fd2a3a",
+        "fill/regular": "a1f565fd2a3a",
+        "fill/round": "a1f565fd2a3a",
+        "bulk/sharp": "be5fd67b808f",
+        "bulk/regular": "be5fd67b808f",
+        "bulk/round": "be5fd67b808f"
+      }
+    },
+    {
+      "name": "chat-circle-help",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "5cc9d25f60a8",
+        "line/regular": "5cc9d25f60a8",
+        "line/round": "5cc9d25f60a8",
+        "duocolor/sharp": "3f9193fcfa0e",
+        "duocolor/regular": "3f9193fcfa0e",
+        "duocolor/round": "3f9193fcfa0e",
+        "duotone/sharp": "b3c9b3a3b173",
+        "duotone/regular": "b3c9b3a3b173",
+        "duotone/round": "b3c9b3a3b173",
+        "fill/sharp": "6aa4177546b1",
+        "fill/regular": "6aa4177546b1",
+        "fill/round": "6aa4177546b1",
+        "bulk/sharp": "a54a33c006ab",
+        "bulk/regular": "a54a33c006ab",
+        "bulk/round": "a54a33c006ab"
+      }
+    },
+    {
       "name": "chat-circle-minus",
       "category": "Communication",
       "files": {
@@ -4389,6 +4599,27 @@
       }
     },
     {
+      "name": "chat-circle-off",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "93f5b80fe944",
+        "line/regular": "93f5b80fe944",
+        "line/round": "93f5b80fe944",
+        "duocolor/sharp": "0da772451630",
+        "duocolor/regular": "0da772451630",
+        "duocolor/round": "0da772451630",
+        "duotone/sharp": "5736539cdac0",
+        "duotone/regular": "5736539cdac0",
+        "duotone/round": "5736539cdac0",
+        "fill/sharp": "f0ea95a59631",
+        "fill/regular": "f0ea95a59631",
+        "fill/round": "f0ea95a59631",
+        "bulk/sharp": "4df12dc88a47",
+        "bulk/regular": "4df12dc88a47",
+        "bulk/round": "4df12dc88a47"
+      }
+    },
+    {
       "name": "chat-circle-plus",
       "category": "Communication",
       "files": {
@@ -4407,6 +4638,90 @@
         "bulk/sharp": "c410b806df6c",
         "bulk/regular": "c410b806df6c",
         "bulk/round": "c410b806df6c"
+      }
+    },
+    {
+      "name": "chat-circle-quote",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "8cbbf7b2d465",
+        "line/regular": "8cbbf7b2d465",
+        "line/round": "8cbbf7b2d465",
+        "duocolor/sharp": "345b7bbeb105",
+        "duocolor/regular": "345b7bbeb105",
+        "duocolor/round": "345b7bbeb105",
+        "duotone/sharp": "a30e1c2b79ca",
+        "duotone/regular": "a30e1c2b79ca",
+        "duotone/round": "a30e1c2b79ca",
+        "fill/sharp": "5fd493fe5a2b",
+        "fill/regular": "5fd493fe5a2b",
+        "fill/round": "5fd493fe5a2b",
+        "bulk/sharp": "dc0f1882eadc",
+        "bulk/regular": "dc0f1882eadc",
+        "bulk/round": "dc0f1882eadc"
+      }
+    },
+    {
+      "name": "chat-circle-share",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "a2413b48ac83",
+        "line/regular": "db9ee3ed900e",
+        "line/round": "13f6cba2e7ca",
+        "duocolor/sharp": "86534c07c3f6",
+        "duocolor/regular": "9043d960b8af",
+        "duocolor/round": "8e4c2619a97e",
+        "duotone/sharp": "2f7076c6d530",
+        "duotone/regular": "0bd0b4ce8291",
+        "duotone/round": "9871792f49e8",
+        "fill/sharp": "6d42a80d6ef6",
+        "fill/regular": "56a6453d64d6",
+        "fill/round": "e048cc890397",
+        "bulk/sharp": "ca4ddc43b464",
+        "bulk/regular": "643ac02ea821",
+        "bulk/round": "4d200940c1d8"
+      }
+    },
+    {
+      "name": "chat-circle-text",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "702ffd7fff8d",
+        "line/regular": "702ffd7fff8d",
+        "line/round": "702ffd7fff8d",
+        "duocolor/sharp": "2507d7bd0a4b",
+        "duocolor/regular": "2507d7bd0a4b",
+        "duocolor/round": "2507d7bd0a4b",
+        "duotone/sharp": "895d3169f67c",
+        "duotone/regular": "895d3169f67c",
+        "duotone/round": "895d3169f67c",
+        "fill/sharp": "1e2c4346f06d",
+        "fill/regular": "1e2c4346f06d",
+        "fill/round": "1e2c4346f06d",
+        "bulk/sharp": "a8dcfcb3b33f",
+        "bulk/regular": "a8dcfcb3b33f",
+        "bulk/round": "a8dcfcb3b33f"
+      }
+    },
+    {
+      "name": "chat-circle-warning",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "37a4e94aa039",
+        "line/regular": "37a4e94aa039",
+        "line/round": "37a4e94aa039",
+        "duocolor/sharp": "f552eb82a150",
+        "duocolor/regular": "f552eb82a150",
+        "duocolor/round": "f552eb82a150",
+        "duotone/sharp": "402856d2ae23",
+        "duotone/regular": "402856d2ae23",
+        "duotone/round": "402856d2ae23",
+        "fill/sharp": "9d17648c8063",
+        "fill/regular": "9d17648c8063",
+        "fill/round": "9d17648c8063",
+        "bulk/sharp": "520e500644fb",
+        "bulk/regular": "520e500644fb",
+        "bulk/round": "520e500644fb"
       }
     },
     {
@@ -4560,15 +4875,15 @@
       "name": "chat-off",
       "category": "Communication",
       "files": {
-        "line/sharp": "f89b5e54e863",
-        "line/regular": "bb5f08e3bab0",
-        "line/round": "5d2327d2e8c3",
-        "duocolor/sharp": "202c85e2ee54",
-        "duocolor/regular": "6b8a8ec30a21",
-        "duocolor/round": "6f04426f65a6",
-        "duotone/sharp": "a6d7583666b3",
-        "duotone/regular": "dd4bcbb80270",
-        "duotone/round": "5780a57bd17b",
+        "line/sharp": "519894ffbe8e",
+        "line/regular": "c74ef98ee1ee",
+        "line/round": "be131bccf7c9",
+        "duocolor/sharp": "42a8368201d8",
+        "duocolor/regular": "a235e329f66c",
+        "duocolor/round": "82c36079f307",
+        "duotone/sharp": "35be9240127c",
+        "duotone/regular": "d4e06dcc9a20",
+        "duotone/round": "22e3f356f40c",
         "fill/sharp": "f2aae3378ce7",
         "fill/regular": "e30cf4e53e84",
         "fill/round": "a7ba1122c3f2",
@@ -4596,6 +4911,48 @@
         "bulk/sharp": "a097f447dce3",
         "bulk/regular": "3410c6c2df45",
         "bulk/round": "c3f13a3c9339"
+      }
+    },
+    {
+      "name": "chat-quote",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "0ae1350eb0cf",
+        "line/regular": "ecf59423278c",
+        "line/round": "0c292d283b16",
+        "duocolor/sharp": "948bd7fbcb1c",
+        "duocolor/regular": "1f04da4cab59",
+        "duocolor/round": "e10f19d12310",
+        "duotone/sharp": "bbed502fb6a0",
+        "duotone/regular": "55c1329f7a28",
+        "duotone/round": "220194e10580",
+        "fill/sharp": "ecb00aef4d97",
+        "fill/regular": "c5b447519c00",
+        "fill/round": "92947c6d0884",
+        "bulk/sharp": "782db387a931",
+        "bulk/regular": "30cac97b0bfe",
+        "bulk/round": "77b5034247df"
+      }
+    },
+    {
+      "name": "chat-share",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "52942a35753d",
+        "line/regular": "ecb7d22ff49d",
+        "line/round": "e2f104d99426",
+        "duocolor/sharp": "85ece91c22c7",
+        "duocolor/regular": "07843a66b4bb",
+        "duocolor/round": "a00567270f49",
+        "duotone/sharp": "f52ea8b6d1cd",
+        "duotone/regular": "9c6452bf1b8d",
+        "duotone/round": "f0ffe7a27baa",
+        "fill/sharp": "4ecc452aaaf5",
+        "fill/regular": "395b2f51db57",
+        "fill/round": "e883f1bff8c8",
+        "bulk/sharp": "b66ef7076285",
+        "bulk/regular": "17106c4d36a4",
+        "bulk/round": "9b8458e980e8"
       }
     },
     {
@@ -4638,6 +4995,27 @@
         "bulk/sharp": "2b8686c4c792",
         "bulk/regular": "b72b9a9c19fa",
         "bulk/round": "d28126333dd4"
+      }
+    },
+    {
+      "name": "chat-warning",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "e65d259f117c",
+        "line/regular": "22d070708094",
+        "line/round": "71707d6b6c81",
+        "duocolor/sharp": "98fe636e77c0",
+        "duocolor/regular": "683d952f106a",
+        "duocolor/round": "4f43546fe2f8",
+        "duotone/sharp": "35625235258a",
+        "duotone/regular": "e23f6226d61e",
+        "duotone/round": "1989de698cb4",
+        "fill/sharp": "f13055051744",
+        "fill/regular": "3528bb229595",
+        "fill/round": "689740fed4e3",
+        "bulk/sharp": "2894a28e4749",
+        "bulk/regular": "0bcdf08b87d8",
+        "bulk/round": "33c5f0e640ff"
       }
     },
     {
@@ -6766,36 +7144,36 @@
       "name": "cloud-moon",
       "category": "Nature",
       "files": {
-        "line/sharp": "82e9d59a586a",
-        "line/regular": "82e9d59a586a",
-        "line/round": "82e9d59a586a",
-        "duocolor/sharp": "e36128f80821",
-        "duocolor/regular": "e36128f80821",
-        "duocolor/round": "e36128f80821",
-        "duotone/sharp": "757ac5f55933",
-        "duotone/regular": "757ac5f55933",
-        "duotone/round": "757ac5f55933",
-        "fill/sharp": "a1570f68b60f",
-        "fill/regular": "a1570f68b60f",
-        "fill/round": "a1570f68b60f",
-        "bulk/sharp": "ac05cf8d8a38",
-        "bulk/regular": "ac05cf8d8a38",
-        "bulk/round": "ac05cf8d8a38"
+        "line/sharp": "55ef32b1139a",
+        "line/regular": "55ef32b1139a",
+        "line/round": "55ef32b1139a",
+        "duocolor/sharp": "4e088eeba468",
+        "duocolor/regular": "4e088eeba468",
+        "duocolor/round": "4e088eeba468",
+        "duotone/sharp": "ee46f6b11ecc",
+        "duotone/regular": "ee46f6b11ecc",
+        "duotone/round": "ee46f6b11ecc",
+        "fill/sharp": "8dba7e8ea8da",
+        "fill/regular": "8dba7e8ea8da",
+        "fill/round": "8dba7e8ea8da",
+        "bulk/sharp": "b83235296665",
+        "bulk/regular": "b83235296665",
+        "bulk/round": "b83235296665"
       }
     },
     {
       "name": "cloud-off",
       "category": "File",
       "files": {
-        "line/sharp": "4b2bc6296a3b",
-        "line/regular": "4b2bc6296a3b",
-        "line/round": "4b2bc6296a3b",
-        "duocolor/sharp": "e7030f21c4aa",
-        "duocolor/regular": "e7030f21c4aa",
-        "duocolor/round": "e7030f21c4aa",
-        "duotone/sharp": "b55230f1634b",
-        "duotone/regular": "b55230f1634b",
-        "duotone/round": "b55230f1634b",
+        "line/sharp": "e043815f27fd",
+        "line/regular": "e043815f27fd",
+        "line/round": "e043815f27fd",
+        "duocolor/sharp": "ea0a65014eda",
+        "duocolor/regular": "ea0a65014eda",
+        "duocolor/round": "ea0a65014eda",
+        "duotone/sharp": "1c9d6b4b17f7",
+        "duotone/regular": "1c9d6b4b17f7",
+        "duotone/round": "1c9d6b4b17f7",
         "fill/sharp": "296332815cea",
         "fill/regular": "296332815cea",
         "fill/round": "296332815cea",
@@ -8131,6 +8509,27 @@
       }
     },
     {
+      "name": "database-backup-corner",
+      "category": "Development",
+      "files": {
+        "line/sharp": "aa31adc1e734",
+        "line/regular": "aa31adc1e734",
+        "line/round": "aa31adc1e734",
+        "duocolor/sharp": "cdb22e8a69ac",
+        "duocolor/regular": "cdb22e8a69ac",
+        "duocolor/round": "cdb22e8a69ac",
+        "duotone/sharp": "53ef7d7419e9",
+        "duotone/regular": "53ef7d7419e9",
+        "duotone/round": "53ef7d7419e9",
+        "fill/sharp": "3d8b8242d4ca",
+        "fill/regular": "3d8b8242d4ca",
+        "fill/round": "3d8b8242d4ca",
+        "bulk/sharp": "fbfa60cafdb7",
+        "bulk/regular": "97973aae2478",
+        "bulk/round": "fca3e0989d80"
+      }
+    },
+    {
       "name": "database-check-corner",
       "category": "Development",
       "files": {
@@ -8212,6 +8611,27 @@
         "bulk/sharp": "d8bfa87ff385",
         "bulk/regular": "ad934eead80a",
         "bulk/round": "ad4e52e2443a"
+      }
+    },
+    {
+      "name": "database-restore-corner",
+      "category": "Development",
+      "files": {
+        "line/sharp": "0b01f48c64ae",
+        "line/regular": "0b01f48c64ae",
+        "line/round": "0b01f48c64ae",
+        "duocolor/sharp": "1e887f948228",
+        "duocolor/regular": "1e887f948228",
+        "duocolor/round": "1e887f948228",
+        "duotone/sharp": "6bb99a94ca41",
+        "duotone/regular": "6bb99a94ca41",
+        "duotone/round": "6bb99a94ca41",
+        "fill/sharp": "e6267ec2125a",
+        "fill/regular": "e6267ec2125a",
+        "fill/round": "e6267ec2125a",
+        "bulk/sharp": "195eefee6f53",
+        "bulk/regular": "e6753dd6b6ba",
+        "bulk/round": "bf35f55ecabc"
       }
     },
     {
@@ -9160,6 +9580,27 @@
       }
     },
     {
+      "name": "export",
+      "category": "Arrow",
+      "files": {
+        "line/sharp": "a439dd0c850c",
+        "line/regular": "f69cd8589a8a",
+        "line/round": "436fe5a0d811",
+        "duocolor/sharp": "98130c4d4ef1",
+        "duocolor/regular": "a4077128cb3f",
+        "duocolor/round": "8c7a906ddcb4",
+        "duotone/sharp": "a439dd0c850c",
+        "duotone/regular": "f69cd8589a8a",
+        "duotone/round": "436fe5a0d811",
+        "fill/sharp": "83ca27f18829",
+        "fill/regular": "37e9beae03a8",
+        "fill/round": "637996e98d07",
+        "bulk/sharp": "c56616fb9d49",
+        "bulk/regular": "947d9d827455",
+        "bulk/round": "f3aac9d1e04b"
+      }
+    },
+    {
       "name": "external-link",
       "category": "Arrow",
       "files": {
@@ -9205,21 +9646,21 @@
       "name": "eye-off",
       "category": "Edit",
       "files": {
-        "line/sharp": "9cb7e1bb36ad",
-        "line/regular": "9cb7e1bb36ad",
-        "line/round": "9cb7e1bb36ad",
-        "duocolor/sharp": "1c0b07375dfa",
-        "duocolor/regular": "1c0b07375dfa",
-        "duocolor/round": "1c0b07375dfa",
-        "duotone/sharp": "6e2058cce72c",
-        "duotone/regular": "6e2058cce72c",
-        "duotone/round": "6e2058cce72c",
-        "fill/sharp": "4b0311aa77d0",
-        "fill/regular": "4b0311aa77d0",
-        "fill/round": "4b0311aa77d0",
-        "bulk/sharp": "5a59771ca035",
-        "bulk/regular": "5a59771ca035",
-        "bulk/round": "5a59771ca035"
+        "line/sharp": "a397ade027a1",
+        "line/regular": "a397ade027a1",
+        "line/round": "a397ade027a1",
+        "duocolor/sharp": "1518a85c823c",
+        "duocolor/regular": "1518a85c823c",
+        "duocolor/round": "1518a85c823c",
+        "duotone/sharp": "cde7a74d3bd9",
+        "duotone/regular": "cde7a74d3bd9",
+        "duotone/round": "cde7a74d3bd9",
+        "fill/sharp": "a6b01efbb012",
+        "fill/regular": "a6b01efbb012",
+        "fill/round": "a6b01efbb012",
+        "bulk/sharp": "01275b8a1c8c",
+        "bulk/regular": "01275b8a1c8c",
+        "bulk/round": "01275b8a1c8c"
       }
     },
     {
@@ -9346,6 +9787,48 @@
         "bulk/sharp": "202c98d234cf",
         "bulk/regular": "202c98d234cf",
         "bulk/round": "202c98d234cf"
+      }
+    },
+    {
+      "name": "face-smile-minus-corner",
+      "category": "Faces",
+      "files": {
+        "line/sharp": "7f9623376fc7",
+        "line/regular": "7f9623376fc7",
+        "line/round": "7f9623376fc7",
+        "duocolor/sharp": "cdab9a67c3dc",
+        "duocolor/regular": "cdab9a67c3dc",
+        "duocolor/round": "cdab9a67c3dc",
+        "duotone/sharp": "edf0fa6e77d1",
+        "duotone/regular": "edf0fa6e77d1",
+        "duotone/round": "edf0fa6e77d1",
+        "fill/sharp": "1866080abbeb",
+        "fill/regular": "1866080abbeb",
+        "fill/round": "1866080abbeb",
+        "bulk/sharp": "2f691e3c3207",
+        "bulk/regular": "2f691e3c3207",
+        "bulk/round": "2f691e3c3207"
+      }
+    },
+    {
+      "name": "face-smile-plus-corner",
+      "category": "Faces",
+      "files": {
+        "line/sharp": "194f98172cc0",
+        "line/regular": "194f98172cc0",
+        "line/round": "194f98172cc0",
+        "duocolor/sharp": "4cfa7aef1dea",
+        "duocolor/regular": "4cfa7aef1dea",
+        "duocolor/round": "4cfa7aef1dea",
+        "duotone/sharp": "d5e6f42f944d",
+        "duotone/regular": "d5e6f42f944d",
+        "duotone/round": "d5e6f42f944d",
+        "fill/sharp": "77615555bf41",
+        "fill/regular": "77615555bf41",
+        "fill/round": "77615555bf41",
+        "bulk/sharp": "9bad9544ef9d",
+        "bulk/regular": "9bad9544ef9d",
+        "bulk/round": "9bad9544ef9d"
       }
     },
     {
@@ -9538,6 +10021,27 @@
       }
     },
     {
+      "name": "file-archive",
+      "category": "File",
+      "files": {
+        "line/sharp": "75eaf3727d0d",
+        "line/regular": "d2092ce7791e",
+        "line/round": "b14d8da83d90",
+        "duocolor/sharp": "52b9acc9aedd",
+        "duocolor/regular": "1d574a4d8a04",
+        "duocolor/round": "af17fe391cbb",
+        "duotone/sharp": "82d19a410052",
+        "duotone/regular": "59166e06696f",
+        "duotone/round": "201701153d3b",
+        "fill/sharp": "5e153979063e",
+        "fill/regular": "faa59cabf8ce",
+        "fill/round": "9092858a5423",
+        "bulk/sharp": "934e86f751c8",
+        "bulk/regular": "24c15034ee24",
+        "bulk/round": "af89d6b5217d"
+      }
+    },
+    {
       "name": "file-check",
       "category": "File",
       "files": {
@@ -9724,6 +10228,48 @@
         "bulk/sharp": "b48936e0b576",
         "bulk/regular": "22ab9132de54",
         "bulk/round": "7a7d64675cf7"
+      }
+    },
+    {
+      "name": "file-help",
+      "category": "File",
+      "files": {
+        "line/sharp": "9844c77dd5aa",
+        "line/regular": "68fbb6abe393",
+        "line/round": "78f654423ae9",
+        "duocolor/sharp": "2a986f13322f",
+        "duocolor/regular": "d0cc7a5f8610",
+        "duocolor/round": "656c425bf06a",
+        "duotone/sharp": "aed5444c3824",
+        "duotone/regular": "64d7ee937764",
+        "duotone/round": "98c1e4ff2712",
+        "fill/sharp": "79f52f3ddab4",
+        "fill/regular": "249660b65afc",
+        "fill/round": "6caef4aa9386",
+        "bulk/sharp": "0d5b6a2c2348",
+        "bulk/regular": "bd3c091125ad",
+        "bulk/round": "c78ffe457a2a"
+      }
+    },
+    {
+      "name": "file-help-corner",
+      "category": "File",
+      "files": {
+        "line/sharp": "fb4b635cc5ee",
+        "line/regular": "309aeb12f7b9",
+        "line/round": "5b59e78c02e8",
+        "duocolor/sharp": "8efd387c18c7",
+        "duocolor/regular": "a8a617e9f482",
+        "duocolor/round": "f0a60cf9d846",
+        "duotone/sharp": "a0a3d2280c4c",
+        "duotone/regular": "f1abaaa01e20",
+        "duotone/round": "5f422a7ec3c6",
+        "fill/sharp": "d1dbd4da3e02",
+        "fill/regular": "ddb8a0ef5aa0",
+        "fill/round": "2517925a8254",
+        "bulk/sharp": "dbf375320077",
+        "bulk/regular": "0b34a69779d2",
+        "bulk/round": "6065cc357019"
       }
     },
     {
@@ -9916,6 +10462,27 @@
       }
     },
     {
+      "name": "file-spreadsheet",
+      "category": "File",
+      "files": {
+        "line/sharp": "7774ba07c119",
+        "line/regular": "2e099f9b49e0",
+        "line/round": "f75e6caa2183",
+        "duocolor/sharp": "bf480dae383e",
+        "duocolor/regular": "5c76b7a6459e",
+        "duocolor/round": "af8504f93d84",
+        "duotone/sharp": "8182be0a2154",
+        "duotone/regular": "dfafc15bc53b",
+        "duotone/round": "a9c5e7239c07",
+        "fill/sharp": "458d7a106d01",
+        "fill/regular": "d0a65e374954",
+        "fill/round": "5aa61c98066e",
+        "bulk/sharp": "8f0d7df522ec",
+        "bulk/regular": "72edfeee35c6",
+        "bulk/round": "1a82b2cd9f81"
+      }
+    },
+    {
       "name": "file-text",
       "category": "File",
       "files": {
@@ -9934,6 +10501,27 @@
         "bulk/sharp": "cb325378e1e1",
         "bulk/regular": "205c9b68792e",
         "bulk/round": "48dd1c3a01b3"
+      }
+    },
+    {
+      "name": "file-type",
+      "category": "File",
+      "files": {
+        "line/sharp": "6b29de96f9ab",
+        "line/regular": "1e5db436a292",
+        "line/round": "464609682c85",
+        "duocolor/sharp": "bb019f461a5a",
+        "duocolor/regular": "96c2abe1363f",
+        "duocolor/round": "1fd815c74d63",
+        "duotone/sharp": "fc271e6e099b",
+        "duotone/regular": "40eb101ee475",
+        "duotone/round": "0db8c9e15195",
+        "fill/sharp": "ef3a4f3f2e54",
+        "fill/regular": "8804d37c621c",
+        "fill/round": "56f34416d427",
+        "bulk/sharp": "9e6be6bc08a2",
+        "bulk/regular": "b13cf5e9b8c0",
+        "bulk/round": "7b73c30e4089"
       }
     },
     {
@@ -10047,13 +10635,13 @@
       "files": {
         "line/sharp": "072d5982189d",
         "line/regular": "68c001805b65",
-        "line/round": "f18f2bbc1bdf",
+        "line/round": "a1fa75ce0188",
         "duocolor/sharp": "66a9147fab7d",
         "duocolor/regular": "b510af8c568c",
-        "duocolor/round": "9097bf09e26a",
-        "duotone/sharp": "9116233fa47b",
-        "duotone/regular": "4fa1297c577c",
-        "duotone/round": "67cada7b3e79",
+        "duocolor/round": "4d3c2957bee8",
+        "duotone/sharp": "90f35cf4b29e",
+        "duotone/regular": "86ba87a38a9b",
+        "duotone/round": "f63fdc7d4d77",
         "fill/sharp": "d97e0aadb946",
         "fill/regular": "fd3f463f3308",
         "fill/round": "4d2760352111",
@@ -11159,21 +11747,21 @@
       "name": "gift",
       "category": "Commerce",
       "files": {
-        "line/sharp": "92e0ca661033",
-        "line/regular": "de93962f0073",
-        "line/round": "12e636f8ba84",
-        "duocolor/sharp": "13b0ef95a3f1",
-        "duocolor/regular": "b4dcf0f0d457",
-        "duocolor/round": "133f49ae924e",
-        "duotone/sharp": "5824dafabd21",
-        "duotone/regular": "c0a23843b038",
-        "duotone/round": "d6cf9adefb37",
-        "fill/sharp": "921053adebdc",
-        "fill/regular": "4facd56eaf4e",
-        "fill/round": "9d802ba60d56",
-        "bulk/sharp": "1db2c234a4bb",
-        "bulk/regular": "a96a90b3e4c4",
-        "bulk/round": "ef6be3d992dc"
+        "line/sharp": "b4a55484214c",
+        "line/regular": "220b2cc1309c",
+        "line/round": "e7030f84d3f3",
+        "duocolor/sharp": "070c32ba99d2",
+        "duocolor/regular": "ba158d98b1ca",
+        "duocolor/round": "0c7c93a55d85",
+        "duotone/sharp": "c5433c5a2946",
+        "duotone/regular": "ba7ad0f6dc9c",
+        "duotone/round": "5b92b60b3303",
+        "fill/sharp": "c6fbd0d78cb1",
+        "fill/regular": "a2c821548d8e",
+        "fill/round": "c570ce76de57",
+        "bulk/sharp": "ae14ec952ec3",
+        "bulk/regular": "20b1d50b8cbd",
+        "bulk/round": "21f171528a86"
       }
     },
     {
@@ -11411,21 +11999,21 @@
       "name": "globe-off",
       "category": "Navigation",
       "files": {
-        "line/sharp": "45fc1f6753f1",
-        "line/regular": "45fc1f6753f1",
-        "line/round": "45fc1f6753f1",
-        "duocolor/sharp": "2474789dd32a",
-        "duocolor/regular": "2474789dd32a",
-        "duocolor/round": "2474789dd32a",
-        "duotone/sharp": "35960fe87ce5",
-        "duotone/regular": "35960fe87ce5",
-        "duotone/round": "35960fe87ce5",
-        "fill/sharp": "d023fdc6eeae",
-        "fill/regular": "d023fdc6eeae",
-        "fill/round": "d023fdc6eeae",
-        "bulk/sharp": "1b30045698d5",
-        "bulk/regular": "1b30045698d5",
-        "bulk/round": "1b30045698d5"
+        "line/sharp": "74dcd882096d",
+        "line/regular": "74dcd882096d",
+        "line/round": "74dcd882096d",
+        "duocolor/sharp": "9a176db7795d",
+        "duocolor/regular": "9a176db7795d",
+        "duocolor/round": "9a176db7795d",
+        "duotone/sharp": "5ae518e15342",
+        "duotone/regular": "5ae518e15342",
+        "duotone/round": "5ae518e15342",
+        "fill/sharp": "9f809e06b0ec",
+        "fill/regular": "9f809e06b0ec",
+        "fill/round": "9f809e06b0ec",
+        "bulk/sharp": "70410a3a04fb",
+        "bulk/regular": "70410a3a04fb",
+        "bulk/round": "70410a3a04fb"
       }
     },
     {
@@ -11588,12 +12176,12 @@
         "duotone/sharp": "610c067fda00",
         "duotone/regular": "610c067fda00",
         "duotone/round": "610c067fda00",
-        "fill/sharp": "80517d61f60f",
-        "fill/regular": "80517d61f60f",
-        "fill/round": "80517d61f60f",
-        "bulk/sharp": "7179caccf88e",
-        "bulk/regular": "7179caccf88e",
-        "bulk/round": "7179caccf88e"
+        "fill/sharp": "4b2f8c119b08",
+        "fill/regular": "4b2f8c119b08",
+        "fill/round": "4b2f8c119b08",
+        "bulk/sharp": "de3270826b8c",
+        "bulk/regular": "de3270826b8c",
+        "bulk/round": "de3270826b8c"
       }
     },
     {
@@ -11621,21 +12209,21 @@
       "name": "hand-grab",
       "category": "Symbols",
       "files": {
-        "line/sharp": "edbe751379db",
-        "line/regular": "edbe751379db",
-        "line/round": "edbe751379db",
-        "duocolor/sharp": "edbe751379db",
-        "duocolor/regular": "edbe751379db",
-        "duocolor/round": "edbe751379db",
-        "duotone/sharp": "5f2111b10448",
-        "duotone/regular": "5f2111b10448",
-        "duotone/round": "5f2111b10448",
-        "fill/sharp": "8294530bf8b9",
-        "fill/regular": "8294530bf8b9",
-        "fill/round": "8294530bf8b9",
-        "bulk/sharp": "5f919538e0ed",
-        "bulk/regular": "5f919538e0ed",
-        "bulk/round": "5f919538e0ed"
+        "line/sharp": "955763c39883",
+        "line/regular": "955763c39883",
+        "line/round": "955763c39883",
+        "duocolor/sharp": "955763c39883",
+        "duocolor/regular": "955763c39883",
+        "duocolor/round": "955763c39883",
+        "duotone/sharp": "40e07bf180af",
+        "duotone/regular": "40e07bf180af",
+        "duotone/round": "40e07bf180af",
+        "fill/sharp": "9e47b49138e7",
+        "fill/regular": "9e47b49138e7",
+        "fill/round": "9e47b49138e7",
+        "bulk/sharp": "32a12529cedd",
+        "bulk/regular": "32a12529cedd",
+        "bulk/round": "32a12529cedd"
       }
     },
     {
@@ -11651,12 +12239,12 @@
         "duotone/sharp": "5ac879e14ec4",
         "duotone/regular": "5ac879e14ec4",
         "duotone/round": "5ac879e14ec4",
-        "fill/sharp": "98e0284c2907",
-        "fill/regular": "98e0284c2907",
-        "fill/round": "98e0284c2907",
-        "bulk/sharp": "60c8f5e7899f",
-        "bulk/regular": "60c8f5e7899f",
-        "bulk/round": "60c8f5e7899f"
+        "fill/sharp": "9ca6f8d1276b",
+        "fill/regular": "9ca6f8d1276b",
+        "fill/round": "9ca6f8d1276b",
+        "bulk/sharp": "99141b4345ec",
+        "bulk/regular": "99141b4345ec",
+        "bulk/round": "99141b4345ec"
       }
     },
     {
@@ -11999,15 +12587,15 @@
       "name": "heart-off",
       "category": "Communication",
       "files": {
-        "line/sharp": "2a5e105a58fe",
-        "line/regular": "2a5e105a58fe",
-        "line/round": "2a5e105a58fe",
-        "duocolor/sharp": "080d555d21c4",
-        "duocolor/regular": "080d555d21c4",
-        "duocolor/round": "080d555d21c4",
-        "duotone/sharp": "334eea94cf7e",
-        "duotone/regular": "334eea94cf7e",
-        "duotone/round": "334eea94cf7e",
+        "line/sharp": "eeba408094f3",
+        "line/regular": "eeba408094f3",
+        "line/round": "eeba408094f3",
+        "duocolor/sharp": "8c5edccc1765",
+        "duocolor/regular": "8c5edccc1765",
+        "duocolor/round": "8c5edccc1765",
+        "duotone/sharp": "4f2deb2c5ed8",
+        "duotone/regular": "4f2deb2c5ed8",
+        "duotone/round": "4f2deb2c5ed8",
         "fill/sharp": "169f7ef122d2",
         "fill/regular": "169f7ef122d2",
         "fill/round": "169f7ef122d2",
@@ -12651,14 +13239,14 @@
       "category": "Media",
       "files": {
         "line/sharp": "bfa5538bd1a3",
-        "line/regular": "5e490964ff3a",
-        "line/round": "213091d16d05",
+        "line/regular": "c7d263128847",
+        "line/round": "295ada7ea3b6",
         "duocolor/sharp": "1034fd45f248",
-        "duocolor/regular": "84aae3b8bfb9",
-        "duocolor/round": "5ea8975d1a02",
-        "duotone/sharp": "80afcfeb2a45",
-        "duotone/regular": "8e8c7cbbb13c",
-        "duotone/round": "628fbfa083a0",
+        "duocolor/regular": "c4cfebf07aea",
+        "duocolor/round": "2aa405a4adec",
+        "duotone/sharp": "4cc26aec2c5c",
+        "duotone/regular": "dd79f96d1481",
+        "duotone/round": "5675fdd6b0a6",
         "fill/sharp": "e7660d1fd660",
         "fill/regular": "4699f4196a8a",
         "fill/round": "ddde7562a24f",
@@ -12707,6 +13295,27 @@
         "bulk/sharp": "6ebad2d433d4",
         "bulk/regular": "23b67090421d",
         "bulk/round": "38b66014411c"
+      }
+    },
+    {
+      "name": "import",
+      "category": "Arrow",
+      "files": {
+        "line/sharp": "1e3e4e1bfa00",
+        "line/regular": "a3beb82ed675",
+        "line/round": "90f6a41dbdb8",
+        "duocolor/sharp": "cba69fd9501c",
+        "duocolor/regular": "0beb6d41c1d8",
+        "duocolor/round": "fd1aad077ff2",
+        "duotone/sharp": "1e3e4e1bfa00",
+        "duotone/regular": "a3beb82ed675",
+        "duotone/round": "90f6a41dbdb8",
+        "fill/sharp": "92405f1978e5",
+        "fill/regular": "eb6777948bc2",
+        "fill/round": "aae4ebc77a7a",
+        "bulk/sharp": "573f612ff7e4",
+        "bulk/regular": "5a05a3bae482",
+        "bulk/round": "be8cf4b4eb40"
       }
     },
     {
@@ -13154,21 +13763,21 @@
       "name": "leaf",
       "category": "Nature",
       "files": {
-        "line/sharp": "eb69960ee4ea",
-        "line/regular": "eb69960ee4ea",
-        "line/round": "eb69960ee4ea",
-        "duocolor/sharp": "235424966f38",
-        "duocolor/regular": "235424966f38",
-        "duocolor/round": "235424966f38",
-        "duotone/sharp": "c2c23d8e05ea",
-        "duotone/regular": "c2c23d8e05ea",
-        "duotone/round": "c2c23d8e05ea",
-        "fill/sharp": "e2ebabe03a19",
-        "fill/regular": "e2ebabe03a19",
-        "fill/round": "e2ebabe03a19",
-        "bulk/sharp": "18b05329ae48",
-        "bulk/regular": "18b05329ae48",
-        "bulk/round": "18b05329ae48"
+        "line/sharp": "fa983359b4f7",
+        "line/regular": "fa983359b4f7",
+        "line/round": "fa983359b4f7",
+        "duocolor/sharp": "12d485fced8b",
+        "duocolor/regular": "12d485fced8b",
+        "duocolor/round": "12d485fced8b",
+        "duotone/sharp": "043bc56d5b44",
+        "duotone/regular": "043bc56d5b44",
+        "duotone/round": "043bc56d5b44",
+        "fill/sharp": "4c305a41905f",
+        "fill/regular": "4c305a41905f",
+        "fill/round": "4c305a41905f",
+        "bulk/sharp": "9c1cb1181a7f",
+        "bulk/regular": "9c1cb1181a7f",
+        "bulk/round": "9c1cb1181a7f"
       }
     },
     {
@@ -13781,6 +14390,27 @@
       }
     },
     {
+      "name": "life-buoy",
+      "category": "Travel",
+      "files": {
+        "line/sharp": "5238efb87438",
+        "line/regular": "5238efb87438",
+        "line/round": "5238efb87438",
+        "duocolor/sharp": "e35bfc4de065",
+        "duocolor/regular": "e35bfc4de065",
+        "duocolor/round": "e35bfc4de065",
+        "duotone/sharp": "9d3df9a68432",
+        "duotone/regular": "9d3df9a68432",
+        "duotone/round": "9d3df9a68432",
+        "fill/sharp": "43feed264557",
+        "fill/regular": "43feed264557",
+        "fill/round": "43feed264557",
+        "bulk/sharp": "3df5a6f23939",
+        "bulk/regular": "3df5a6f23939",
+        "bulk/round": "3df5a6f23939"
+      }
+    },
+    {
       "name": "line-height",
       "category": "Edit",
       "files": {
@@ -13889,21 +14519,21 @@
       "name": "link-horizontal-off",
       "category": "System",
       "files": {
-        "line/sharp": "6e95fcdcc76d",
-        "line/regular": "6e95fcdcc76d",
-        "line/round": "6e95fcdcc76d",
-        "duocolor/sharp": "191c74051ea0",
-        "duocolor/regular": "191c74051ea0",
-        "duocolor/round": "191c74051ea0",
-        "duotone/sharp": "6e95fcdcc76d",
-        "duotone/regular": "6e95fcdcc76d",
-        "duotone/round": "6e95fcdcc76d",
-        "fill/sharp": "f1d2f3346413",
-        "fill/regular": "f1d2f3346413",
-        "fill/round": "f1d2f3346413",
-        "bulk/sharp": "c3b432ee693b",
-        "bulk/regular": "c3b432ee693b",
-        "bulk/round": "c3b432ee693b"
+        "line/sharp": "e3c8cf3f0097",
+        "line/regular": "e3c8cf3f0097",
+        "line/round": "e3c8cf3f0097",
+        "duocolor/sharp": "305da15914fb",
+        "duocolor/regular": "305da15914fb",
+        "duocolor/round": "305da15914fb",
+        "duotone/sharp": "e3c8cf3f0097",
+        "duotone/regular": "e3c8cf3f0097",
+        "duotone/round": "e3c8cf3f0097",
+        "fill/sharp": "5211e0550699",
+        "fill/regular": "5211e0550699",
+        "fill/round": "5211e0550699",
+        "bulk/sharp": "961a95bca1e0",
+        "bulk/regular": "961a95bca1e0",
+        "bulk/round": "961a95bca1e0"
       }
     },
     {
@@ -14114,6 +14744,27 @@
         "bulk/sharp": "2633a29305da",
         "bulk/regular": "2633a29305da",
         "bulk/round": "2633a29305da"
+      }
+    },
+    {
+      "name": "list-restart",
+      "category": "Edit",
+      "files": {
+        "line/sharp": "a8a3bd382296",
+        "line/regular": "a8a3bd382296",
+        "line/round": "a8a3bd382296",
+        "duocolor/sharp": "3ca6908ea838",
+        "duocolor/regular": "3ca6908ea838",
+        "duocolor/round": "3ca6908ea838",
+        "duotone/sharp": "a8a3bd382296",
+        "duotone/regular": "a8a3bd382296",
+        "duotone/round": "a8a3bd382296",
+        "fill/sharp": "4c4a0d5fee70",
+        "fill/regular": "4c4a0d5fee70",
+        "fill/round": "4c4a0d5fee70",
+        "bulk/sharp": "de152973a5c3",
+        "bulk/regular": "de152973a5c3",
+        "bulk/round": "de152973a5c3"
       }
     },
     {
@@ -14424,11 +15075,95 @@
         "duotone/regular": "d2e582ba26e8",
         "duotone/round": "f4732038efd9",
         "fill/sharp": "d7a875b87c3b",
-        "fill/regular": "5ba994d09250",
-        "fill/round": "42c6dd946295",
-        "bulk/sharp": "bb187685061e",
-        "bulk/regular": "a3c5179e9c80",
-        "bulk/round": "0aa32d1f3efe"
+        "fill/regular": "323ab177d5f1",
+        "fill/round": "1cddd44c5266",
+        "bulk/sharp": "29ca6b3024bf",
+        "bulk/regular": "0e7c12ac0f55",
+        "bulk/round": "6cbadcf85669"
+      }
+    },
+    {
+      "name": "mail-check",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "78dfcfb319ad",
+        "line/regular": "47a180636ab1",
+        "line/round": "818ba4022c5b",
+        "duocolor/sharp": "ff76e06dcac5",
+        "duocolor/regular": "41d06e2d861a",
+        "duocolor/round": "031306f89db0",
+        "duotone/sharp": "92d8fbe631c5",
+        "duotone/regular": "13759b4f62bf",
+        "duotone/round": "f399eb4a70e1",
+        "fill/sharp": "2c99eeb5827a",
+        "fill/regular": "4dd57a6acf1a",
+        "fill/round": "a97d72ec8454",
+        "bulk/sharp": "15f32242f33c",
+        "bulk/regular": "2764a339eb47",
+        "bulk/round": "a1087caa221a"
+      }
+    },
+    {
+      "name": "mail-check-corner",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "5101ad958a93",
+        "line/regular": "fed680e7094f",
+        "line/round": "b72d62b83cc7",
+        "duocolor/sharp": "cad7763afdcf",
+        "duocolor/regular": "41aea392bef5",
+        "duocolor/round": "d0f753ac6295",
+        "duotone/sharp": "06fd46ed6237",
+        "duotone/regular": "d8e350347897",
+        "duotone/round": "c5de78c9b578",
+        "fill/sharp": "134a8bac7736",
+        "fill/regular": "dedb8004af7d",
+        "fill/round": "caaf8e4cc80c",
+        "bulk/sharp": "0a02128f91ef",
+        "bulk/regular": "74392245dec9",
+        "bulk/round": "c4f74899e50f"
+      }
+    },
+    {
+      "name": "mail-close",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "9dbc23389d86",
+        "line/regular": "f3020a870e7d",
+        "line/round": "677823d5b660",
+        "duocolor/sharp": "3cb36a1935fc",
+        "duocolor/regular": "411f093b1550",
+        "duocolor/round": "7f819289b579",
+        "duotone/sharp": "a63550397f35",
+        "duotone/regular": "6b858d32ba46",
+        "duotone/round": "c9158f2c7fe0",
+        "fill/sharp": "32711ad578de",
+        "fill/regular": "2be84710fe11",
+        "fill/round": "98adb2b0bcad",
+        "bulk/sharp": "2a805c891120",
+        "bulk/regular": "d26281611ea0",
+        "bulk/round": "bd7cd3ae8957"
+      }
+    },
+    {
+      "name": "mail-close-corner",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "d5908d53e9f4",
+        "line/regular": "3c67ae4093ee",
+        "line/round": "0aff7356a8f0",
+        "duocolor/sharp": "d4a3a1dced20",
+        "duocolor/regular": "0c376c0fe2ec",
+        "duocolor/round": "5bf81e819816",
+        "duotone/sharp": "841be05435cc",
+        "duotone/regular": "db3017d87a50",
+        "duotone/round": "db66709e0a1a",
+        "fill/sharp": "812ceb78de9b",
+        "fill/regular": "ce74ebfcd98e",
+        "fill/round": "23f40b73565a",
+        "bulk/sharp": "ca61999adb75",
+        "bulk/regular": "08305187a74b",
+        "bulk/round": "1239184e0b51"
       }
     },
     {
@@ -14445,11 +15180,95 @@
         "duotone/regular": "aac81a070f2b",
         "duotone/round": "673e4225be3e",
         "fill/sharp": "4c77fa863ed2",
-        "fill/regular": "15fcd3c67f65",
-        "fill/round": "cf4ff5043562",
-        "bulk/sharp": "8cc48be5ddf9",
-        "bulk/regular": "654260b2aa3c",
-        "bulk/round": "c15a1abf76a5"
+        "fill/regular": "e9fcd9f4e56a",
+        "fill/round": "f61d934ad095",
+        "bulk/sharp": "92a07a4da7bb",
+        "bulk/regular": "e9b2a944f9c6",
+        "bulk/round": "320529526199"
+      }
+    },
+    {
+      "name": "mail-help",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "36c4bf912165",
+        "line/regular": "ce5a1f71dca5",
+        "line/round": "cdc2779c72b5",
+        "duocolor/sharp": "7e2ad52627bc",
+        "duocolor/regular": "ac1aedb65c7d",
+        "duocolor/round": "04c4d750e823",
+        "duotone/sharp": "74231ef00416",
+        "duotone/regular": "aa67c12a790e",
+        "duotone/round": "41e5128f13c5",
+        "fill/sharp": "8251464e2188",
+        "fill/regular": "2ea1e6d24a6a",
+        "fill/round": "7667be8544d4",
+        "bulk/sharp": "df9ec4589f97",
+        "bulk/regular": "108b1efe78cd",
+        "bulk/round": "602eb287e202"
+      }
+    },
+    {
+      "name": "mail-minus",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "e6d058d91710",
+        "line/regular": "dccc85b1224c",
+        "line/round": "f6ce006a2928",
+        "duocolor/sharp": "97782e4a301c",
+        "duocolor/regular": "720f69cbbb27",
+        "duocolor/round": "6e60e597b67a",
+        "duotone/sharp": "9ad008dd03dd",
+        "duotone/regular": "c4925669726f",
+        "duotone/round": "fd65f47d6378",
+        "fill/sharp": "8336dcb9448a",
+        "fill/regular": "997a59549e54",
+        "fill/round": "943ce0ad95ca",
+        "bulk/sharp": "da6eb27756d6",
+        "bulk/regular": "1a81bc098397",
+        "bulk/round": "2a962e3490d5"
+      }
+    },
+    {
+      "name": "mail-minus-corner",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "37a51f414db4",
+        "line/regular": "0c24dfe5db67",
+        "line/round": "da1393217d39",
+        "duocolor/sharp": "b1aaccd35978",
+        "duocolor/regular": "118c3b35b051",
+        "duocolor/round": "b8021303323e",
+        "duotone/sharp": "47c31144124f",
+        "duotone/regular": "f2a0e0a86a0c",
+        "duotone/round": "569c2bb45b18",
+        "fill/sharp": "11b243bae888",
+        "fill/regular": "4cb3840f75d1",
+        "fill/round": "c7beada65aa6",
+        "bulk/sharp": "b1abefd586a2",
+        "bulk/regular": "71fb9f6cba8b",
+        "bulk/round": "1e66732ec9bc"
+      }
+    },
+    {
+      "name": "mail-off",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "520b2f19502c",
+        "line/regular": "1e4b49edb780",
+        "line/round": "70504e8f9bda",
+        "duocolor/sharp": "519780819b15",
+        "duocolor/regular": "edab5091271b",
+        "duocolor/round": "23632eed839f",
+        "duotone/sharp": "5bd17dc1530c",
+        "duotone/regular": "3e2069bcd2c5",
+        "duotone/round": "69be63af8674",
+        "fill/sharp": "d651b7693ad9",
+        "fill/regular": "d03e6c7e6fbe",
+        "fill/round": "4f7bc8c0587a",
+        "bulk/sharp": "08a436aa9ef2",
+        "bulk/regular": "0fcf270c3f28",
+        "bulk/round": "5ff2abefe8d0"
       }
     },
     {
@@ -14474,6 +15293,48 @@
       }
     },
     {
+      "name": "mail-plus",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "d59abc7aa900",
+        "line/regular": "8df8006a1aa7",
+        "line/round": "50e89ac6cc73",
+        "duocolor/sharp": "a5853f9a55a3",
+        "duocolor/regular": "9ea6c59b5037",
+        "duocolor/round": "f2c392692cc1",
+        "duotone/sharp": "b10888b9eb70",
+        "duotone/regular": "cc2e28620a31",
+        "duotone/round": "eb87e8d6771d",
+        "fill/sharp": "01b3459887fd",
+        "fill/regular": "c336f448ff79",
+        "fill/round": "df531befbbfc",
+        "bulk/sharp": "fe96a84afddb",
+        "bulk/regular": "db53849ca2a6",
+        "bulk/round": "88ec5ea02108"
+      }
+    },
+    {
+      "name": "mail-plus-corner",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "1628282582a4",
+        "line/regular": "5eafc93864b7",
+        "line/round": "404751531ac7",
+        "duocolor/sharp": "f1c32ec649fe",
+        "duocolor/regular": "19fd0271e036",
+        "duocolor/round": "d372d61be918",
+        "duotone/sharp": "2216dd440208",
+        "duotone/regular": "14d34739d452",
+        "duotone/round": "5e713c5463b5",
+        "fill/sharp": "62e2af58ae56",
+        "fill/regular": "02fc7c904852",
+        "fill/round": "7f6f5a4d9220",
+        "bulk/sharp": "78846d31b3bc",
+        "bulk/regular": "9d1ae09211de",
+        "bulk/round": "e59daacc74d3"
+      }
+    },
+    {
       "name": "mail-sparkle",
       "category": "AI",
       "files": {
@@ -14487,11 +15348,32 @@
         "duotone/regular": "a9a4f74ca017",
         "duotone/round": "c4a21f63f3a9",
         "fill/sharp": "6a3e2a1d9bd0",
-        "fill/regular": "377eb5d8183f",
-        "fill/round": "21362af713fd",
-        "bulk/sharp": "928d5687420f",
-        "bulk/regular": "a627acd055c7",
-        "bulk/round": "e5ced3481755"
+        "fill/regular": "a4d06c3eb45f",
+        "fill/round": "7c9af045065c",
+        "bulk/sharp": "adb086b8a3ba",
+        "bulk/regular": "1dd059df8417",
+        "bulk/round": "a09f59190ed0"
+      }
+    },
+    {
+      "name": "mail-warning",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "d8fce99e830d",
+        "line/regular": "bfa8168a8568",
+        "line/round": "75856b68bc07",
+        "duocolor/sharp": "ee6c949083ae",
+        "duocolor/regular": "c628ea46ee96",
+        "duocolor/round": "1c5dab4c162f",
+        "duotone/sharp": "1578808234a9",
+        "duotone/regular": "b76ac2dc6dc4",
+        "duotone/round": "2c162c88bf75",
+        "fill/sharp": "39dc4f8921d4",
+        "fill/regular": "7f33a061a78f",
+        "fill/round": "da12915d76f6",
+        "bulk/sharp": "0d98a837aed9",
+        "bulk/regular": "f323cdd7909c",
+        "bulk/round": "37abb83d20e7"
       }
     },
     {
@@ -14513,6 +15395,27 @@
         "bulk/sharp": "d6e9f5567150",
         "bulk/regular": "5dab0b7460b5",
         "bulk/round": "8f2b416ad6ac"
+      }
+    },
+    {
+      "name": "mails",
+      "category": "Communication",
+      "files": {
+        "line/sharp": "add8922ca40a",
+        "line/regular": "5d6e108b3c69",
+        "line/round": "a270b23eb7b9",
+        "duocolor/sharp": "5bbdbaa51302",
+        "duocolor/regular": "4420835d6670",
+        "duocolor/round": "9440a8829cb1",
+        "duotone/sharp": "742e5de97d2f",
+        "duotone/regular": "cf6a21b0a537",
+        "duotone/round": "bae64538044d",
+        "fill/sharp": "beeeb4bf2a15",
+        "fill/regular": "2227f25b7bfe",
+        "fill/round": "b6c6fc5afef3",
+        "bulk/sharp": "42ae67a58784",
+        "bulk/regular": "ba27765bb893",
+        "bulk/round": "4102329b8045"
       }
     },
     {
@@ -14645,15 +15548,15 @@
       "name": "map-pin-off",
       "category": "Navigation",
       "files": {
-        "line/sharp": "cce376d3ee78",
-        "line/regular": "cce376d3ee78",
-        "line/round": "cce376d3ee78",
-        "duocolor/sharp": "761eb081cad4",
-        "duocolor/regular": "761eb081cad4",
-        "duocolor/round": "761eb081cad4",
-        "duotone/sharp": "cf64a41ac997",
-        "duotone/regular": "cf64a41ac997",
-        "duotone/round": "cf64a41ac997",
+        "line/sharp": "6173a78b4ba7",
+        "line/regular": "6173a78b4ba7",
+        "line/round": "6173a78b4ba7",
+        "duocolor/sharp": "c59e3e8ee3ec",
+        "duocolor/regular": "c59e3e8ee3ec",
+        "duocolor/round": "c59e3e8ee3ec",
+        "duotone/sharp": "fd40ac3e7640",
+        "duotone/regular": "fd40ac3e7640",
+        "duotone/round": "fd40ac3e7640",
         "fill/sharp": "0c85d146234d",
         "fill/regular": "0c85d146234d",
         "fill/round": "0c85d146234d",
@@ -15107,21 +16010,21 @@
       "name": "microphone-off",
       "category": "Media",
       "files": {
-        "line/sharp": "b4fa1a88e018",
-        "line/regular": "b4fa1a88e018",
-        "line/round": "b4fa1a88e018",
-        "duocolor/sharp": "f0f600cfc1f1",
-        "duocolor/regular": "f0f600cfc1f1",
-        "duocolor/round": "f0f600cfc1f1",
-        "duotone/sharp": "5dc59046342b",
-        "duotone/regular": "5dc59046342b",
-        "duotone/round": "5dc59046342b",
-        "fill/sharp": "05b89299644b",
-        "fill/regular": "05b89299644b",
-        "fill/round": "05b89299644b",
-        "bulk/sharp": "2b999d8bc04f",
-        "bulk/regular": "2b999d8bc04f",
-        "bulk/round": "2b999d8bc04f"
+        "line/sharp": "a30a5f480547",
+        "line/regular": "a30a5f480547",
+        "line/round": "a30a5f480547",
+        "duocolor/sharp": "4d72094bf811",
+        "duocolor/regular": "4d72094bf811",
+        "duocolor/round": "4d72094bf811",
+        "duotone/sharp": "fcfb680e15c2",
+        "duotone/regular": "fcfb680e15c2",
+        "duotone/round": "fcfb680e15c2",
+        "fill/sharp": "59b5a2b1fa63",
+        "fill/regular": "59b5a2b1fa63",
+        "fill/round": "59b5a2b1fa63",
+        "bulk/sharp": "e85ab14c472a",
+        "bulk/regular": "e85ab14c472a",
+        "bulk/round": "e85ab14c472a"
       }
     },
     {
@@ -15335,18 +16238,39 @@
       }
     },
     {
+      "name": "monitor-download",
+      "category": "Devices",
+      "files": {
+        "line/sharp": "459ee4088f23",
+        "line/regular": "310700ab90af",
+        "line/round": "67561ab6fe5b",
+        "duocolor/sharp": "d759238ed8dc",
+        "duocolor/regular": "5925554b2373",
+        "duocolor/round": "1ccf49f28217",
+        "duotone/sharp": "27199f3664e1",
+        "duotone/regular": "f2409532634f",
+        "duotone/round": "346ffc25c589",
+        "fill/sharp": "361f8777a916",
+        "fill/regular": "16cbfba523ac",
+        "fill/round": "d8b964a8acfb",
+        "bulk/sharp": "f410fed1cd10",
+        "bulk/regular": "601bdfedbf52",
+        "bulk/round": "10198168bff3"
+      }
+    },
+    {
       "name": "monitor-off",
       "category": "Devices",
       "files": {
-        "line/sharp": "6f7626961fb8",
-        "line/regular": "cb04101da1c3",
-        "line/round": "55162cd009e1",
-        "duocolor/sharp": "b5b9fe02a563",
-        "duocolor/regular": "d4a3cef208c1",
-        "duocolor/round": "e6c0aa1afdff",
-        "duotone/sharp": "843c09d25a01",
-        "duotone/regular": "469036423ad4",
-        "duotone/round": "cc5bcf0580e5",
+        "line/sharp": "3d3096a9d363",
+        "line/regular": "d553b361cf53",
+        "line/round": "cf239b0da39a",
+        "duocolor/sharp": "634bec7c9db9",
+        "duocolor/regular": "a40b13bd7f22",
+        "duocolor/round": "145942dce19a",
+        "duotone/sharp": "07d984c2eab8",
+        "duotone/regular": "429e53065660",
+        "duotone/round": "da471463eaaf",
         "fill/sharp": "f1e8a82f2353",
         "fill/regular": "bf57c1c58b9a",
         "fill/round": "74ef66d73073",
@@ -15359,63 +16283,84 @@
       "name": "monitor-play",
       "category": "Devices",
       "files": {
-        "line/sharp": "5ecadcd9dc62",
-        "line/regular": "db0a4db7359b",
-        "line/round": "dac85bd381a8",
-        "duocolor/sharp": "6ac209b9398c",
-        "duocolor/regular": "3a19883dfb57",
-        "duocolor/round": "c13adbb3d22c",
-        "duotone/sharp": "f07876c22fe7",
-        "duotone/regular": "5fa50dfe25c4",
-        "duotone/round": "c39b1cc71eb3",
-        "fill/sharp": "b22ab7679bdb",
-        "fill/regular": "3bc139a56ead",
-        "fill/round": "f6b9c754736f",
-        "bulk/sharp": "6ec8910568c9",
-        "bulk/regular": "a73085d6d043",
-        "bulk/round": "43209d1d8597"
+        "line/sharp": "43da913836e6",
+        "line/regular": "3f650309b602",
+        "line/round": "8011fc21d624",
+        "duocolor/sharp": "df4ec7576222",
+        "duocolor/regular": "c7b3bbbeffa1",
+        "duocolor/round": "379557e03dfa",
+        "duotone/sharp": "cfb47311fbbe",
+        "duotone/regular": "0c88e176ebaf",
+        "duotone/round": "e47104a6669a",
+        "fill/sharp": "1668325f88b1",
+        "fill/regular": "bfeeadb4218a",
+        "fill/round": "1d3b28a3afc4",
+        "bulk/sharp": "6d450c3db3f2",
+        "bulk/regular": "5a65bfa2772a",
+        "bulk/round": "302277961e00"
+      }
+    },
+    {
+      "name": "monitor-upload",
+      "category": "Devices",
+      "files": {
+        "line/sharp": "ffde72ee0958",
+        "line/regular": "4153d5c73dc1",
+        "line/round": "14bb426ce49a",
+        "duocolor/sharp": "3183c8f44ccb",
+        "duocolor/regular": "3849b6f1ab57",
+        "duocolor/round": "4754ad74d955",
+        "duotone/sharp": "603e40c24685",
+        "duotone/regular": "f373ac37bbfb",
+        "duotone/round": "51012e5fc76e",
+        "fill/sharp": "854d35a15df0",
+        "fill/regular": "80a603272a4a",
+        "fill/round": "ee35dbf1deb7",
+        "bulk/sharp": "2af67a88788c",
+        "bulk/regular": "e187ce7fdd98",
+        "bulk/round": "ffe4b190c549"
       }
     },
     {
       "name": "moon",
       "category": "Nature",
       "files": {
-        "line/sharp": "6844a6827ee6",
-        "line/regular": "6844a6827ee6",
-        "line/round": "6844a6827ee6",
-        "duocolor/sharp": "6844a6827ee6",
-        "duocolor/regular": "6844a6827ee6",
-        "duocolor/round": "6844a6827ee6",
-        "duotone/sharp": "6236069b519d",
-        "duotone/regular": "6236069b519d",
-        "duotone/round": "6236069b519d",
-        "fill/sharp": "65eb468bf364",
-        "fill/regular": "65eb468bf364",
-        "fill/round": "65eb468bf364",
-        "bulk/sharp": "70dd8ba9b4c9",
-        "bulk/regular": "70dd8ba9b4c9",
-        "bulk/round": "70dd8ba9b4c9"
+        "line/sharp": "f84be0f98d58",
+        "line/regular": "f84be0f98d58",
+        "line/round": "f84be0f98d58",
+        "duocolor/sharp": "f84be0f98d58",
+        "duocolor/regular": "f84be0f98d58",
+        "duocolor/round": "f84be0f98d58",
+        "duotone/sharp": "f988fd80c678",
+        "duotone/regular": "f988fd80c678",
+        "duotone/round": "f988fd80c678",
+        "fill/sharp": "d4ff74957951",
+        "fill/regular": "d4ff74957951",
+        "fill/round": "d4ff74957951",
+        "bulk/sharp": "9cfbb44e8b10",
+        "bulk/regular": "9cfbb44e8b10",
+        "bulk/round": "9cfbb44e8b10"
       }
     },
     {
       "name": "moon-star",
       "category": "Nature",
       "files": {
-        "line/sharp": "6b862b038533",
-        "line/regular": "6b862b038533",
-        "line/round": "6b862b038533",
-        "duocolor/sharp": "0d8fb370f5b0",
-        "duocolor/regular": "0d8fb370f5b0",
-        "duocolor/round": "0d8fb370f5b0",
-        "duotone/sharp": "11ada7089532",
-        "duotone/regular": "11ada7089532",
-        "duotone/round": "11ada7089532",
-        "fill/sharp": "b41601cdb487",
-        "fill/regular": "b41601cdb487",
-        "fill/round": "b41601cdb487",
-        "bulk/sharp": "40c40cfc4327",
-        "bulk/regular": "40c40cfc4327",
-        "bulk/round": "40c40cfc4327"
+        "line/sharp": "9af91f5c2e82",
+        "line/regular": "9af91f5c2e82",
+        "line/round": "9af91f5c2e82",
+        "duocolor/sharp": "fdf50ded6ded",
+        "duocolor/regular": "fdf50ded6ded",
+        "duocolor/round": "fdf50ded6ded",
+        "duotone/sharp": "16769c089f6d",
+        "duotone/regular": "16769c089f6d",
+        "duotone/round": "16769c089f6d",
+        "fill/sharp": "f9fd790c0e5c",
+        "fill/regular": "f9fd790c0e5c",
+        "fill/round": "f9fd790c0e5c",
+        "bulk/sharp": "fe5133b9c451",
+        "bulk/regular": "fe5133b9c451",
+        "bulk/round": "fe5133b9c451"
       }
     },
     {
@@ -15734,6 +16679,27 @@
       }
     },
     {
+      "name": "music-note-double",
+      "category": "Media",
+      "files": {
+        "line/sharp": "e323753ef166",
+        "line/regular": "af9e827e18af",
+        "line/round": "4a8099076ac5",
+        "duocolor/sharp": "3781df9b6258",
+        "duocolor/regular": "825e78fb2457",
+        "duocolor/round": "1c51caad265d",
+        "duotone/sharp": "bbc088b49b0a",
+        "duotone/regular": "4e9b7a971fd1",
+        "duotone/round": "379b34a0cc0e",
+        "fill/sharp": "2194e7dac995",
+        "fill/regular": "56f8ebac41f1",
+        "fill/round": "6f2a05781753",
+        "bulk/sharp": "7a98d90ffa5c",
+        "bulk/regular": "541af3971de9",
+        "bulk/round": "2fbc10d89eeb"
+      }
+    },
+    {
       "name": "music-note-off",
       "category": "Media",
       "files": {
@@ -15743,9 +16709,9 @@
         "duocolor/sharp": "e41544768e0b",
         "duocolor/regular": "120dd9d8b029",
         "duocolor/round": "1c186dec75c8",
-        "duotone/sharp": "1f1c70a233fe",
-        "duotone/regular": "f2a59af00617",
-        "duotone/round": "e421fb42c386",
+        "duotone/sharp": "c5aac12360d7",
+        "duotone/regular": "c94c07ba8adb",
+        "duotone/round": "b0228bc74a85",
         "fill/sharp": "1913ad415e01",
         "fill/regular": "eafe0bca790f",
         "fill/round": "e33784f578dd",
@@ -15794,6 +16760,27 @@
         "bulk/sharp": "bd7170550fdf",
         "bulk/regular": "e6ce79ac3a80",
         "bulk/round": "dcae39e39d13"
+      }
+    },
+    {
+      "name": "music-notes-double",
+      "category": "Media",
+      "files": {
+        "line/sharp": "c2819e2a43ba",
+        "line/regular": "b6fce2ee5ec4",
+        "line/round": "28e44d876478",
+        "duocolor/sharp": "7a0955ecafce",
+        "duocolor/regular": "f6e4e82d7f69",
+        "duocolor/round": "8f320240d262",
+        "duotone/sharp": "adfa91a25303",
+        "duotone/regular": "5ed02c6e4a4f",
+        "duotone/round": "a2f530902250",
+        "fill/sharp": "61f68d7c977d",
+        "fill/regular": "b374bd19b984",
+        "fill/round": "a8648d6d1160",
+        "bulk/sharp": "a486aceb020e",
+        "bulk/regular": "176f14e568f0",
+        "bulk/round": "006962dc6275"
       }
     },
     {
@@ -15878,6 +16865,27 @@
         "bulk/sharp": "14769127450b",
         "bulk/regular": "14769127450b",
         "bulk/round": "14769127450b"
+      }
+    },
+    {
+      "name": "newspaper",
+      "category": "File",
+      "files": {
+        "line/sharp": "053740f733c5",
+        "line/regular": "a5a5ffefbce6",
+        "line/round": "92c15de2632c",
+        "duocolor/sharp": "068e35ad1461",
+        "duocolor/regular": "e65f7c4873ca",
+        "duocolor/round": "8f1f6821685e",
+        "duotone/sharp": "f10038294ebb",
+        "duotone/regular": "17760edf4d8d",
+        "duotone/round": "4590de09e54e",
+        "fill/sharp": "9a77f1948bed",
+        "fill/regular": "9b0b0bfe5f6d",
+        "fill/round": "c9371ae5f65b",
+        "bulk/sharp": "e071adf0e482",
+        "bulk/regular": "098e8560a895",
+        "bulk/round": "ce833088851e"
       }
     },
     {
@@ -16826,6 +17834,27 @@
       }
     },
     {
+      "name": "packages",
+      "category": "File",
+      "files": {
+        "line/sharp": "06c74cd74555",
+        "line/regular": "1b95e97d9a0d",
+        "line/round": "d409ffb62e73",
+        "duocolor/sharp": "3f739de94026",
+        "duocolor/regular": "d047aa4e19f3",
+        "duocolor/round": "94fee520e366",
+        "duotone/sharp": "ae036b6b450c",
+        "duotone/regular": "f62ca1b58f83",
+        "duotone/round": "9ef1f1e8fe38",
+        "fill/sharp": "0413cf1e0ff2",
+        "fill/regular": "513802e5f5dc",
+        "fill/round": "612388709892",
+        "bulk/sharp": "270ea6195f9f",
+        "bulk/regular": "9b5c44502797",
+        "bulk/round": "e36f593718a7"
+      }
+    },
+    {
       "name": "paint-bucket",
       "category": "Design",
       "files": {
@@ -17180,6 +18209,27 @@
         "bulk/sharp": "6786cae85348",
         "bulk/regular": "6786cae85348",
         "bulk/round": "6786cae85348"
+      }
+    },
+    {
+      "name": "party-popper",
+      "category": "Symbols",
+      "files": {
+        "line/sharp": "11620e9a587e",
+        "line/regular": "11620e9a587e",
+        "line/round": "0a2f9a7c6424",
+        "duocolor/sharp": "a433c5a3cf43",
+        "duocolor/regular": "a433c5a3cf43",
+        "duocolor/round": "87702bf8c1ef",
+        "duotone/sharp": "6853356fc819",
+        "duotone/regular": "6853356fc819",
+        "duotone/round": "21bb249a6502",
+        "fill/sharp": "818ceac1b8d6",
+        "fill/regular": "818ceac1b8d6",
+        "fill/round": "e252786ed3f1",
+        "bulk/sharp": "1a9310d97d2f",
+        "bulk/regular": "1a9310d97d2f",
+        "bulk/round": "8e2c86510c7f"
       }
     },
     {
@@ -17564,21 +18614,21 @@
       "name": "phone-off",
       "category": "Communication",
       "files": {
-        "line/sharp": "d2cd61771c71",
-        "line/regular": "b904305fefe2",
-        "line/round": "163d40e3f1b6",
-        "duocolor/sharp": "dc244c545f4e",
-        "duocolor/regular": "b19cff188130",
-        "duocolor/round": "d21c4bd556d7",
-        "duotone/sharp": "0b1d7083a62b",
-        "duotone/regular": "1b4f033dd6c6",
-        "duotone/round": "b3a52667290c",
-        "fill/sharp": "3012fe91ed4a",
-        "fill/regular": "4ef35ef7a6e7",
-        "fill/round": "eada99c6bcc5",
-        "bulk/sharp": "314c98b9341f",
-        "bulk/regular": "5e98df3ca74e",
-        "bulk/round": "f6069bf2fa3d"
+        "line/sharp": "6edd1f2804be",
+        "line/regular": "979f9a0ddeea",
+        "line/round": "48cae2ffe580",
+        "duocolor/sharp": "a4eee2524ea6",
+        "duocolor/regular": "61166131cac9",
+        "duocolor/round": "fc6b4bd7b580",
+        "duotone/sharp": "41f7ad119d44",
+        "duotone/regular": "a39a158b2bed",
+        "duotone/round": "13dfe49994b0",
+        "fill/sharp": "cc82e263d79a",
+        "fill/regular": "cfc9744df648",
+        "fill/round": "32600e5d7808",
+        "bulk/sharp": "b406d01c975b",
+        "bulk/regular": "72b4c4b6158d",
+        "bulk/round": "e6eccdd419cc"
       }
     },
     {
@@ -17711,15 +18761,15 @@
       "name": "pin-off",
       "category": "Design",
       "files": {
-        "line/sharp": "65296c5ba99a",
-        "line/regular": "65296c5ba99a",
-        "line/round": "65296c5ba99a",
-        "duocolor/sharp": "18110fa653ba",
-        "duocolor/regular": "18110fa653ba",
-        "duocolor/round": "18110fa653ba",
-        "duotone/sharp": "a4feda750ea6",
-        "duotone/regular": "a4feda750ea6",
-        "duotone/round": "a4feda750ea6",
+        "line/sharp": "4355b85ae6ed",
+        "line/regular": "4355b85ae6ed",
+        "line/round": "4355b85ae6ed",
+        "duocolor/sharp": "a90b0d4a0f0e",
+        "duocolor/regular": "a90b0d4a0f0e",
+        "duocolor/round": "a90b0d4a0f0e",
+        "duotone/sharp": "3df3c0998067",
+        "duotone/regular": "3df3c0998067",
+        "duotone/round": "3df3c0998067",
         "fill/sharp": "9b8f373c96b3",
         "fill/regular": "9b8f373c96b3",
         "fill/round": "9b8f373c96b3",
@@ -17900,21 +18950,21 @@
       "name": "planet",
       "category": "Science",
       "files": {
-        "line/sharp": "374d0729ee49",
-        "line/regular": "374d0729ee49",
-        "line/round": "374d0729ee49",
-        "duocolor/sharp": "d12d97291c75",
-        "duocolor/regular": "d12d97291c75",
-        "duocolor/round": "d12d97291c75",
-        "duotone/sharp": "7ab5db1b1c2d",
-        "duotone/regular": "7ab5db1b1c2d",
-        "duotone/round": "7ab5db1b1c2d",
-        "fill/sharp": "e31b2a96d6e9",
-        "fill/regular": "e31b2a96d6e9",
-        "fill/round": "e31b2a96d6e9",
-        "bulk/sharp": "127b6907e456",
-        "bulk/regular": "127b6907e456",
-        "bulk/round": "127b6907e456"
+        "line/sharp": "f8cc2450496c",
+        "line/regular": "f8cc2450496c",
+        "line/round": "f8cc2450496c",
+        "duocolor/sharp": "85c56032c73a",
+        "duocolor/regular": "85c56032c73a",
+        "duocolor/round": "85c56032c73a",
+        "duotone/sharp": "155767daf171",
+        "duotone/regular": "155767daf171",
+        "duotone/round": "155767daf171",
+        "fill/sharp": "f5dfd55874fa",
+        "fill/regular": "f5dfd55874fa",
+        "fill/round": "f5dfd55874fa",
+        "bulk/sharp": "48acaf41dd9f",
+        "bulk/regular": "48acaf41dd9f",
+        "bulk/round": "48acaf41dd9f"
       }
     },
     {
@@ -18020,6 +19070,48 @@
         "bulk/sharp": "704d2ddfad69",
         "bulk/regular": "eb4d7f1f40b8",
         "bulk/round": "0216e965c436"
+      }
+    },
+    {
+      "name": "plug-off",
+      "category": "Devices",
+      "files": {
+        "line/sharp": "2b784d7040c2",
+        "line/regular": "86b17c09d447",
+        "line/round": "a3bafc51cdda",
+        "duocolor/sharp": "d839a35e7ffa",
+        "duocolor/regular": "56f67dfeea72",
+        "duocolor/round": "917345f36f65",
+        "duotone/sharp": "022ce5367e1a",
+        "duotone/regular": "933b96b4c871",
+        "duotone/round": "5b1c7d71e1b9",
+        "fill/sharp": "1b4a2099c641",
+        "fill/regular": "f6c41984ed20",
+        "fill/round": "078b6a1015f6",
+        "bulk/sharp": "ae2d13be0749",
+        "bulk/regular": "dd179ac5bb54",
+        "bulk/round": "43c63c20216a"
+      }
+    },
+    {
+      "name": "plug-zap",
+      "category": "Devices",
+      "files": {
+        "line/sharp": "de0b0a144b57",
+        "line/regular": "d9f16ac45f7f",
+        "line/round": "e60c70cf0c3a",
+        "duocolor/sharp": "a934e3831d8d",
+        "duocolor/regular": "ee631b119bfb",
+        "duocolor/round": "dc9b447f53df",
+        "duotone/sharp": "a01b12208c2e",
+        "duotone/regular": "b4a0eeb9c55c",
+        "duotone/round": "3391f2abce41",
+        "fill/sharp": "d2901044edfc",
+        "fill/regular": "72d032cb1642",
+        "fill/round": "44901243b4bd",
+        "bulk/sharp": "833b94c8c70d",
+        "bulk/regular": "eece46d9e16f",
+        "bulk/round": "7d3dc23cdf67"
       }
     },
     {
@@ -19328,6 +20420,48 @@
       }
     },
     {
+      "name": "scan-barcode",
+      "category": "System",
+      "files": {
+        "line/sharp": "affd97ea2688",
+        "line/regular": "a8db5b529158",
+        "line/round": "80fc74a90ced",
+        "duocolor/sharp": "13c353b1e972",
+        "duocolor/regular": "fe2973e83861",
+        "duocolor/round": "d940a4a40027",
+        "duotone/sharp": "affd97ea2688",
+        "duotone/regular": "a8db5b529158",
+        "duotone/round": "80fc74a90ced",
+        "fill/sharp": "699c78db2edf",
+        "fill/regular": "5a297de3bdc4",
+        "fill/round": "3ea809e96e63",
+        "bulk/sharp": "b05d07654333",
+        "bulk/regular": "b539033d93a3",
+        "bulk/round": "54d1caf39053"
+      }
+    },
+    {
+      "name": "scan-eye",
+      "category": "System",
+      "files": {
+        "line/sharp": "3fc50bab5c9e",
+        "line/regular": "7f93b5f53ae7",
+        "line/round": "40108090f188",
+        "duocolor/sharp": "e93b666afa23",
+        "duocolor/regular": "1d57778cdfda",
+        "duocolor/round": "abedff542124",
+        "duotone/sharp": "6f88b815c294",
+        "duotone/regular": "b29f3de7557c",
+        "duotone/round": "d326068c52a2",
+        "fill/sharp": "d28ffc5ff263",
+        "fill/regular": "9f4e101a5e43",
+        "fill/round": "37b99ab59181",
+        "bulk/sharp": "7f20c8b4ed84",
+        "bulk/regular": "cc83c471574d",
+        "bulk/round": "923e15525533"
+      }
+    },
+    {
       "name": "scan-face",
       "category": "System",
       "files": {
@@ -19367,6 +20501,27 @@
         "bulk/sharp": "c0d3aeaa8112",
         "bulk/regular": "337b7d720a1c",
         "bulk/round": "83b8750b1bff"
+      }
+    },
+    {
+      "name": "scan-text",
+      "category": "System",
+      "files": {
+        "line/sharp": "1a41ba2a4489",
+        "line/regular": "2d6e61a1121f",
+        "line/round": "bc50a8530d75",
+        "duocolor/sharp": "192daaa3f6a3",
+        "duocolor/regular": "61746f037302",
+        "duocolor/round": "3ba5d7c116b5",
+        "duotone/sharp": "1a41ba2a4489",
+        "duotone/regular": "2d6e61a1121f",
+        "duotone/round": "bc50a8530d75",
+        "fill/sharp": "36dc3ca334fa",
+        "fill/regular": "805994765581",
+        "fill/round": "cb40a3601494",
+        "bulk/sharp": "2d920c4fdd2d",
+        "bulk/regular": "0af926bfae88",
+        "bulk/round": "08dcc8fdb200"
       }
     },
     {
@@ -19454,6 +20609,48 @@
       }
     },
     {
+      "name": "scroll",
+      "category": "File",
+      "files": {
+        "line/sharp": "d056425e9c54",
+        "line/regular": "92368a285b28",
+        "line/round": "7f9af91e92b3",
+        "duocolor/sharp": "45365f9f803e",
+        "duocolor/regular": "c7733caf8e28",
+        "duocolor/round": "6dc0199219b6",
+        "duotone/sharp": "8427c6af6efa",
+        "duotone/regular": "a8238abb5dc8",
+        "duotone/round": "a277c737fae6",
+        "fill/sharp": "e8784242b119",
+        "fill/regular": "17756e83a533",
+        "fill/round": "d8920be32f73",
+        "bulk/sharp": "ed36933e8fef",
+        "bulk/regular": "3c7b0c93952f",
+        "bulk/round": "e9367a1a7827"
+      }
+    },
+    {
+      "name": "scroll-text",
+      "category": "File",
+      "files": {
+        "line/sharp": "36f3de262fd4",
+        "line/regular": "07de34e3d02f",
+        "line/round": "85e5af498b95",
+        "duocolor/sharp": "7bd1ddf70c41",
+        "duocolor/regular": "23005f9cb3a9",
+        "duocolor/round": "974ddc4f04cc",
+        "duotone/sharp": "a108240f1a52",
+        "duotone/regular": "abb009aa0878",
+        "duotone/round": "e845949e35fc",
+        "fill/sharp": "943dcc74dff9",
+        "fill/regular": "8347a41e3121",
+        "fill/round": "44b26668e35d",
+        "bulk/sharp": "97c577e6f9b4",
+        "bulk/regular": "f8eb43b4e130",
+        "bulk/round": "5fd72f4c031c"
+      }
+    },
+    {
       "name": "search",
       "category": "System",
       "files": {
@@ -19472,6 +20669,48 @@
         "bulk/sharp": "81702a85c397",
         "bulk/regular": "81702a85c397",
         "bulk/round": "81702a85c397"
+      }
+    },
+    {
+      "name": "search-check",
+      "category": "System",
+      "files": {
+        "line/sharp": "2bb97adadffc",
+        "line/regular": "2bb97adadffc",
+        "line/round": "2bb97adadffc",
+        "duocolor/sharp": "ff85845c0a03",
+        "duocolor/regular": "ff85845c0a03",
+        "duocolor/round": "ff85845c0a03",
+        "duotone/sharp": "37dbde59730d",
+        "duotone/regular": "37dbde59730d",
+        "duotone/round": "37dbde59730d",
+        "fill/sharp": "1962b14e37ee",
+        "fill/regular": "1962b14e37ee",
+        "fill/round": "1962b14e37ee",
+        "bulk/sharp": "348015a042e2",
+        "bulk/regular": "348015a042e2",
+        "bulk/round": "348015a042e2"
+      }
+    },
+    {
+      "name": "search-close",
+      "category": "System",
+      "files": {
+        "line/sharp": "6a1b5d6abb4f",
+        "line/regular": "6a1b5d6abb4f",
+        "line/round": "6a1b5d6abb4f",
+        "duocolor/sharp": "838bb8ca0605",
+        "duocolor/regular": "838bb8ca0605",
+        "duocolor/round": "838bb8ca0605",
+        "duotone/sharp": "ab51769cd242",
+        "duotone/regular": "ab51769cd242",
+        "duotone/round": "ab51769cd242",
+        "fill/sharp": "f67691d471bc",
+        "fill/regular": "f67691d471bc",
+        "fill/round": "f67691d471bc",
+        "bulk/sharp": "d61c5fd1525e",
+        "bulk/regular": "d61c5fd1525e",
+        "bulk/round": "d61c5fd1525e"
       }
     },
     {
@@ -19517,24 +20756,87 @@
       }
     },
     {
+      "name": "server-check-corner",
+      "category": "Devices",
+      "files": {
+        "line/sharp": "ac105bc6f4cb",
+        "line/regular": "a72d2e3b284f",
+        "line/round": "95450a25eefa",
+        "duocolor/sharp": "a715b35d0f94",
+        "duocolor/regular": "ae05c0c98faa",
+        "duocolor/round": "aa5baa8ca474",
+        "duotone/sharp": "47a1ce96205f",
+        "duotone/regular": "704c2800f5aa",
+        "duotone/round": "7829badf4b0c",
+        "fill/sharp": "e42dfa0fcc05",
+        "fill/regular": "aaec4c03137d",
+        "fill/round": "2ad039607608",
+        "bulk/sharp": "b54613a0c5d1",
+        "bulk/regular": "32b1825fbefb",
+        "bulk/round": "ec3b9a26ebd3"
+      }
+    },
+    {
+      "name": "server-close-corner",
+      "category": "Devices",
+      "files": {
+        "line/sharp": "9dfc33e40285",
+        "line/regular": "81c617f663e3",
+        "line/round": "715d52709247",
+        "duocolor/sharp": "ab768aad7bcb",
+        "duocolor/regular": "1d99ca6a1c92",
+        "duocolor/round": "054495e7bc02",
+        "duotone/sharp": "32c7d39c560e",
+        "duotone/regular": "f5883951cbea",
+        "duotone/round": "b6b2df51a1d8",
+        "fill/sharp": "4c22083741ec",
+        "fill/regular": "e14720359206",
+        "fill/round": "c01dcbf7923a",
+        "bulk/sharp": "12f7155b6740",
+        "bulk/regular": "4a9fb47d2715",
+        "bulk/round": "432290667d0e"
+      }
+    },
+    {
       "name": "server-off",
       "category": "Devices",
       "files": {
-        "line/sharp": "3a25afae164f",
-        "line/regular": "689c544a21e1",
-        "line/round": "ed8be446537a",
-        "duocolor/sharp": "f6ae92251eba",
-        "duocolor/regular": "9adfd86a2747",
-        "duocolor/round": "e65293949c73",
-        "duotone/sharp": "f10f9640d58a",
-        "duotone/regular": "246a9f702140",
-        "duotone/round": "2f0f92d61fd8",
+        "line/sharp": "5c75895c7445",
+        "line/regular": "94e811289999",
+        "line/round": "5a95712d9ede",
+        "duocolor/sharp": "db84fbe6ce89",
+        "duocolor/regular": "d002d23acb83",
+        "duocolor/round": "cced85ae2669",
+        "duotone/sharp": "207064fd5f22",
+        "duotone/regular": "bfe7efe154fc",
+        "duotone/round": "c5f382c32f98",
         "fill/sharp": "1b352c455153",
         "fill/regular": "1d71a857eadf",
         "fill/round": "b828e6abece2",
         "bulk/sharp": "27a847fe6408",
         "bulk/regular": "da3201045f91",
         "bulk/round": "195721c5f1d7"
+      }
+    },
+    {
+      "name": "server-settings-corner",
+      "category": "Devices",
+      "files": {
+        "line/sharp": "af3c36582e3b",
+        "line/regular": "b5a34d193099",
+        "line/round": "034cfab6e923",
+        "duocolor/sharp": "e6597be7d60f",
+        "duocolor/regular": "14fda486a456",
+        "duocolor/round": "6fdffefe43f5",
+        "duotone/sharp": "8e9b2eda0b2a",
+        "duotone/regular": "18a2dc928485",
+        "duotone/round": "58e9bc3c8b4a",
+        "fill/sharp": "29f95d607bc6",
+        "fill/regular": "b5ec2cbb976e",
+        "fill/round": "b5ca286ee07f",
+        "bulk/sharp": "2eeee0669844",
+        "bulk/regular": "5ef1c3833b40",
+        "bulk/round": "bbc4927113ef"
       }
     },
     {
@@ -19835,15 +21137,15 @@
       "name": "shield-off",
       "category": "Shape",
       "files": {
-        "line/sharp": "85600441a25b",
-        "line/regular": "d21b7d65d09c",
-        "line/round": "0ab090c2d2ee",
-        "duocolor/sharp": "73eb3ffab167",
-        "duocolor/regular": "af350dc25526",
-        "duocolor/round": "b5db104cf0cc",
-        "duotone/sharp": "82e74501ef24",
-        "duotone/regular": "8627a6c26b7d",
-        "duotone/round": "498c4455bc7e",
+        "line/sharp": "97ae01d7d7aa",
+        "line/regular": "fc05163c45ea",
+        "line/round": "eb0f92fd3212",
+        "duocolor/sharp": "fe698a724b2a",
+        "duocolor/regular": "bd7830943e38",
+        "duocolor/round": "a09bcbb377a7",
+        "duotone/sharp": "c009f4991244",
+        "duotone/regular": "eb81770e3da4",
+        "duotone/round": "62ffca552fb4",
         "fill/sharp": "f954263d6387",
         "fill/regular": "89584a9fd190",
         "fill/round": "e37f2e94bc84",
@@ -20945,6 +22247,48 @@
       }
     },
     {
+      "name": "spinner",
+      "category": "System",
+      "files": {
+        "line/sharp": "5bdc1eebba1a",
+        "line/regular": "5bdc1eebba1a",
+        "line/round": "5bdc1eebba1a",
+        "duocolor/sharp": "6f0581fa7889",
+        "duocolor/regular": "6f0581fa7889",
+        "duocolor/round": "6f0581fa7889",
+        "duotone/sharp": "5bdc1eebba1a",
+        "duotone/regular": "5bdc1eebba1a",
+        "duotone/round": "5bdc1eebba1a",
+        "fill/sharp": "a6f783ff2dca",
+        "fill/regular": "a6f783ff2dca",
+        "fill/round": "a6f783ff2dca",
+        "bulk/sharp": "56227543f802",
+        "bulk/regular": "56227543f802",
+        "bulk/round": "56227543f802"
+      }
+    },
+    {
+      "name": "spinner-rays",
+      "category": "System",
+      "files": {
+        "line/sharp": "3329aa0284d4",
+        "line/regular": "3329aa0284d4",
+        "line/round": "3329aa0284d4",
+        "duocolor/sharp": "4232b4768989",
+        "duocolor/regular": "4232b4768989",
+        "duocolor/round": "4232b4768989",
+        "duotone/sharp": "4232b4768989",
+        "duotone/regular": "4232b4768989",
+        "duotone/round": "4232b4768989",
+        "fill/sharp": "9df83ff3bd81",
+        "fill/regular": "9df83ff3bd81",
+        "fill/round": "9df83ff3bd81",
+        "bulk/sharp": "cedb2547976e",
+        "bulk/regular": "cedb2547976e",
+        "bulk/round": "cedb2547976e"
+      }
+    },
+    {
       "name": "split",
       "category": "Arrow",
       "files": {
@@ -21998,15 +23342,15 @@
       "name": "star-off",
       "category": "Communication",
       "files": {
-        "line/sharp": "3481b854e963",
-        "line/regular": "3481b854e963",
-        "line/round": "3481b854e963",
-        "duocolor/sharp": "2cd0c9ed5fe5",
-        "duocolor/regular": "2cd0c9ed5fe5",
-        "duocolor/round": "2cd0c9ed5fe5",
-        "duotone/sharp": "30e547a5ec9c",
-        "duotone/regular": "30e547a5ec9c",
-        "duotone/round": "30e547a5ec9c",
+        "line/sharp": "ff82977ed084",
+        "line/regular": "ff82977ed084",
+        "line/round": "ff82977ed084",
+        "duocolor/sharp": "df5449b5594f",
+        "duocolor/regular": "df5449b5594f",
+        "duocolor/round": "df5449b5594f",
+        "duotone/sharp": "0c0e342bd0f9",
+        "duotone/regular": "0c0e342bd0f9",
+        "duotone/round": "0c0e342bd0f9",
         "fill/sharp": "fa165367d66d",
         "fill/regular": "fa165367d66d",
         "fill/round": "fa165367d66d",
@@ -22251,21 +23595,21 @@
       "name": "sun-moon",
       "category": "Nature",
       "files": {
-        "line/sharp": "6607d0071659",
-        "line/regular": "6607d0071659",
-        "line/round": "6607d0071659",
-        "duocolor/sharp": "55339b2abced",
-        "duocolor/regular": "55339b2abced",
-        "duocolor/round": "55339b2abced",
-        "duotone/sharp": "b633e90c66e1",
-        "duotone/regular": "b633e90c66e1",
-        "duotone/round": "b633e90c66e1",
-        "fill/sharp": "c56c429108fb",
-        "fill/regular": "c56c429108fb",
-        "fill/round": "c56c429108fb",
-        "bulk/sharp": "f560219826f1",
-        "bulk/regular": "f560219826f1",
-        "bulk/round": "f560219826f1"
+        "line/sharp": "8465f6887f5e",
+        "line/regular": "8465f6887f5e",
+        "line/round": "8465f6887f5e",
+        "duocolor/sharp": "bf80f66b2cfa",
+        "duocolor/regular": "bf80f66b2cfa",
+        "duocolor/round": "bf80f66b2cfa",
+        "duotone/sharp": "47b4aba7fd51",
+        "duotone/regular": "47b4aba7fd51",
+        "duotone/round": "47b4aba7fd51",
+        "fill/sharp": "f4e775dc1434",
+        "fill/regular": "f4e775dc1434",
+        "fill/round": "f4e775dc1434",
+        "bulk/sharp": "8f24f38797e2",
+        "bulk/regular": "8f24f38797e2",
+        "bulk/round": "8f24f38797e2"
       }
     },
     {
@@ -23421,6 +24765,27 @@
         "bulk/sharp": "2778bb8928a2",
         "bulk/regular": "2778bb8928a2",
         "bulk/round": "2778bb8928a2"
+      }
+    },
+    {
+      "name": "timer-off",
+      "category": "Calendar",
+      "files": {
+        "line/sharp": "58ae85348b6f",
+        "line/regular": "58ae85348b6f",
+        "line/round": "58ae85348b6f",
+        "duocolor/sharp": "db4f7d8c4131",
+        "duocolor/regular": "db4f7d8c4131",
+        "duocolor/round": "db4f7d8c4131",
+        "duotone/sharp": "bf0aea3e5140",
+        "duotone/regular": "bf0aea3e5140",
+        "duotone/round": "bf0aea3e5140",
+        "fill/sharp": "7e10b7024e31",
+        "fill/regular": "7e10b7024e31",
+        "fill/round": "7e10b7024e31",
+        "bulk/sharp": "ab4dd9499365",
+        "bulk/regular": "ab4dd9499365",
+        "bulk/round": "ab4dd9499365"
       }
     },
     {
@@ -24726,6 +26091,27 @@
       }
     },
     {
+      "name": "variable",
+      "category": "Symbols",
+      "files": {
+        "line/sharp": "170572e7dc2f",
+        "line/regular": "170572e7dc2f",
+        "line/round": "170572e7dc2f",
+        "duocolor/sharp": "c7aac3a4fe04",
+        "duocolor/regular": "c7aac3a4fe04",
+        "duocolor/round": "c7aac3a4fe04",
+        "duotone/sharp": "170572e7dc2f",
+        "duotone/regular": "170572e7dc2f",
+        "duotone/round": "170572e7dc2f",
+        "fill/sharp": "734bdd143884",
+        "fill/regular": "734bdd143884",
+        "fill/round": "734bdd143884",
+        "bulk/sharp": "8662a95c7408",
+        "bulk/regular": "8662a95c7408",
+        "bulk/round": "8662a95c7408"
+      }
+    },
+    {
       "name": "vault",
       "category": "Finance",
       "files": {
@@ -24835,20 +26221,20 @@
       "category": "Media",
       "files": {
         "line/sharp": "a4261ab01fd0",
-        "line/regular": "819df5e0e2ce",
-        "line/round": "037bbf9a7cf0",
+        "line/regular": "e5765f0d55c0",
+        "line/round": "5b65e6d0104d",
         "duocolor/sharp": "55bdc37e9cb1",
-        "duocolor/regular": "f4bafd08f8f2",
-        "duocolor/round": "edf2fa3dd6f5",
-        "duotone/sharp": "1e85639497e7",
-        "duotone/regular": "c46774d09df0",
-        "duotone/round": "39aace00bb59",
+        "duocolor/regular": "a1b25671cdd9",
+        "duocolor/round": "6dea2c97c427",
+        "duotone/sharp": "62c82f33efcb",
+        "duotone/regular": "8127b59fab30",
+        "duotone/round": "514281b7717a",
         "fill/sharp": "510aa58f6c5a",
-        "fill/regular": "90a441d35b46",
-        "fill/round": "5252f10d8118",
+        "fill/regular": "99b96d3461f4",
+        "fill/round": "1c99ae6e3b54",
         "bulk/sharp": "de56ab5d59b1",
-        "bulk/regular": "5a290005586b",
-        "bulk/round": "9a6787aa3bdd"
+        "bulk/regular": "ce747b212847",
+        "bulk/round": "f90d0aba6fd2"
       }
     },
     {
@@ -25029,9 +26415,9 @@
         "duocolor/sharp": "7af97870e3b1",
         "duocolor/regular": "97b9cb3412a6",
         "duocolor/round": "c1dea1d8ab4f",
-        "duotone/sharp": "b5e27b588dfc",
-        "duotone/regular": "cbc04248d101",
-        "duotone/round": "64dd1e52112e",
+        "duotone/sharp": "63e10c031e7e",
+        "duotone/regular": "164c9086f12a",
+        "duotone/round": "21e9de4e909f",
         "fill/sharp": "c9f21effc6c5",
         "fill/regular": "13921367fb30",
         "fill/round": "509f9f982d3c",
@@ -26142,9 +27528,9 @@
         "duocolor/sharp": "c66bf7b6eeb2",
         "duocolor/regular": "62be6192e501",
         "duocolor/round": "4d6503083558",
-        "duotone/sharp": "51fda8ea70f8",
-        "duotone/regular": "0ccbe0805b19",
-        "duotone/round": "913d0959ceba",
+        "duotone/sharp": "19ce6fc132e0",
+        "duotone/regular": "87776ebff317",
+        "duotone/round": "70505c4cd592",
         "fill/sharp": "69b614a36070",
         "fill/regular": "43877183422a",
         "fill/round": "9d19e01ded54",
@@ -26448,7 +27834,7 @@
       }
     }
   ],
-  "hash": "a07064539ec2",
+  "hash": "fca546421544",
   "clashes": {
     "activity": [
       "React"
@@ -26537,6 +27923,9 @@
       "React Router",
       "TanStack Router",
       "Solid",
+      "Angular"
+    ],
+    "scroll": [
       "Angular"
     ],
     "settings": [
