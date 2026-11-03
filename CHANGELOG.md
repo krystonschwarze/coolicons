@@ -2,6 +2,56 @@
 
 Every release lists the icons that were added, renamed, removed, redrawn or moved to another category since the release before.
 
+## 5.2.0
+
+1,324 icons with 12 aliases in 30 categories.
+
+### New
+
+`archive-restore`, `blocks`, `box`, `box-export`, `box-import`, `box-off`, `box-taped`, `calendar-clock-corner`, `chat-circle-heart`, `chat-circle-help`, `chat-circle-off`, `chat-circle-quote`, `chat-circle-share`, `chat-circle-text`, `chat-circle-warning`, `chat-quote`, `chat-share`, `chat-warning`, `database-backup-corner`, `database-restore-corner`, `export`, `face-smile-minus-corner`, `face-smile-plus-corner`, `file-archive`, `file-help`, `file-help-corner`, `file-spreadsheet`, `file-type`, `import`, `life-buoy`, `list-restart`, `mail-check`, `mail-check-corner`, `mail-close`, `mail-close-corner`, `mail-help`, `mail-minus`, `mail-minus-corner`, `mail-off`, `mail-plus`, `mail-plus-corner`, `mail-warning`, `mails`, `monitor-download`, `monitor-upload`, `music-note-double`, `music-notes-double`, `newspaper`, `packages`, `party-popper`, `plug-off`, `plug-zap`, `scan-barcode`, `scan-eye`, `scan-text`, `scroll`, `scroll-text`, `search-check`, `search-close`, `server-check-corner`, `server-close-corner`, `server-settings-corner`, `spinner`, `spinner-rays`, `timer-off`, `variable`
+
+### Redrawn
+
+- `alarm-off` in line, duocolor, duotone
+- `bell-off` in line, duocolor, duotone
+- `bookmark-off` in line, duocolor, duotone
+- `calendar-off` in line, duocolor, duotone, fill, bulk
+- `camera-off` in line, duocolor, duotone, fill, bulk
+- `chat-off` in line, duocolor, duotone
+- `cloud-moon` in line, duocolor, duotone, fill, bulk
+- `cloud-off` in line, duocolor, duotone
+- `eye-off` in line, duocolor, duotone, fill, bulk
+- `filter-off` in line, duocolor, duotone
+- `gift` in line, duocolor, duotone, fill, bulk
+- `globe-off` in line, duocolor, duotone, fill, bulk
+- `hand` in fill, bulk
+- `hand-grab` in line, duocolor, duotone, fill, bulk
+- `hand-pointer` in fill, bulk
+- `heart-off` in line, duocolor, duotone
+- `image-off` in line, duocolor, duotone
+- `leaf` in line, duocolor, duotone, fill, bulk
+- `link-horizontal-off` in line, duocolor, duotone, fill, bulk
+- `mail` in fill, bulk
+- `mail-dot` in fill, bulk
+- `mail-sparkle` in fill, bulk
+- `map-pin-off` in line, duocolor, duotone
+- `microphone-off` in line, duocolor, duotone, fill, bulk
+- `monitor-off` in line, duocolor, duotone
+- `monitor-play` in line, duocolor, duotone, fill, bulk
+- `moon` in line, duocolor, duotone, fill, bulk
+- `moon-star` in line, duocolor, duotone, fill, bulk
+- `music-note-off` in duotone
+- `phone-off` in line, duocolor, duotone, fill, bulk
+- `pin-off` in line, duocolor, duotone
+- `planet` in line, duocolor, duotone, fill, bulk
+- `server-off` in line, duocolor, duotone
+- `shield-off` in line, duocolor, duotone
+- `star-off` in line, duocolor, duotone
+- `sun-moon` in line, duocolor, duotone, fill, bulk
+- `video-off` in line, duocolor, duotone, fill, bulk
+- `volume-off` in duotone
+- `zap-off` in duotone
+
 ## 5.1.0
 
 Keyboard keys, carets in four directions, the Linux logo and a bigger transit set with trams, subways, cable cars, ferries, police cars and side views of trains, planes and ships. The vehicles already in the set are redrawn to match.
