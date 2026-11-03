@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  1,200+ free icons in five styles, with sharp, regular or round corners,<br>
+  1,300+ free icons in five styles, with sharp, regular or round corners,<br>
   for React, Vue, shadcn/ui, SVG and Figma.
 </p>
 
@@ -23,7 +23,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-fed100" alt="MIT license"></a>
 </p>
 
-| 1,200+ | 5 | 3 | 18,000+ | 500k+ |
+| 1,300+ | 5 | 3 | 19,000+ | 500k+ |
 | :---: | :---: | :---: | :---: | :---: |
 | icons in 30 categories | styles, Line to Bulk | corners, sharp to round | SVG files | Figma downloads |
 
