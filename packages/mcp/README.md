@@ -33,9 +33,10 @@ No API key, no network. The whole set ships inside the package.
 | --- | --- |
 | `describe_set` | Counts, styles, radii, categories, packages and naming rules. Worth calling first |
 | `search_icons` | Find icons by name or meaning. Separate several searches with commas to resolve many names in one call |
+| `list_icons` | Browse one category a page at a time, to compare every option in a theme |
 | `get_icon` | SVG source of one icon in any style and corner radius, with size and stroke width |
 | `get_usage` | Install command and import code for React, Vue, SVG or the shadcn/ui registry, with the entry for the chosen style and radius |
 
-A name that does not exist is answered with the closest names, so a typo resolves in one turn. Names that clash with JavaScript or browser globals, like `map` or `file`, come back with the `Icon` suffix (`MapIcon`).
+A name that does not exist is answered with the closest names, so a typo resolves in one turn. When no icon matches every word of a search, the best partial matches come back marked weak, with the words they miss. Names that clash with JavaScript or browser globals, like `map` or `file`, come back with the `Icon` suffix (`MapIcon`).
 
 More in the [coolicons repository](https://github.com/krystonschwarze/coolicons#readme). MIT license.

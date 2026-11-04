@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { component, findIcon, iconSet, LookupError, RADII, search, STYLES, svg } from "./core.js";
+import { component, findIcon, iconSet, LookupError, RADII, search, searchPartial, STYLES, svg } from "./core.js";
 
 const { version } = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
 
@@ -72,13 +72,23 @@ function run({ command, words, options }) {
     if (!query) throw new LookupError("search needs a query, like: coolicons search date");
     const results = search(query, Number(options.limit ?? 20));
     if (options.json) return out(JSON.stringify(results.map((icon) => ({ ...icon, component: component(icon) })), null, 2));
+    const rows = (icons) => {
+      const width = Math.max(...icons.map((icon) => icon.name.length));
+      for (const icon of icons) out(`${icon.name.padEnd(width)}  ${component(icon)}  ${icon.category}${icon.missing?.length ? `  weak: no ${icon.missing.join(", ")}` : ""}${icon.keywords.length ? `  ${icon.keywords.join(", ")}` : ""}`);
+    };
     if (!results.length) {
-      say(`No icon matches "${query}".`);
+      const partial = searchPartial(query, Number(options.limit ?? 20));
+      if (partial.length && !partial[0].missing.length) {
+        rows(partial);
+        say(`${partial.length} of ${iconSet().icons.length} icons`);
+        return;
+      }
+      say(`No icon matches "${query}".${partial.length ? " Weak matches by some words, check that they fit:" : ""}`);
+      if (partial.length) rows(partial);
       process.exitCode = 1;
       return;
     }
-    const width = Math.max(...results.map((icon) => icon.name.length));
-    for (const icon of results) out(`${icon.name.padEnd(width)}  ${component(icon)}  ${icon.category}${icon.keywords.length ? `  ${icon.keywords.join(", ")}` : ""}`);
+    rows(results);
     say(`${results.length} of ${iconSet().icons.length} icons`);
     return;
   }
