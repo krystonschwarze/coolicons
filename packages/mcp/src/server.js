@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 import { readFileSync } from "node:fs";
 import { createInterface } from "node:readline";
-import { component, findIcon, iconSet, LookupError, RADII, SITE, STROKED, STYLES, search, suggest, svg, usage } from "./core.js";
+import { component, findIcon, iconSet, LookupError, RADII, SITE, STROKED, STYLES, search, searchPartial, suggest, svg, usage } from "./core.js";
 
 const { version } = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
 const PROTOCOLS = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 
-const INSTRUCTIONS = `coolicons is an open source icon set (MIT) in five styles and three corner radii. Never guess an icon name: resolve every name with search_icons before writing code, and look up several names in one call by separating them with commas. If nothing fits, tell the user instead of using a similar icon. Use get_usage for the exact import line, it applies the style and radius entry and the Icon suffix for names that clash with JavaScript or browser globals.`;
+const INSTRUCTIONS = `coolicons is an open source icon set (MIT) in five styles and three corner radii. Never guess an icon name: resolve every name with search_icons before writing code, and look up several names in one call by separating them with commas. Results marked weak match only some words: check that they fit, and if nothing fits, tell the user instead of using a similar icon. To see every option in a theme, browse a category from describe_set with list_icons. Use get_usage for the exact import line, it applies the style and radius entry and the Icon suffix for names that clash with JavaScript or browser globals.`;
 
 const style = { type: "string", enum: STYLES, description: "line, duocolor, duotone, fill or bulk. Default line." };
 const radius = { type: "string", enum: RADII, description: "Corner radius: sharp, regular or round. Default regular." };
@@ -32,6 +32,22 @@ const TOOLS = [
         limit: { type: "integer", minimum: 1, maximum: 50, description: "Results per search. Default 5." },
       },
       required: ["query"],
+    },
+    annotations: readOnly,
+  },
+  {
+    name: "list_icons",
+    title: "List coolicons",
+    description:
+      "Browse the icons of one category a page at a time, with component names and tags. Categories and counts come from describe_set. Useful when a search is weak or to compare every option in a theme.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        category: { type: "string", description: "Category from describe_set, like Calendar or File." },
+        offset: { type: "integer", minimum: 0, description: "Start at this icon. Default 0, pass the returned next offset for the following page." },
+        limit: { type: "integer", minimum: 1, maximum: 200, description: "Icons per page. Default 50." },
+      },
+      required: ["category"],
     },
     annotations: readOnly,
   },
@@ -94,22 +110,40 @@ Names are lowercase words joined by hyphens, like file-plus-corner. Components u
 Categories: ${counts.join(", ")}.`;
 }
 
+const row = (icon) => {
+  const alias = icon.aliasOf ? `, same drawing as ${icon.aliasOf}` : "";
+  const missing = icon.missing?.length ? `, weak: no ${icon.missing.join(", ")}` : "";
+  return `- ${icon.name} (${component(icon)}, ${icon.category}${alias}${missing})${icon.keywords.length ? `: ${icon.keywords.join(", ")}` : ""}`;
+};
+
 function searchIcons({ query, limit = 5 }) {
   const searches = list(query);
   if (!searches.length) throw new LookupError("query is empty.");
+  const count = Math.min(Math.max(Number(limit) || 5, 1), 50);
   const blocks = searches.map((term) => {
-    const found = search(term, Math.min(Math.max(Number(limit) || 5, 1), 50));
-    if (!found.length) {
-      const near = suggest(term);
-      return `"${term}": no match.${near.length ? ` Close names: ${near.join(", ")}.` : ""}`;
+    const found = search(term, count);
+    if (found.length) return `"${term}":\n${found.map(row).join("\n")}`;
+    const partial = searchPartial(term, count);
+    if (partial.length) {
+      const note = partial[0].missing.length ? " no icon matches every word, weak matches below, check that they fit." : "";
+      return `"${term}":${note}\n${partial.map(row).join("\n")}`;
     }
-    const rows = found.map((icon) => {
-      const alias = icon.aliasOf ? `, same drawing as ${icon.aliasOf}` : "";
-      return `- ${icon.name} (${component(icon)}, ${icon.category}${alias})${icon.keywords.length ? `: ${icon.keywords.join(", ")}` : ""}`;
-    });
-    return `"${term}":\n${rows.join("\n")}`;
+    const near = suggest(term);
+    return `"${term}": no match.${near.length ? ` Close names: ${near.join(", ")}.` : ""}`;
   });
   return blocks.join("\n\n");
+}
+
+function listIcons({ category, offset = 0, limit = 50 }) {
+  const { icons } = iconSet();
+  const wanted = String(category ?? "").trim().toLowerCase();
+  const members = icons.filter((icon) => icon.category.toLowerCase() === wanted);
+  if (!members.length) throw new LookupError(`No category "${category ?? ""}". Categories: ${[...new Set(icons.map((icon) => icon.category))].join(", ")}.`);
+  const start = Math.max(Math.floor(Number(offset) || 0), 0);
+  const page = members.slice(start, start + Math.min(Math.max(Number(limit) || 50, 1), 200));
+  if (!page.length) throw new LookupError(`${members[0].category} has ${members.length} icons, offset ${start} is past the end.`);
+  const end = start + page.length;
+  return `${members[0].category}: icons ${start + 1} to ${end} of ${members.length}.${end < members.length ? ` Next page: offset ${end}.` : ""}\n${page.map(row).join("\n")}`;
 }
 
 function getIcon({ name, style: chosen = "line", radius: corners = "regular", size = 24, strokeWidth = 2 }) {
@@ -126,7 +160,7 @@ function getUsage({ names, framework = "react", style: chosen = "line", radius: 
   return `${install}\n\n${code}${note}`;
 }
 
-const HANDLERS = { describe_set: describeSet, search_icons: searchIcons, get_icon: getIcon, get_usage: getUsage };
+const HANDLERS = { describe_set: describeSet, search_icons: searchIcons, list_icons: listIcons, get_icon: getIcon, get_usage: getUsage };
 
 const send = (message) => process.stdout.write(`${JSON.stringify({ jsonrpc: "2.0", ...message })}\n`);
 const failure = (id, code, message) => send({ id, error: { code, message } });

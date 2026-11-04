@@ -11,7 +11,7 @@ coolicons is an open source icon set under the MIT license. Every icon comes in 
 
 Language models do not know coolicons names, and a wrong name breaks the build. Every name you write must come from one of these sources, in this order:
 
-1. **The coolicons MCP server**, if it is connected: `search_icons` with several names separated by commas, then `get_usage` for the import line. Without it, `npx @coolicons/cli search <query>` gives the same results in the terminal.
+1. **The coolicons MCP server**, if it is connected: `search_icons` with several names separated by commas, then `get_usage` for the import line. Without it, `npx @coolicons/cli search <query>` gives the same results in the terminal. Results marked weak match only some words of the search: use one only if it really fits, otherwise browse the category with `list_icons` (`npx @coolicons/cli list --category <name>`) or tell the user that nothing fits.
 
 2. **The installed package**, which matches the project's version. Both packages list every name in `dist/names.d.ts`:
 

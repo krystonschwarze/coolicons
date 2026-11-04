@@ -49,6 +49,9 @@ const messages = [
   { jsonrpc: "2.0", id: 6, method: "tools/call", params: { name: "get_icon", arguments: { name: "calender" } } },
   { jsonrpc: "2.0", id: 7, method: "unknown" },
   { jsonrpc: "2.0", id: 8, method: "tools/call", params: { name: "get_usage", arguments: { names: "calendar-event", framework: "shadcn", style: "bulk", radius: "round" } } },
+  { jsonrpc: "2.0", id: 9, method: "tools/call", params: { name: "list_icons", arguments: { category: "calendar", offset: 2, limit: 3 } } },
+  { jsonrpc: "2.0", id: 10, method: "tools/call", params: { name: "list_icons", arguments: { category: "nope" } } },
+  { jsonrpc: "2.0", id: 11, method: "tools/call", params: { name: "search_icons", arguments: { query: "dark mode toggle, icon for settings" } } },
 ];
 const replies = new Map(
   execFileSync(process.execPath, [serverFile], { input: messages.map((message) => JSON.stringify(message)).join("\n"), encoding: "utf8" })
@@ -57,12 +60,12 @@ const replies = new Map(
     .map((line) => JSON.parse(line))
     .map((reply) => [reply.id, reply]),
 );
-assert.equal(replies.size, 8);
+assert.equal(replies.size, 11);
 assert.equal(replies.get(1).result.protocolVersion, "2025-06-18");
 assert.ok(replies.get(1).result.instructions.includes("Never guess"));
 assert.deepEqual(
   replies.get(2).result.tools.map((tool) => tool.name),
-  ["describe_set", "search_icons", "get_icon", "get_usage"],
+  ["describe_set", "search_icons", "list_icons", "get_icon", "get_usage"],
 );
 assert.equal(replies.get(3).result.content[0].text, exported("duotone/round", "calendar-event"));
 assert.match(replies.get(4).result.content[0].text, /- calendar-event \(CalendarEvent/);
@@ -72,5 +75,19 @@ assert.equal(replies.get(6).result.isError, true);
 assert.equal(replies.get(7).error.code, -32601);
 assert.match(replies.get(8).result.content[0].text, /npx shadcn@latest add @coolicons\/bulk\/round\/calendar-event\b/);
 assert.match(replies.get(8).result.content[0].text, /components\/icons\/bulk\/round\/calendar-event\.tsx exporting CalendarEvent/);
+
+const index = JSON.parse(readFileSync(path.join(root, "packages/mcp/dist/data/index.json"), "utf8"));
+const calendar = index.icons.filter((icon) => icon.category === "Calendar");
+assert.match(replies.get(9).result.content[0].text, new RegExp(`^Calendar: icons 3 to 5 of ${calendar.length}\\. Next page: offset 5\\.\\n- ${calendar[2].name} \\(`));
+assert.equal(replies.get(10).result.isError, true);
+assert.match(replies.get(10).result.content[0].text, /Categories: .*Calendar/);
+assert.match(replies.get(11).result.content[0].text, /"dark mode toggle": no icon matches every word/);
+assert.match(replies.get(11).result.content[0].text, /weak: no /);
+assert.match(replies.get(11).result.content[0].text, /"icon for settings":\n- settings \(SettingsIcon/);
+
+const weak = cli("search", "dark", "mode", "toggle");
+assert.equal(weak.status, 1);
+assert.match(weak.stderr, /Weak matches by some words/);
+assert.match(weak.stdout, /weak: no /);
 
 console.log(`cli and mcp match the export, ${((performance.now() - started) / 1000).toFixed(1)} s`);

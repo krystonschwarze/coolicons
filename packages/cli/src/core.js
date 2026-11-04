@@ -1,5 +1,5 @@
 import { readFileSync } from "node:fs";
-import { matchIcons } from "./search.js";
+import { matchIcons, scoreIcon, searchTerms } from "./search.js";
 
 export const STYLES = ["line", "duocolor", "duotone", "fill", "bulk"];
 export const RADII = ["sharp", "regular", "round"];
@@ -57,6 +57,22 @@ export function checkVariant(style = "line", radius = "regular") {
 
 export function search(query, limit = 10) {
   return matchIcons(iconSet().icons, query).slice(0, limit);
+}
+
+const FILLER = new Set(["a", "an", "and", "as", "for", "icon", "icons", "in", "of", "on", "or", "the", "to", "with"]);
+
+export function searchPartial(query, limit = 10) {
+  const terms = searchTerms(query).filter((term) => !FILLER.has(term));
+  if (!terms.length) return [];
+  return iconSet()
+    .icons.map((icon) => {
+      const scores = terms.map((term) => scoreIcon(icon, [term]));
+      return { icon, matched: terms.filter((_, i) => scores[i]), rank: scores.reduce((sum, score) => sum + score, 0) };
+    })
+    .filter((entry) => entry.matched.length)
+    .sort((a, b) => b.matched.length - a.matched.length || b.rank - a.rank || a.icon.name.length - b.icon.name.length || a.icon.name.localeCompare(b.icon.name))
+    .slice(0, limit)
+    .map(({ icon, matched }) => ({ ...icon, missing: terms.filter((term) => !matched.includes(term)) }));
 }
 
 function distance(a, b) {
