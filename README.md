@@ -17,10 +17,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/krystonschwarze/coolicons/stargazers"><img src="https://img.shields.io/github/stars/krystonschwarze/coolicons?label=stars&color=fed100" alt="GitHub stars"></a>
-  <a href="https://www.figma.com/community/file/800815864899415771"><img src="https://img.shields.io/badge/Figma-500k%2B%20downloads-fed100" alt="500k+ downloads on Figma Community"></a>
-  <a href="https://www.npmjs.com/package/@coolicons/react"><img src="https://img.shields.io/npm/v/@coolicons/react?label=npm&color=fed100" alt="npm version"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-fed100" alt="MIT license"></a>
+  <a href="https://github.com/krystonschwarze/coolicons/stargazers"><img src="https://img.shields.io/github/stars/krystonschwarze/coolicons?label=stars&color=ffd000" alt="GitHub stars"></a>
+  <a href="https://www.figma.com/community/file/800815864899415771"><img src="https://img.shields.io/badge/Figma-500k%2B%20downloads-ffd000" alt="500k+ downloads on Figma Community"></a>
+  <a href="https://www.npmjs.com/package/@coolicons/react"><img src="https://img.shields.io/npm/v/@coolicons/react?label=npm&color=ffd000" alt="npm version"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-ffd000" alt="MIT license"></a>
 </p>
 
 | 1,300+ | 5 | 3 | 19,000+ | 500k+ |
@@ -133,7 +133,7 @@ Names are lowercase English words joined by hyphens, like `file-plus-corner`. Co
 
 Use the plain name unless JavaScript, the browser or a framework already uses it. `Map` is a JavaScript global, `File` a browser global and `Link` a component in Next.js and React Router. Importing an icon with such a name hides the original in that file, so `value instanceof File` quietly stops working. For these icons, use the suffix:
 
-`ActivityIcon`, `BluetoothIcon`, `ClipboardIcon`, `CodeIcon`, `ComponentIcon`, `FileIcon`, `FontIcon`, `FunctionIcon`, `GamepadIcon`, `HistoryIcon`, `ImageIcon`, `InfinityIcon`, `KeyboardIcon`, `LabelIcon`, `LinkIcon`, `LockIcon`, `MapIcon`, `NavigationIcon`, `OptionIcon`, `PresentationIcon`, `RouteIcon`, `RouterIcon`, `ScrollIcon`, `SettingsIcon`, `ShareIcon`, `TextIcon`, `WindowIcon`
+`ActivityIcon`, `BluetoothIcon`, `ClipboardIcon`, `CodeIcon`, `ComponentIcon`, `FileIcon`, `FontIcon`, `FunctionIcon`, `GamepadIcon`, `HistoryIcon`, `ImageIcon`, `InfinityIcon`, `KeyboardIcon`, `LabelIcon`, `LinkIcon`, `LockIcon`, `MapIcon`, `ModalIcon`, `NavigationIcon`, `OptionIcon`, `PresentationIcon`, `RouteIcon`, `RouterIcon`, `ScrollIcon`, `SettingsIcon`, `ShareIcon`, `TextIcon`, `WindowIcon`
 
 The list covers the globals of JavaScript, browsers, Node, Deno, Bun and React Native, and the exports of React, Next.js, React Router, TanStack Router, React Native, Expo Router, Vue, Vue Router, Solid, Svelte, Preact, Angular, Astro, Qwik, Lit, Inertia and Gatsby.
 
