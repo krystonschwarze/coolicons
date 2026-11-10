@@ -2,6 +2,58 @@
 
 Every release lists the icons that were added, renamed, removed, redrawn or moved to another category since the release before.
 
+## 5.3.0
+
+Small status badges for files, folders, notes, users, calendars, servers and databases, chat bubbles with faces, image actions, form controls like combobox, stepper and textarea, git and network icons, boolean operations, more charts, meters and home heating. The calendars get a toned body in Duotone, locks in Bulk are solid now, and the crossed out image, the tent, the warehouse and a few Bulk fills are redrawn.
+
+Search in the MCP server and the CLI now falls back to the closest matches when no icon matches every word and names the words it could not match. The new `list_icons` tool in the MCP server pages through one category.
+
+React and Vue icons take `secondaryColor` and `secondaryOpacity` for the second path of Duocolor, Duotone and Bulk. Both take any CSS value, also variables, so the second path can follow a theme. Without the props the markup stays exactly the same.
+
+1,550 icons with 14 aliases in 30 categories.
+
+### New
+
+`air-vent`, `api`, `atm`, `autoplay`, `bandwidth`, `bell-check`, `billboard`, `binoculars`, `boolean-exclude`, `boolean-intersect`, `boolean-subtract`, `boolean-union`, `border-inner`, `border-outer`, `brackets-dots`, `calendar-lock-corner`, `calendar-settings-corner`, `calendar-sync-corner`, `calendar-warning-corner`, `cassette`, `chapters`, `chart-bar-grouped`, `chart-burndown`, `chart-combo`, `chart-heatmap`, `chart-line-multi`, `chart-pie-circle`, `chart-sparkline`, `chart-value`, `chat-circle-angry`, `chat-circle-laugh`, `chat-circle-neutral`, `chat-circle-sad`, `chat-circle-smile`, `chat-circle-surprised`, `chat-circle-wink`, `circuit-board`, `clapperboard`, `clock-pause`, `coin-jar`, `combobox`, `corner-radius`, `credit-card-clock-corner`, `credit-card-return-corner`, `credit-card-sync-corner`, `crystal-ball`, `cursor-not-allowed`, `cursor-square`, `data-packet`, `database-lock-corner`, `database-share-corner`, `database-sync-corner`, `database-warning-corner`, `database-zap-corner`, `decimal-decrease`, `decimal-increase`, `drone`, `drop-shadow`, `earbuds`, `ethernet`, `file-clock-corner`, `file-pause-corner`, `file-percent`, `file-pin-corner`, `file-share-corner`, `file-shield`, `file-star-corner`, `file-sync-corner`, `file-warning-corner`, `firewall`, `flashlight-off`, `flashlight-on`, `folder-clock-corner`, `folder-help-corner`, `folder-pause-corner`, `folder-pin-corner`, `folder-share-corner`, `folder-star-corner`, `folder-sync-corner`, `folder-warning-corner`, `footprints`, `function-arrow-right`, `gem`, `gif`, `git-cherry-pick`, `git-merge-conflict`, `git-push`, `git-rebase`, `git-stash`, `globe-dots`, `globe-lock-corner`, `globe-search-corner`, `graphics-card`, `hand-heart`, `hdmi`, `head-heart`, `hearing`, `hearing-aid`, `hearing-off`, `heat-pump`, `house-percent`, `house-user`, `image-check`, `image-check-corner`, `image-close`, `image-close-corner`, `image-download`, `image-download-corner`, `image-edit`, `image-edit-corner`, `image-plus`, `image-plus-corner`, `image-search`, `image-search-corner`, `image-upload`, `image-upload-corner`, `image-warning`, `image-warning-corner`, `ip`, `key-sync-corner`, `kite`, `latency`, `letters-ab`, `list-star`, `logs`, `luggage-conveyor`, `magnet`, `mail-search`, `mail-search-corner`, `markdown`, `meter`, `meter-electricity`, `meter-gas`, `meter-water`, `microphone-text`, `mobile-foldable`, `mobile-vibrate`, `modal`, `network-off`, `network-ping`, `network-split`, `note-clock-corner`, `note-help-corner`, `note-lock-corner`, `note-pause-corner`, `note-pin-corner`, `note-settings-corner`, `note-share-corner`, `note-star-corner`, `note-sync-corner`, `note-warning-corner`, `package-return-corner`, `package-tracking-corner`, `page-margins`, `paper-plane-clock-corner`, `parachute`, `parallelogram`, `passkey`, `pipe-droplet`, `poll`, `popover`, `queue`, `radiator`, `rectangle-horizontal`, `rectangle-vertical`, `regex`, `scan-search`, `sd-card`, `search-chart`, `security-key`, `segmented-control`, `server-lock-corner`, `server-minus-corner`, `server-plus-corner`, `server-sync-corner`, `server-warning-corner`, `serverless`, `signal-none`, `skip-back-15`, `skip-forward-15`, `slider-1-sparkle`, `smart-meter`, `square-box`, `square-dashed-arrow-down`, `square-dashed-arrow-left`, `square-dashed-arrow-right`, `square-dashed-arrow-up`, `square-dashed-sparkle`, `squares-sparkle`, `step-into`, `step-over`, `stepper`, `subnet`, `table-transpose`, `tag-minus`, `tag-percent`, `tag-plus`, `text-direction-ltr`, `text-direction-rtl`, `text-edit`, `text-numbers`, `text-segments`, `text-truncate`, `textarea`, `thermostat`, `timer-check`, `touchpad`, `trapezoid`, `upscale-sparkle`, `usb-hub`, `user-clock-corner`, `user-help-corner`, `user-pause-corner`, `user-pin-corner`, `user-share-corner`, `user-sync-corner`, `user-warning-corner`, `vinyl`, `volume-text`, `vr-headset`, `wavy-user`, `websocket`, `window-lock-corner`, `window-settings-corner`, `window-sync-corner`, `window-warning-corner`
+
+### Redrawn
+
+- `archive-restore` in bulk
+- `box-taped` in bulk
+- `calendar` in duotone
+- `calendar-check` in duotone
+- `calendar-check-corner` in duotone
+- `calendar-clock-corner` in duotone
+- `calendar-close` in duotone
+- `calendar-close-corner` in duotone
+- `calendar-days` in duotone
+- `calendar-edit` in duotone
+- `calendar-edit-corner` in duotone
+- `calendar-event` in duotone
+- `calendar-minus` in duotone
+- `calendar-minus-corner` in duotone
+- `calendar-off` in duotone, bulk
+- `calendar-plus` in duotone
+- `calendar-plus-corner` in duotone
+- `calendar-search` in duotone
+- `calendar-search-corner` in duotone
+- `calendar-sparkle-corner` in duotone
+- `calendar-text` in duotone
+- `calendar-week` in duotone
+- `chart-bar-stacked` in duotone, fill, bulk
+- `chart-pie` in duotone, bulk
+- `external-link` in duotone, bulk
+- `file-archive` in bulk
+- `file-edit` in bulk
+- `file-lock-corner` in bulk
+- `folder-edit` in bulk
+- `folder-lock-corner` in bulk
+- `image-off` in line, duocolor, duotone, fill, bulk
+- `shield-lock` in bulk
+- `tent` in fill, bulk
+- `user-lock-corner` in bulk
+- `warehouse` in fill, bulk
+
 ## 5.2.0
 
 1,324 icons with 12 aliases in 30 categories.

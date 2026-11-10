@@ -2,7 +2,7 @@
 
 <a href="https://coolicons.cool"><img src="https://raw.githubusercontent.com/krystonschwarze/coolicons/main/.github/assets/banner.png" alt="coolicons: Every icon for your next project. Free, wherever you build." width="100%"></a>
 
-An MCP server for [coolicons](https://coolicons.cool). Lets a coding agent search 1,324 icons in five styles and three corner radii, read an icon's SVG and get the right import, without guessing names.
+An MCP server for [coolicons](https://coolicons.cool). Lets a coding agent search 1,550 icons in five styles and three corner radii, read an icon's SVG and get the right import, without guessing names.
 
 ## Install
 
