@@ -8,14 +8,25 @@ const PAINTS = [
   { fill: "currentColor", "fill-opacity": 0.2 },
   { fill: "currentColor", "fill-opacity": 0.4 },
 ];
+const SECONDARY = [null, ["stroke", "stroke-opacity"], null, ["fill", "fill-opacity"], ["fill", "fill-opacity"]];
 
 export const ICON_PROPS = {
   size: { type: [Number, String], default: 24 },
   strokeWidth: { type: [Number, String], default: 2 },
   title: { type: String, default: undefined },
+  secondaryColor: { type: String, default: undefined },
+  secondaryOpacity: { type: [Number, String], default: undefined },
 };
 
-export function renderIcon(nodes, { size = 24, strokeWidth = 2, title }, children) {
+function pathProps(paint, strokeWidth, secondaryColor, secondaryOpacity) {
+  const props = paint < 2 ? { ...PAINTS[paint], "stroke-width": strokeWidth } : { ...PAINTS[paint] };
+  const layer = SECONDARY[paint];
+  if (layer && secondaryColor != null) props[layer[0]] = secondaryColor;
+  if (layer && secondaryOpacity != null) props[layer[1]] = secondaryOpacity;
+  return props;
+}
+
+export function renderIcon(nodes, { size = 24, strokeWidth = 2, title, secondaryColor, secondaryOpacity }, children) {
   const labelled = title != null && title !== "";
   return h(
     "svg",
@@ -30,7 +41,7 @@ export function renderIcon(nodes, { size = 24, strokeWidth = 2, title }, childre
     },
     [
       labelled ? h("title", title) : null,
-      ...nodes.map(([paint, d]) => h("path", paint < 2 ? { d, ...PAINTS[paint], "stroke-width": strokeWidth } : { d, ...PAINTS[paint] })),
+      ...nodes.map(([paint, d]) => h("path", { d, ...pathProps(paint, strokeWidth, secondaryColor, secondaryOpacity) })),
       children,
     ],
   );

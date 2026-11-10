@@ -7,6 +7,8 @@ export interface IconProps extends Omit<SVGProps<SVGSVGElement>, "ref"> {
   size?: number | string;
   strokeWidth?: number | string;
   title?: string;
+  secondaryColor?: string;
+  secondaryOpacity?: number | string;
 }
 
 export type IconComponent = ForwardRefExoticComponent<IconProps & RefAttributes<SVGSVGElement>>;
