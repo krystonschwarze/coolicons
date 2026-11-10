@@ -8,8 +8,17 @@ const PAINTS = [
   { fill: "currentColor", fillOpacity: 0.2 },
   { fill: "currentColor", fillOpacity: 0.4 },
 ];
+const SECONDARY = [null, ["stroke", "strokeOpacity"], null, ["fill", "fillOpacity"], ["fill", "fillOpacity"]];
 
-export function renderIcon(nodes, { size = 24, strokeWidth = 2, title, children, ...rest }, ref) {
+function pathProps(paint, strokeWidth, secondaryColor, secondaryOpacity) {
+  const props = paint < 2 ? { ...PAINTS[paint], strokeWidth } : { ...PAINTS[paint] };
+  const layer = SECONDARY[paint];
+  if (layer && secondaryColor != null) props[layer[0]] = secondaryColor;
+  if (layer && secondaryOpacity != null) props[layer[1]] = secondaryOpacity;
+  return props;
+}
+
+export function renderIcon(nodes, { size = 24, strokeWidth = 2, title, secondaryColor, secondaryOpacity, children, ...rest }, ref) {
   const labelled = title != null && title !== "";
   return createElement(
     "svg",
@@ -25,7 +34,7 @@ export function renderIcon(nodes, { size = 24, strokeWidth = 2, title, children,
       ref,
     },
     labelled ? createElement("title", null, title) : null,
-    ...nodes.map(([paint, d]) => createElement("path", paint < 2 ? { d, ...PAINTS[paint], strokeWidth } : { d, ...PAINTS[paint] })),
+    ...nodes.map(([paint, d]) => createElement("path", { d, ...pathProps(paint, strokeWidth, secondaryColor, secondaryOpacity) })),
     children,
   );
 }

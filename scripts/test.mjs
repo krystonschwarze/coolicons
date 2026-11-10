@@ -73,6 +73,18 @@ for (const [framework, { renderAll, render }] of Object.entries(frameworks)) {
   assert.equal(classed[0].attributes.class, "icon");
   assert.equal(classed[0].attributes["aria-hidden"], "false");
 
+  const isSecondary = (node) => "stroke-opacity" in node.attributes || "fill-opacity" in node.attributes;
+  const tinted = canonical(await render(duocolor.CalendarEvent, { secondaryColor: "tomato", secondaryOpacity: 0.6 }));
+  const accents = tinted.slice(1).filter(isSecondary);
+  assert.ok(accents.length, `${framework} duocolor calendar-event has an accent`);
+  assert.ok(accents.every((node) => node.attributes.stroke === "tomato" && node.attributes["stroke-opacity"] === "0.6"), `${framework} secondary props reach the accent`);
+  assert.ok(tinted.slice(1).filter((node) => !isSecondary(node)).every((node) => node.attributes.stroke === "currentColor"), `${framework} secondary props leave the main paths alone`);
+  assert.ok(tinted.every((node) => !("style" in node.attributes)), `${framework} secondary props add no inline style`);
+  const token = canonical(await render(bulk.Folder, { secondaryColor: "var(--brand)", secondaryOpacity: "var(--tone)" }));
+  const tones = token.slice(1).filter(isSecondary);
+  assert.ok(tones.length && tones.every((node) => node.attributes.fill === "var(--brand)" && node.attributes["fill-opacity"] === "var(--tone)"), `${framework} secondary props take CSS variables`);
+  assert.deepEqual(canonical(await render(line.House, { secondaryColor: "tomato", secondaryOpacity: 0.6 })), expected("line/regular", "house"), `${framework} line has no secondary layer`);
+
   const dynamic = await import(`@coolicons/${framework}/dynamic`);
   assert.deepEqual(
     dynamic.icons.map((icon) => icon.name),
@@ -87,6 +99,8 @@ for (const [framework, { renderAll, render }] of Object.entries(frameworks)) {
   assert.equal(empty.length, 1, `${framework} CooliconsIcon renders an empty frame before its data loads`);
   await dynamic.preload("bulk", "round");
   assert.deepEqual(canonical(await render(dynamic.CooliconsIcon, { name: "folder", variant: "bulk", radius: "round" })), expected("bulk/round", "folder"));
+  const dynamicTone = canonical(await render(dynamic.CooliconsIcon, { name: "folder", variant: "bulk", radius: "round", secondaryOpacity: 0.3 }));
+  assert.ok(dynamicTone.slice(1).filter(isSecondary).every((node) => node.attributes["fill-opacity"] === "0.3"), `${framework} CooliconsIcon takes the secondary props`);
   const unknown = canonical(await render(dynamic.CooliconsIcon, { name: "folder", variant: "nope" }));
   assert.equal(unknown.length, 1, `${framework} CooliconsIcon with an unknown variant renders an empty frame`);
 }

@@ -10,10 +10,13 @@ export const elements = [
   <House {...props} ref={ref} />,
   <FillHouse size="1.5rem" />,
   <Folder aria-hidden={false} />,
+  <Folder secondaryColor="var(--brand)" secondaryOpacity={0.6} />,
+  <Folder secondaryOpacity="60%" style={{ color: "red" }} />,
   <ImageIcon />,
   <LinkIcon />,
   <Download />,
   <CooliconsIcon name="house" variant="fill" radius="round" />,
+  <CooliconsIcon name="folder" variant="bulk" secondaryColor="tomato" />,
   // @ts-expect-error unknown icon name
   <CooliconsIcon name="no-such-icon" />,
   // @ts-expect-error unknown variant

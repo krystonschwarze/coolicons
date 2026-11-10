@@ -123,9 +123,23 @@ Icons use `currentColor` and take the text color around them.
 | --- | --- | --- |
 | `size` | `24` | Width and height in pixels or any CSS length |
 | `strokeWidth` | `2` | Stroke width of Line, Duocolor and Duotone. Fill and Bulk have no strokes |
+| `secondaryColor` | `currentColor` | Color of the second path in Duocolor, Duotone and Bulk. Line, Fill and icons without a second path ignore it |
+| `secondaryOpacity` | `0.4` or `0.2` | Opacity of the second path: 0.4 in Duocolor and Bulk, 0.2 in Duotone |
 | `title` | | Adds a `<title>` and `role="img"`. Without a title the icon is hidden from screen readers |
 
 All other attributes go to the `<svg>` element.
+
+Both secondary props take any CSS value, also variables, so the second path can follow your theme. Give the variable a fallback, because an unset variable does not fall back to the default.
+
+```jsx
+<CalendarEvent secondaryOpacity="var(--icon-tone, 0.2)" />
+```
+
+```css
+.dark {
+  --icon-tone: 0.4;
+}
+```
 
 ## Names
 
