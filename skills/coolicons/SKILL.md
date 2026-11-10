@@ -98,7 +98,7 @@ Icons whose plain name clashes export only the suffixed name, like `MapIcon` fro
 | `secondaryOpacity` | `0.4` or `0.2` | Second path: 0.4 in Duocolor and Bulk, 0.2 in Duotone |
 | `title` | | Adds a `<title>` and `role="img"`. Without it the icon is hidden from screen readers |
 
-All other attributes, like `className`, `style` and `onClick`, go to the `<svg>` element. Icons use `currentColor`, so color comes from CSS. The secondary props take any CSS value, also a variable with a fallback like `var(--icon-tone, 0.2)`. Registry components from coolicons.cool do not take the secondary props.
+All other attributes, like `className`, `style` and `onClick`, go to the `<svg>` element. Icons use `currentColor`, so color comes from CSS. The secondary props take any CSS value, also a variable with a fallback like `var(--icon-tone, 0.2)`. Registry components from coolicons.cool take them too, where the icon has a second path.
 
 ## Names
 
