@@ -2,7 +2,7 @@
 
 <a href="https://coolicons.cool/?ref=npm-vue"><img src="https://raw.githubusercontent.com/krystonschwarze/coolicons/main/.github/assets/banner.png" alt="coolicons: Every icon for your next project. Free, wherever you build." width="100%"></a>
 
-[coolicons](https://coolicons.cool/?ref=npm-vue) as Vue 3 components: 1,550 icons in five styles and three corner radii.
+[coolicons](https://coolicons.cool/?ref=npm-vue) as Vue 3 components: 1,751 icons in five styles and three corner radii.
 
 ```sh
 npm install @coolicons/vue

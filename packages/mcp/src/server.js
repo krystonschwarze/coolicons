@@ -121,8 +121,8 @@ function searchIcons({ query, limit = 5 }) {
   if (!searches.length) throw new LookupError("query is empty.");
   const count = Math.min(Math.max(Number(limit) || 5, 1), 50);
   const blocks = searches.map((term) => {
-    const found = search(term, count);
-    if (found.length) return `"${term}":\n${found.map(row).join("\n")}`;
+    const { icons: found, corrected, query: used } = search(term, count);
+    if (found.length) return `"${term}":${corrected.length ? ` results for "${used}".` : ""}\n${found.map(row).join("\n")}`;
     const partial = searchPartial(term, count);
     if (partial.length) {
       const note = partial[0].missing.length ? " no icon matches every word, weak matches below, check that they fit." : "";

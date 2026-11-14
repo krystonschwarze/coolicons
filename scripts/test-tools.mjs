@@ -52,6 +52,7 @@ const messages = [
   { jsonrpc: "2.0", id: 9, method: "tools/call", params: { name: "list_icons", arguments: { category: "calendar", offset: 2, limit: 3 } } },
   { jsonrpc: "2.0", id: 10, method: "tools/call", params: { name: "list_icons", arguments: { category: "nope" } } },
   { jsonrpc: "2.0", id: 11, method: "tools/call", params: { name: "search_icons", arguments: { query: "dark mode toggle, icon for settings" } } },
+  { jsonrpc: "2.0", id: 12, method: "tools/call", params: { name: "search_icons", arguments: { query: "calender" } } },
 ];
 const replies = new Map(
   execFileSync(process.execPath, [serverFile], { input: messages.map((message) => JSON.stringify(message)).join("\n"), encoding: "utf8" })
@@ -60,7 +61,7 @@ const replies = new Map(
     .map((line) => JSON.parse(line))
     .map((reply) => [reply.id, reply]),
 );
-assert.equal(replies.size, 11);
+assert.equal(replies.size, 12);
 assert.equal(replies.get(1).result.protocolVersion, "2025-06-18");
 assert.ok(replies.get(1).result.instructions.includes("Never guess"));
 assert.deepEqual(
@@ -84,6 +85,13 @@ assert.match(replies.get(10).result.content[0].text, /Categories: .*Calendar/);
 assert.match(replies.get(11).result.content[0].text, /"dark mode toggle": no icon matches every word/);
 assert.match(replies.get(11).result.content[0].text, /weak: no /);
 assert.match(replies.get(11).result.content[0].text, /"icon for settings":\n- settings \(SettingsIcon/);
+
+assert.match(replies.get(12).result.content[0].text, /^"calender": results for "calendar"\.\n- calendar \(/);
+
+const corrected = cli("search", "calender");
+assert.equal(corrected.status, 0);
+assert.match(corrected.stderr, /Results for "calendar"/);
+assert.match(corrected.stdout, /^calendar /);
 
 const weak = cli("search", "dark", "mode", "toggle");
 assert.equal(weak.status, 1);

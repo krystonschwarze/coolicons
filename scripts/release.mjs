@@ -8,7 +8,7 @@ export const PACKAGES = ["svg", "react", "vue", "cli", "mcp"];
 const VERSION = /^(\d+)\.(\d+)\.(\d+)(?:-beta\.(\d+))?$/;
 const changelogFile = path.join(root, "CHANGELOG.md");
 const notesFile = (version) => path.join(root, "release-notes", `${version}.md`);
-const git = (...args) => execFileSync("git", args, { cwd: root, encoding: "utf8" }).trim();
+const git = (...args) => execFileSync("git", args, { cwd: root, encoding: "utf8", maxBuffer: 1 << 26 }).trim();
 const readJson = (file) => JSON.parse(readFileSync(file, "utf8"));
 const packageFiles = [path.join(root, "package.json"), ...PACKAGES.map((name) => path.join(root, "packages", name, "package.json"))];
 export const serverFile = path.join(root, "packages/mcp/server.json");
