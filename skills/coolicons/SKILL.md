@@ -5,7 +5,7 @@ description: Use coolicons icons in React, Vue, shadcn/ui or plain SVG. Use when
 
 # coolicons
 
-coolicons is an open source icon set under the MIT license. Every icon comes in five styles and three corner radii, drawn on a 24 by 24 grid with a 2 px stroke. Website: https://coolicons.cool
+coolicons is an open source icon set under the MIT license. Every icon comes in five styles and three corner radii, drawn on a 24 by 24 grid with a 2 px stroke. Website: https://coolicons.cool/?ref=skill
 
 ## Never guess an icon name
 
