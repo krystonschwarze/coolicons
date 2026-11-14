@@ -70,7 +70,8 @@ function run({ command, words, options }) {
   if (command === "search") {
     const query = words.join(" ");
     if (!query) throw new LookupError("search needs a query, like: coolicons search date");
-    const results = search(query, Number(options.limit ?? 20));
+    const { icons: results, corrected, query: used } = search(query, Number(options.limit ?? 20));
+    if (corrected.length) say(`Results for "${used}"`);
     if (options.json) return out(JSON.stringify(results.map((icon) => ({ ...icon, component: component(icon) })), null, 2));
     const rows = (icons) => {
       const width = Math.max(...icons.map((icon) => icon.name.length));

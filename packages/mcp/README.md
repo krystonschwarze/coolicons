@@ -2,7 +2,7 @@
 
 <a href="https://coolicons.cool/?ref=npm-mcp"><img src="https://raw.githubusercontent.com/krystonschwarze/coolicons/main/.github/assets/banner.png" alt="coolicons: Every icon for your next project. Free, wherever you build." width="100%"></a>
 
-An MCP server for [coolicons](https://coolicons.cool/?ref=npm-mcp). Lets a coding agent search 1,550 icons in five styles and three corner radii, read an icon's SVG and get the right import, without guessing names.
+An MCP server for [coolicons](https://coolicons.cool/?ref=npm-mcp). Lets a coding agent search 1,751 icons in five styles and three corner radii, read an icon's SVG and get the right import, without guessing names.
 
 ## Install
 
@@ -37,6 +37,6 @@ No API key, no network. The whole set ships inside the package.
 | `get_icon` | SVG source of one icon in any style and corner radius, with size and stroke width |
 | `get_usage` | Install command and import code for React, Vue, SVG or the shadcn/ui registry, with the entry for the chosen style and radius |
 
-A name that does not exist is answered with the closest names, so a typo resolves in one turn. When no icon matches every word of a search, the best partial matches come back marked weak, with the words they miss. Names that clash with JavaScript or browser globals, like `map` or `file`, come back with the `Icon` suffix (`MapIcon`).
+A name that does not exist is answered with the closest names, so a typo resolves in one turn. A search word with a typo, like `calender`, is corrected when nothing matches, and the reply names the correction. When no icon matches every word of a search, the best partial matches come back marked weak, with the words they miss. Names that clash with JavaScript or browser globals, like `map` or `file`, come back with the `Icon` suffix (`MapIcon`).
 
 More in the [coolicons repository](https://github.com/krystonschwarze/coolicons#readme). MIT license.

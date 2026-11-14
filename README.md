@@ -25,7 +25,7 @@
 
 | 1,500+ | 5 | 3 | 23,000+ | 500k+ |
 | :---: | :---: | :---: | :---: | :---: |
-| icons in 30 categories | styles, Line to Bulk | corners, sharp to round | SVG files | Figma downloads |
+| icons in 31 categories | styles, Line to Bulk | corners, sharp to round | SVG files | Figma downloads |
 
 ## Why coolicons
 
@@ -147,7 +147,7 @@ Names are lowercase English words joined by hyphens, like `file-plus-corner`. Co
 
 Use the plain name unless JavaScript, the browser or a framework already uses it. `Map` is a JavaScript global, `File` a browser global and `Link` a component in Next.js and React Router. Importing an icon with such a name hides the original in that file, so `value instanceof File` quietly stops working. For these icons, use the suffix:
 
-`ActivityIcon`, `BluetoothIcon`, `ClipboardIcon`, `CodeIcon`, `ComponentIcon`, `FileIcon`, `FontIcon`, `FunctionIcon`, `GamepadIcon`, `HistoryIcon`, `ImageIcon`, `InfinityIcon`, `KeyboardIcon`, `LabelIcon`, `LinkIcon`, `LockIcon`, `MapIcon`, `ModalIcon`, `NavigationIcon`, `OptionIcon`, `PresentationIcon`, `RouteIcon`, `RouterIcon`, `ScrollIcon`, `SettingsIcon`, `ShareIcon`, `TextIcon`, `WindowIcon`
+`ActivityIcon`, `BluetoothIcon`, `ClipboardIcon`, `CodeIcon`, `ComponentIcon`, `FenceIcon`, `FileIcon`, `FontIcon`, `FunctionIcon`, `GamepadIcon`, `HistoryIcon`, `ImageIcon`, `InfinityIcon`, `KeyboardIcon`, `LabelIcon`, `LinkIcon`, `LockIcon`, `MapIcon`, `ModalIcon`, `NavigationIcon`, `OptionIcon`, `PresentationIcon`, `RouteIcon`, `RouterIcon`, `ScrollIcon`, `SettingsIcon`, `ShareIcon`, `TextIcon`, `TransitionIcon`, `WindowIcon`
 
 The list covers the globals of JavaScript, browsers, Node, Deno, Bun and React Native, and the exports of React, Next.js, React Router, TanStack Router, React Native, Expo Router, Vue, Vue Router, Solid, Svelte, Preact, Angular, Astro, Qwik, Lit, Inertia and Gatsby.
 
@@ -179,7 +179,7 @@ All three work offline, the whole set ships with them.
 
 ## Versions
 
-All packages share one version. From 5.0.0 on, a major version removes or renames icons, a minor version adds icons and a patch redraws icons or changes categories. A renamed icon keeps its old name until the next major version.
+All packages share one version. From 5.0.0 on, a major version removes or renames icons, a minor version adds icons and can redraw some, and a patch redraws icons or changes categories. A renamed icon keeps its old name until the next major version.
 
 ## Brand icons
 

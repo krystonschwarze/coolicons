@@ -1,5 +1,5 @@
 import { readFileSync } from "node:fs";
-import { matchIcons, scoreIcon, searchTerms } from "./search.js";
+import { matchIconsCorrected, scoreIcon, searchTerms } from "./search.js";
 
 export const STYLES = ["line", "duocolor", "duotone", "fill", "bulk"];
 export const RADII = ["sharp", "regular", "round"];
@@ -56,7 +56,8 @@ export function checkVariant(style = "line", radius = "regular") {
 }
 
 export function search(query, limit = 10) {
-  return matchIcons(iconSet().icons, query).slice(0, limit);
+  const result = matchIconsCorrected(iconSet().icons, query);
+  return { ...result, icons: result.icons.slice(0, limit) };
 }
 
 const FILLER = new Set(["a", "an", "and", "as", "for", "icon", "icons", "in", "of", "on", "or", "the", "to", "with"]);
@@ -90,7 +91,7 @@ function distance(a, b) {
 export function suggest(input, limit = 5) {
   const name = toName(input);
   if (!name) return [];
-  const found = search(name.replaceAll("-", " "), limit).map((icon) => icon.name);
+  const found = search(name.replaceAll("-", " "), limit).icons.map((icon) => icon.name);
   if (found.length >= limit) return found;
   const near = iconSet()
     .icons.map((icon) => ({ name: icon.name, cost: distance(name, icon.name) }))
