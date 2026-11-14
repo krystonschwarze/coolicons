@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://coolicons.cool">
+  <a href="https://coolicons.cool/?ref=github">
     <img src=".github/assets/banner.png" alt="coolicons: Every icon for your next project. Free, wherever you build." width="100%">
   </a>
 </p>
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://coolicons.cool/icons">Browse all icons</a> ·
-  <a href="https://coolicons.cool/docs">Docs</a> ·
+  <a href="https://coolicons.cool/icons?ref=github">Browse all icons</a> ·
+  <a href="https://coolicons.cool/docs?ref=github">Docs</a> ·
   <a href="https://www.figma.com/community/file/800815864899415771">Figma file</a> ·
   <a href="CHANGELOG.md">Changelog</a>
 </p>
@@ -33,7 +33,7 @@
 
 **Sharp at 24 pixels.** The icons sit on a 24 by 24 grid with a 2 px stroke. Lines and corners land on whole pixels, so edges stay crisp at their native size.
 
-**Where you work.** Find and adjust icons on [coolicons.cool](https://coolicons.cool), use the Figma file, or install the packages below. Coding agents get an MCP server, a CLI and a skill, so they look names up instead of guessing.
+**Where you work.** Find and adjust icons on [coolicons.cool](https://coolicons.cool/?ref=github), use the Figma file, or install the packages below. Coding agents get an MCP server, a CLI and a skill, so they look names up instead of guessing.
 
 ## Made by
 

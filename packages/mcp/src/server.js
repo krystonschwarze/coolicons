@@ -96,7 +96,7 @@ const list = (value) =>
 function describeSet() {
   const { icons, clashes } = iconSet();
   const counts = Object.entries(Object.groupBy(icons, (icon) => icon.category)).map(([category, members]) => `${category} (${members.length})`);
-  return `coolicons ${version}: ${icons.length} icons, each in ${STYLES.length} styles and ${RADII.length} corner radii, on a 24 pixel grid with a 2 pixel stroke. MIT license. ${SITE}
+  return `coolicons ${version}: ${icons.length} icons, each in ${STYLES.length} styles and ${RADII.length} corner radii, on a 24 pixel grid with a 2 pixel stroke. MIT license. ${SITE}/?ref=mcp
 
 Styles: line (strokes), duocolor (strokes with a lighter second stroke), duotone (strokes over a light tone), fill (solid shapes), bulk (solid shapes over a light tone). Only ${[...STROKED].join(", ")} take a stroke width.
 Radii: sharp, regular (default), round.
